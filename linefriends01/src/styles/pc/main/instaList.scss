@@ -1,0 +1,17 @@
+.insta {
+  padding-top: 16px;
+  &__list {
+    font-size: 0;
+  }
+  &__item {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+    &:last-child {
+      margin-right: 0;
+    }
+    & > a > img {
+      border: 1px solid rgba(0, 0, 0, .08);
+    }
+  }
+}

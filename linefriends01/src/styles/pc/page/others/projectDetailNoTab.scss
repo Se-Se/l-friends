@@ -1,0 +1,12 @@
+.project{
+  &-detail{
+    &__goods {
+      &-list {
+        padding-top: 60px;
+      }
+    }
+    &__footer {
+      margin-top: -60px;
+    }
+  }
+}

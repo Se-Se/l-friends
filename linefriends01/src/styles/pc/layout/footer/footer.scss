@@ -1,0 +1,97 @@
+.footer {
+    width: 100%;
+    min-width: max-content;
+    height: auto;
+    background: #3D485E;
+    margin-top: 120px;
+    position: relative;
+    &-no {
+      margin-top: 0;
+    }
+    &-up {
+      width: 40px;
+      height: 40px;
+      position:fixed;
+      right: 32px;
+      bottom: 32px;
+      background-image: url(~@/assets/images/pc/icons/ic-up.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      text-indent: -9999px;
+      z-index:100;
+
+      &-enter-active, &-leave-active {
+        transition: opacity .2s;
+      }
+
+      &-enter, &-leave-to {
+        opacity: 0;
+      }
+    }
+    &-content {
+      padding: 24px 0;
+      font-size: 0;
+    }
+    &-left,
+    &-right {
+      @include notoR;
+      display: inline-block;
+      width: 50%;
+      font-size: 12px;
+      color: #fff;
+      opacity: 0.4;
+      vertical-align: top;
+      letter-spacing: -0.1px;
+    }
+    &-left {
+      &__list {
+        line-height: 1.2;
+      }
+      &__item {
+        display: inline-block;
+        vertical-align: middle;
+        &:after {
+          display: inline-block;
+          width: 1px;
+          height: 10px;
+          background-color: #ffffff;
+          opacity: 0.1;
+          vertical-align: middle;
+          margin: 0 8px;
+          content: '';
+        }
+        &:last-child:after {
+          background-color: transparent;
+          margin: 0;
+        }
+        &.bold {
+          font-weight: 500;
+        }
+      }
+    }
+    &-right {
+      padding-left: 10px;
+      &__info {
+        line-height: 1.5;
+      }
+      &__sns {
+        padding-top: 32px;
+        &--item {
+          display: inline-block;
+          width: 24px;
+          margin-right: 16px;
+          vertical-align: middle;
+          & > a > img {
+            width: 100%;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      &__copy {
+        padding-top: 8px;
+        line-height: 1.5;
+      }
+    }
+  }

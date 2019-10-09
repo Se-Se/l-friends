@@ -1,0 +1,39 @@
+.store-tab {
+  width: 100%;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &__list {
+    display: flex;
+    padding: 0 2rem;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 0;
+    width: max-content;
+    min-width: 100%;
+  }
+  &__item {
+    margin-right: 2.48rem;
+    &-action {
+      display: inline-block;
+      position: relative;
+      padding: 1.4rem 0 1.43rem;
+      color: #999999;
+      font-size: 1.6rem;
+      font-family: 'Noto Sans KR';
+      line-height: normal;
+      letter-spacing: -0.01rem;
+       &._active {
+        color: #333333;
+        font-weight: bold;
+        border-bottom: 2px solid #333333;
+      }
+    }
+  }
+}

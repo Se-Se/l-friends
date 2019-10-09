@@ -1,0 +1,61 @@
+.spinner {
+  width: 92px;
+  height: 32px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  background-color: $white-color;
+  font-size: 0;
+  &-minus,
+  &-input,
+  &-plus {
+    display: inline-block;
+    width: 30px;
+    height: 100%;
+    vertical-align: middle;
+  }
+  &-input {
+    @include volteSB;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.1px;
+    color: $font-black;
+    text-align: center;
+  }
+  &-minus {
+    position: relative;
+    border-right: 1px solid #dddddd;
+    &:after {
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      background-image: url('~@/assets/images/pc/icons/ic-minus.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      content: '';
+    }
+    &._disable {
+      &:after {
+        background-image: url('~@/assets/images/pc/icons/ic-minus-disable.svg');
+      }
+    }
+  }
+  &-plus {
+    position: relative;
+    border-left: 1px solid #dddddd;
+    &:after {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-image: url('~@/assets/images/pc/icons/ic-plus.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      content: '';
+    }
+  }
+}

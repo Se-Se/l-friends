@@ -1,0 +1,35 @@
+.wrapper-sp .service .service-body{
+  margin:2rem 2rem 2rem 2rem;
+  font-family: 'NotoSansCJKjp';
+}
+
+.wrapper-sp .service .service-body .explain{
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.wrapper-sp .service .service-body .explain .green_color{
+  color: #00d664;
+}
+
+.wrapper-sp .service .service-body p.service_margin{
+  margin-top:1.6rem;
+}
+
+.wrapper-sp .service .service-body p{
+  font-weight: 400;
+  color: #666666;
+  font-size: 1.4rem;
+}
+
+.wrapper-sp .service .service-body h3{
+  font-weight: 500;
+  color: #333333;
+  font-size: 1.4rem;
+  margin-top: 1.6rem;
+}
+
+.wrapper-sp .service .service-body p .blue_color{
+  color: #4ba4d9;
+  text-decoration: underline;
+}

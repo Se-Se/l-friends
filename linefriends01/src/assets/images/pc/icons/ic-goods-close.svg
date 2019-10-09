@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03.1_DETAIL_03(option1_subcopy)" transform="translate(-1514.000000, -511.000000)">
+            <g id="+-TOP" transform="translate(370.000000, 239.000000)">
+                <g id="right" transform="translate(820.000000, 1.000000)">
+                    <g id="option" transform="translate(0.000000, 174.000000)">
+                        <g id="list1" transform="translate(0.000000, 73.000000)">
+                            <g id="close" transform="translate(324.000000, 24.000000)">
+                                <circle id="Oval" fill="#FAFAFA" cx="12" cy="12" r="12"></circle>
+                                <rect id="Rectangle" stroke="#979797" fill="#999999" transform="translate(11.772971, 11.772971) rotate(-45.000000) translate(-11.772971, -11.772971) " x="6.27297077" y="11.5229708" width="11" height="1"></rect>
+                                <rect id="Rectangle" stroke="#979797" fill="#999999" transform="translate(11.772971, 11.772971) rotate(45.000000) translate(-11.772971, -11.772971) " x="6.27297077" y="11.5229708" width="11" height="1"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

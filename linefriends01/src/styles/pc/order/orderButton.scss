@@ -1,0 +1,26 @@
+.order-button {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+
+  font-family: "Noto Sans KR";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+  color: #333;
+  &.home {
+    border: 0;
+    background: #00d664;
+    color: #fff;
+  }
+  &.mypage {
+    border: 0;
+    background: #97a2b2;
+    color: #fff;
+  }
+  &.normal {
+    height: 52px;
+  }
+}

@@ -1,0 +1,77 @@
+.project {
+  &-title {
+    padding-bottom: 20px;
+    text-align: center;
+    &.size {
+      padding-bottom: 50px;
+      text-align: center;
+    }
+    &__main {
+      color:#333333;
+      font-size: 22px;
+      font-family: 'Noto Sans KR';
+      font-weight: bold;
+      line-height: 1.36;
+      letter-spacing: -0.2px;
+    }
+    &__sub {
+      padding-top: 4px;
+      &-nav {
+        color: #999999;
+        font-size: 12px;
+        font-family: 'Noto Sans KR';
+        font-weight: 500;
+        line-height: 1.75;
+        letter-spacing: -0.1px;
+        text-decoration: underline;
+        &:hover + .project-title__hover {
+          display: block;
+        }
+      }
+    }
+    &__hover {
+      display: none;
+      position: absolute; left: 50%;
+      transform: translateX(-50%);
+      padding-top: 12px;
+      z-index: 1000;
+      &-list {
+        position: relative;
+        width: 324px;
+        padding: 32px;
+        border: 1px solid #999999;
+        border-radius: 15px;
+        background-color: #ffffff;
+        text-align: left;
+        &::after {
+          display: block;
+          position: absolute; top: -7.8px; left: 50%;
+          transform: translateX(-50%);
+          width: 16px; height: 8px;
+          background-image: url(~@/assets/images/pc/others/hover-arrow.svg);
+          content: '';
+        }
+      }
+      &--title {
+        color: #333333;
+        font-size: 14px;
+        font-family: 'Noto Sans KR';
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+      }
+      &--info {
+        padding-bottom: 12px;
+        color: #666666;
+        font-size: 14px;
+        font-family: 'Noto Sans KR';
+        font-weight: normal;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}

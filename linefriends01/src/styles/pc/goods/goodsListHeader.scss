@@ -1,0 +1,38 @@
+.goods-list-header {
+  position: relative;
+  height: 56px;
+  &__title {
+    @include notoR;
+    position: absolute;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #999999;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    // text-align: center;
+    & > span {
+      @include volteSB;
+      font-size: 14px;
+      color: $main-color;
+    }
+  }
+  &__select {
+    position: absolute;
+    width: 140px;
+    right: 156px;
+    top: 16px;
+  }
+  &__option {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    .goods-option__active {
+      padding-right: 25px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+}

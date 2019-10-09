@@ -1,0 +1,59 @@
+.character-box {
+  display: inline-block;
+  position: relative;
+  width: 560px;
+  height: 726px;
+  margin-top: 60px;
+  &__wrapper {
+    position: absolute; bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 560px;
+  }
+  &__header {
+    &-fig {
+      margin: 0 auto;
+    }
+  }
+  &__info {
+    padding-top: 53.5px;
+    &-wrapper {
+      text-align: center;
+    }
+    &-title {
+      margin: 0 auto;
+    }
+    &-status {
+      padding: 12.8px 0 24px;
+      @include notoB;
+      color: #333333;
+      font-size: 32px;
+      line-height: normal;
+      letter-spacing: -0.2px;
+    }
+    &-guide {
+      @include notoN;
+      color: #333333;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: -0.1px;
+    }
+    &-more {
+      padding-top: 24px;
+      a {
+        @include notoM;
+        color: #333333;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        vertical-align: middle;
+        em {
+          display: inline-block;
+          width: 6px; height: 10px;
+          margin-left: 6px;
+          background-image: url("~@/assets/images/pc/icons/ic-right-arrow.svg");
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

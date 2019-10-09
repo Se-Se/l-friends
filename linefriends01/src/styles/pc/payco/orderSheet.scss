@@ -1,0 +1,787 @@
+@charset "utf-8";
+.btn_list_1 li {
+  margin-bottom: 10px
+}
+
+.btn_list_1 button {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px
+}
+
+.btn_list_2 {
+  font-size: 0;
+  width: 400px;
+  margin: 60px auto 0;
+}
+
+.btn_list_2 li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.btn_list_2 button {
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.escrow {
+  padding: 60px 0 100px;
+  color: #5a5a5a;
+  font-size: 16px
+}
+
+
+.escrow .escrow_inner {
+  width: 1180px;
+  margin: auto;
+  position: relative;
+}
+
+.escrow h1 {
+  font-size: 32px;
+  height: 32px;
+  line-height: 32px;
+  color: #3c3c3c;
+  
+}
+
+.escrow h2 {
+  
+  font-size: 24px;
+  color: #3c3c3c;
+}
+
+.escrow .must {
+  position: relative;
+  vertical-align: middle;
+}
+
+.escrow .must:after {
+  display: block;
+  content: "";
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background : #00D664;
+  position: absolute;
+  top: 0;
+  right: -7px;
+}
+
+.escrow .table_wrap {
+  margin-top: 30px
+}
+
+.escrow .table_data {
+  width: 100%;
+  text-align: center;
+  color: #3c3c3c;
+  border-top: 1px solid #5a5a5a;
+  border-bottom: 1px solid #dcdcdc
+}
+
+.escrow .table_data td {
+  border-top: 1px solid #f0f0f0
+}
+
+.escrow .table_data.bor_top-1 tr:first-child td {
+  border-top: none
+}
+
+.escrow .bor_none td {
+  border-top: none !important;
+}
+
+.escrow .table_data.item td {
+  padding: 20px;
+  font-size: 14px;
+  
+}
+
+.escrow .table_data.item td .nobuy {
+  font-size: 14px;
+  
+}
+
+.escrow .table_data.item td .num {
+  font-size: 16px;
+}
+
+.escrow .table_data.item2 td {
+  padding: 20px;
+  font-size: 14px;
+  
+}
+
+.escrow .table_data.item2 td .num {
+  font-size: 16px;
+}
+
+.escrow .table_data.item2 td:first-child {
+  padding: 20px 38px;
+  font-size: 14px;
+}
+
+.escrow .none {
+  padding: 80px 0 !important;
+  color: #3c3c3c;
+  text-align: center;
+}
+
+.escrow .none .ico {
+  margin: 0 auto 25px;
+  display: block;
+  width: 58px;
+  height: 58px;
+  background-image: url('~@/assets/images/payco/sp.png');
+  background-position: -133px -164px;
+}
+
+.escrow .none .txt_1 {
+  font-size: 18px;
+}
+
+.escrow .table_data.td_1 td:first-child {
+  padding-left: 40px
+}
+
+.escrow .table_data.td_2 td {
+  padding: 20px 40px
+}
+
+.escrow .table_data td,
+.escrow .table_data th {
+  height: 59px;
+  vertical-align: middle;
+}
+
+.escrow .table_data td {
+  height: 80px
+}
+
+.escrow .table_data td:first-child {
+  
+}
+
+.escrow .table_data td.text_left {
+  text-align: left
+}
+
+.escrow .table_data td.text_left_sp1 {
+  text-align: left;
+  padding: 0 20px
+}
+
+.escrow .table_data thead th {
+  border-bottom: 1px solid #dcdcdc;
+  color: #5a5a5a;
+  font-size: 14px
+}
+
+.escrow .table_data.item .tip_area td {
+  height: 40px;
+  padding: 0;
+  border: none;
+  vertical-align: top;
+}
+
+.escrow .nobuy {
+  font-size: 14px;
+  color: #fa2828;
+}
+
+.escrow .only {
+  font-size: 13px;
+}
+
+.escrow .tip_bg {
+  background: #f6fafd;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 20px;
+  position: relative;
+  top: -12px;
+}
+
+.escrow .tip_1 {
+  box-sizing: border-box;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 18px;
+  background: url('~@/assets/images/payco/ico_noti.png') no-repeat left center;
+}
+
+.escrow .bx_purchase_noti {
+  margin-top: 15px;
+  font-size: 0;
+}
+
+.escrow .bx_purchase_noti ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.escrow .bx_purchase_noti button {
+  font-size: 12px;
+  color: #5a5a5a;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 15px;
+}
+
+.escrow .btn_order {
+  margin-top: 40px;
+}
+
+.escrow .btn_order button {
+  width: 180px;
+  height: 50px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.escrow .merge {
+  border-left: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+
+.escrow .merge:last-child {
+  border-left: 1px solid #f0f0f0;
+  border-right: none;
+}
+
+.escrow .ttl_h2 {
+  color: #3c3c3c;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.escrow .table_info {
+  width: 100%;
+  border-top: 1px solid #5a5a5a;
+  border-bottom: 1px solid #dcdcdc;
+  font-size: 14px;
+}
+
+.escrow .table_info th,
+.escrow .table_info td {
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 72px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.escrow .table_info tr:first-child th,
+.escrow .table_info tr:first-child td {
+  border-top: none;
+}
+
+.escrow .table_info th {
+  width: 200px;
+  background: #fafafa;
+  padding: 26px 0 20px 40px;
+  color: #5a5a5a;
+  vertical-align: top;
+  text-align: left;
+}
+
+.escrow .table_info td {
+  padding: 0 30px;
+  color: #3c3c3c;
+}
+
+.escrow .table_info td .input_list {
+  padding: 20px 0;
+}
+
+.escrow .table_info td .input_list li {
+  margin-bottom: 6px;
+}
+
+.escrow .table_info td .input_list li:last-child {
+  margin-bottom: 0;
+}
+
+.escrow .mail {
+  font-size: 0;
+}
+
+.escrow .mail li {
+  width: 160px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.escrow .mail li.ico {
+  width: 34px;
+  line-height: 40px;
+  text-align: center;
+  color: #969696;
+}
+
+.escrow .mail li input {
+  height: 40px;
+  font-size: 14px;
+}
+
+.escrow .address_con {
+  padding: 20px 0;
+}
+
+.escrow .address {
+  display: inline-block;
+  width: 92%;
+  font-size: 0;
+  vertical-align: top;
+}
+
+.escrow .address li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.escrow .address li input[type=radio]+label {
+  padding-left: 28px;
+  color: #3c3c3c;
+  ;
+}
+
+.escrow .record {
+  min-height: 20px;
+  margin-top: 20px;
+}
+
+.escrow .record .ttl {
+  color: #969696;
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+  line-height: 20px;
+}
+
+.escrow .record .address {
+  margin-bottom: -8px;
+}
+
+.escrow .record .address li {
+  margin: 0 20px 10px 0;
+  line-height: 20px;
+}
+
+.escrow .record .address li input[type=radio]+label {
+  padding-left: 23px;
+  font-size: 13px;
+  color: #5a5a5a;
+  ;
+  line-height: 19px;
+}
+
+.escrow .record .btn_del {
+  width: 10px;
+  height: 10px;
+  background-image: url('~@/assets/images/payco/btn_close.png');
+  background-size: contain;
+  opacity: 0.7;
+  position: relative;
+  margin-left: 4px;
+  color: transparent;
+  font-size: 0;
+  top: 7px;
+}
+
+.escrow .input_size_1 {
+  display: inline-block;
+}
+
+.escrow .input_size_1 input {
+  width: 130px;
+  text-align: right;
+  
+  display: inline-block;
+  font-size: 14px;
+}
+
+.escrow .input_con input {
+  
+  font-size: 14px;
+}
+
+.escrow .input_size_2 {
+  font-size: 0;
+}
+
+.escrow .input_size_2 input {
+  width: 237px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.escrow .table_info td .input_list li input:disabled,
+.escrow .table_info td .input_list li input {
+  font-size: 14px;
+}
+
+.escrow .input_size_2 button {
+  width: 94px;
+  height: 40px;
+  display: inline-block;
+}
+
+.escrow button.btn_radius {
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  color: #3c3c3c;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+  background: #fff;
+}
+
+.escrow .point {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.escrow .point p {
+  display: inline-block;
+}
+
+.escrow .point .line {
+  padding: 0 10px;
+}
+
+.escrow .info {
+  background: #f8f8f8;
+  font-size: 14px;
+  padding: 31px 20px 30px;
+}
+
+.escrow .table_set {
+  width: 100%;
+  color: #3c3c3c;
+  padding: 0 20px;
+}
+
+.escrow .table_set th {
+  text-align: left;
+  font-weight: 500;
+  height: 40px;
+  
+}
+
+.escrow .table_set td {
+  text-align: right;
+  font-weight: 500;
+  
+}
+
+.escrow .table_set .sub th,
+.escrow .table_set .sub td {
+  color: #969696;
+  height: 25px;
+  ;
+}
+
+.escrow .table_set .sub th {
+  padding-left: 20px;
+  position: relative;
+  ;
+}
+
+.escrow .table_set .sub th::before {
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-left: solid 1px #bbb;
+  border-bottom: solid 1px #bbb;
+  content: '';
+}
+
+.escrow .table_set .sub.last th,
+.escrow .table_set .sub.last td {
+  padding-bottom: 10px;
+}
+
+.escrow .table_set .sub .num {
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+
+.escrow .table_set .num {
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.escrow .table_set tr:last-child th,
+.escrow .table_set tr:last-child td {
+  padding-bottom: 15px;
+}
+
+.escrow .table_set tfoot th,
+.escrow .table_set tfoot td {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 15px;
+}
+
+.escrow .table_set tfoot td {
+  color: #00d664;
+}
+
+.escrow .table_set tfoot td .num {
+  font-size: 22px;
+}
+
+.escrow .mode {
+  font-size: 0;
+  margin-top: 15px;
+}
+
+.escrow .mode li {
+  display: inline-block;
+  width: 165px;
+}
+
+.escrow .mode li:first-child {
+  margin-right: 10px;
+}
+
+.escrow .mode li button {
+  width: 165px;
+  height: 65px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.escrow .mode li.full {
+  width: 100%;
+  margin: 0;
+}
+
+.escrow .mode li.full button {
+  width: 340px;
+}
+
+.escrow .mode li button.btn_card {
+  background: #5a5a5a;
+}
+
+.escrow .mode li button.btn_payco {
+  font-size: 16px;
+  color: #fff !important;
+  background : #00D664;
+  
+}
+
+.escrow .mode li button.btn_payco img {
+  vertical-align: -1px;
+  padding-right: 4px;
+  width: auto;
+}
+
+.escrow .option {
+  background: #fff;
+  text-align: left;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.escrow .option .check2 {
+  width: auto;
+  height: 20px;
+}
+
+.escrow .option .check2 input[type="checkbox"]+label {
+  width: auto;
+  height: 20px;
+  padding-left: 25px;
+  line-height: 1.25;
+  
+}
+
+.escrow .option .check2 input[type=checkbox]+label:after,
+.escrow .option .check2 input[type=checkbox]:checked+label:before,
+.escrow .option .check2 input[type=checkbox]:disabled+label:after {
+  width: 20px;
+  height: 20px;
+}
+
+.escrow .option .bx_select {
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.escrow .option .bx_select .ico_arrow {
+  right: 0;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.escrow .option .view {
+  float: right;
+  color: #969696;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.escrow .option ul li {
+  margin-bottom: 10px;
+}
+
+.escrow .option ul li .check2 input[type="checkbox"]+label {
+  ;
+}
+
+.escrow .option ul li:last-child {
+  margin-bottom: 0;
+}
+
+.escrow .mar-top-50:last-child .today_content {
+  padding-bottom: 0;
+}
+
+.escrow .complete {
+  padding-top: 60px;
+  border-top: 1px solid #5a5a5a;
+  margin-top: 30px;
+}
+
+.escrow .complete .ttl_h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #3c3c3c;
+  font-weight: normal;
+}
+
+.escrow .complete_con {
+  width: 980px;
+  margin: auto;
+  margin-top: 60px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 14px;
+}
+
+.escrow .table_complete {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.escrow .table_complete th {
+  width: 108px;
+}
+
+.escrow .table_complete th,
+.escrow .table_complete td {
+  vertical-align: top;
+  padding-bottom: 30px;
+  color: #3c3c3c;
+}
+
+.escrow .table_complete tr:last-child th,
+.escrow .table_complete tr:last-child td {
+  padding-bottom: 0;
+}
+
+.escrow .table_complete a {
+  color: #1485cc;
+  text-decoration: underline;
+}
+
+.escrow .table_complete ul li {
+  margin-bottom: 8px;
+}
+
+.escrow .table_complete ul li:last-child {
+  margin-bottom: 0;
+}
+
+.escrow .settlement_con {
+  height: 100%;
+}
+
+.escrow .settlement .info .option {
+  padding: 16px 20px;
+}
+
+.escrow .complete .info {
+  width: 100%;
+  height: 100%;
+  display: table;
+  box-sizing: border-box;
+}
+
+.escrow .complete .table_set tbody tr:last-child th,
+.escrow .complete .table_set tbody tr:last-child td {
+  padding-bottom: 25px;
+}
+
+.escrow .complete .table_set .sub.last th,
+.escrow .complete .table_set .sub.last td {
+  padding-bottom: 15px;
+}
+
+.escrow .ico_ti {
+  color: #969696;
+  font-size: 13px;
+  background: url('~@/assets/images/payco/ico_noti_2.png') no-repeat 0 2px;
+  margin: 23px 0 0 120px;
+  padding-left: 20px;
+  line-height: 20px;
+}
+
+.counting input {
+  width: 50px;
+  height: 27px;
+  padding: 0 5px;
+  background: #f5f5f5;
+  border: none;
+  color: #3c3c3c;
+  text-align: center;
+  font-size: 13px;
+  
+  display: inline-block;
+}
+
+.counting .btn {
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  border: none;
+  font-size: 0;
+}
+
+.counting .btn_reduce {
+  background: url(~@/assets/images/payco/btn_minus.png) no-repeat 0 0
+}
+
+.counting .btn_plus {
+  background: url(~@/assets/images/payco/btn_plus.png) no-repeat 0 0
+}
+
+#area_order_option {
+  box-sizing: content-box;
+}

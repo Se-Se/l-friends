@@ -1,0 +1,62 @@
+.service-error {
+  padding:3.2rem 2rem 2rem;
+  &__title {
+    padding-bottom: 3.23rem;
+    @include notoB;
+    color: #333333;
+    font-size: 1.8rem;
+    line-height: normal;
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+  &__fig {
+    margin: 0 auto;
+    width: 24rem;
+    height: auto;
+  }
+  &__info {
+    padding-top: 2.4rem;
+    @include notoN;
+    color: #333333;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+  &__button-list{
+    margin-top: 15.6rem;
+    display: flex;
+    justify-content: space-between;
+    > * {
+      width: 48.959%;
+    }
+  }
+  &__checking-guide{
+    margin: 4rem 0 7.3rem;
+    padding: 2rem 3.43rem 2rem 2rem;
+    background-color: #fafafa;
+    border: 1px solid #eeeeee;
+    border-radius: 0.4rem;
+    dl{
+      display: flex;
+      padding-bottom: 1rem;
+      justify-content: space-between;
+      dt{
+        width: 8.8rem;
+        color: #333333;
+        @include notoB;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        letter-spacing: -0.01rem;
+      }
+      dd{
+        width: 17.2rem;
+        color: #666666; 
+        @include notoM;
+        line-height: 1.5;
+        letter-spacing: -0.01rem;
+        text-align: left;
+      }
+    }
+  }
+}

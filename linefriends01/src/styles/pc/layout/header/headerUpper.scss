@@ -1,0 +1,116 @@
+.notice {
+  &-enter-active, &-leave-active {
+    transition: opacity .8s;
+  }
+
+  &-enter-active {
+    z-index: 1;
+  }
+
+  &-leave-active {
+    z-index: 2;
+  }
+
+  &-enter, &-leave-to {
+    opacity: 0;
+  }
+
+  &-swiper__item {
+    cursor: pointer;
+  }
+}
+.header__upper {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: #f6f6f6;
+    text-align: right;
+    &--content {
+        position: relative;
+        height: 20px;
+    }
+    &--notic {
+        font-size: 0;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        font-size: 12px;
+        color: #333333;
+        opacity: 1;
+        &__topic {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 500;
+            color: #333;
+            max-width: 330px;
+            padding-left: 6px;
+            vertical-align: middle;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            line-height: 1;
+        }
+        &__title {
+            display: inline-block;
+            width:53px;
+            height: 20px;
+            vertical-align: middle;
+            border-radius: 10px;
+            background-color: #fff;
+            font-family: Volte, "Noto Sans KR", sans-self;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: -0.1px;
+            text-align: center;
+            color: #333333;
+            line-height: 2;
+        }
+        &__animation {
+            animation: opacity 1s;
+        }
+        @keyframes opacity {
+            0% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &--list {
+        font-size: 0;
+        font-weight: normal;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        line-height: 1;
+    }
+
+    &--item {
+        display: inline-block;
+        font-size:12px;
+        font-weight: normal;
+        color: #999999;
+        vertical-align: middle;
+        letter-spacing: -0.1px;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 1px;
+            height: 12px;
+            margin: 0 8px;
+            background-color: #dddddd;
+            vertical-align: middle;
+        }
+
+        &:last-child:after {
+            background-color: transparent;
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,167 @@
+.wrapper-pc .etc-wrapper .etc-content {
+  min-height: 704px;
+}
+
+.wrapper-pc .etc-wrapper {
+  background-color: #f6f6f6;
+}
+
+.wrapper-pc .etc-wrapper .etc-checking {
+  margin: 0 auto;
+  font-size: 0;
+  background: #fff;
+}
+
+.wrapper-pc .etc-wrapper h1 {
+  text-align: center;
+  height: 39px;
+  padding-top: 21px;
+  border-bottom: solid 1px #eee;
+  margin: 0;
+  font-weight: normal;
+  line-height: 0;
+}
+
+.wrapper-pc .etc-wrapper h1 img {
+  width: 141px;
+  height: 18px;
+}
+
+.wrapper-pc .etc-wrapper .etc-content {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.wrapper-pc .etc-wrapper .etc-content h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.wrapper-pc .etc-wrapper .etc-footer {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 0 11px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #999;
+}
+
+.wrapper-pc .etc-wrapper.over .etc-footer {
+  width: 100%;
+  text-align: center;
+  height: 44px;
+  background-color: #f6f6f6;
+  line-height: 44px;
+  padding: 0;
+}
+
+.wrapper-pc .check_info dd {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.wrapper-pc .check_info {
+  margin-top: 32px;
+}
+
+.wrapper-pc .check_detail {
+  padding: 10px 0px 20px 24px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  background-color: #fafafa;
+  width: 374px;
+  margin: 40px auto 0px auto;
+  box-sizing: border-box;
+  font-family: NotoSansCJKjp;
+
+}
+
+.wrapper-pc .check_detail dl {
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.wrapper-pc .check_detail dt,
+.wrapper-pc .check_detail dd {
+  float: left;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.wrapper-pc .check_detail dt {
+  font-weight: bold;
+  width: 120px;
+}
+
+.wrapper-pc .check_detail dd {
+  color: #666666;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.wrapper-pc .check_detail .word-regular {
+  font-weight: normal;
+}
+
+.wrapper-pc .etc-wrapper .pt-40,
+.wrapper-pc .etc-wrapper .etc-data_error .btn_area {
+  padding-top: 40px;
+}
+
+.wrapper-pc .etc-wrapper .w-176 {
+  width: 176px;
+
+}
+
+.wrapper-pc .etc-wrapper .ml-4 {
+  margin-left: 4px;
+}
+
+.wrapper-pc .etc-wrapper .list_button {
+  display: flex;
+  width: 360px;
+  margin: auto;
+}
+
+.wrapper-pc .etc-wrapper .list_button li {
+  flex: 1;
+}
+
+/* ------------not found 404 & dat error------------ */
+.wrapper-pc .notfound_info dd,
+.wrapper-pc .data_error_info dd {
+  margin-top: 24px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.wrapper-pc .notfound_info,
+.wrapper-pc .data_error_info {
+  margin-top: 32px;
+}
+
+.wrapper-pc .etc-wrapper .etc-notfound,
+.wrapper-pc .etc-wrapper .etc-data_error {
+  margin: 0 auto;
+  font-size: 0;
+  background: #fff;
+}
+
+.wrapper-pc .etc-wrapper .etc-notfound .btn,
+.wrapper-pc .etc-wrapper .etc-data_error .btn {
+  padding: 0 10px;
+}
+
+.wrapper-pc .etc-wrapper .etc-data_error .btn_area {
+  text-align: center;
+}
+
+.wrapper-pc .etc-wrapper .etc-data_error .btn_area button {
+  width: 176px;
+  display: inline-block;
+}

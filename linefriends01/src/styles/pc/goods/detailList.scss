@@ -1,0 +1,186 @@
+.detail-default {
+  margin-top: 120px;
+  &__header {
+    position: relative;
+    &-title {
+      @include notoB;
+      font-size: 22px;
+      line-height: 1.36;
+      letter-spacing: -0.1px;
+      color: $font-black;
+    }
+    &-cnt {
+      @include volteSB;
+      font-size: 22px;
+      letter-spacing: -0.1px;
+    }
+    &-option {
+      padding-top: 20px;
+      font-size: 0;
+      &__item {
+        display: inline-block;
+        margin-right: 8px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    &-add {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  &__list {
+    margin-top: 13px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  &__item {
+    padding: 24px 0 20px;
+    border-top: 1px solid #eeeeee;
+    cursor: pointer;
+    &-rating {
+      &.review-rating {
+        font-size: 0;
+      }
+      .review-rating__item {
+        display: inline-block;
+        margin-right: 6px;
+        width: 16px;
+        height: 15px;
+        background-image: url('~@/assets/images/common/icons/ic-star-off.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        &:last-child {
+          margin-right: 0;
+        }
+        &._active {
+          background-image: url('~@/assets/images/common/icons/ic-star-on.svg');
+        }
+      }
+    }
+    &-more {
+      @include notoM;
+      padding: 0;
+      margin-top: 8px;
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: -0.1px;
+      color: #4ba4d9;
+      text-decoration: underline;
+    }
+    &-content {
+      padding: 17px 0 14px;
+      font-size:14px;
+      line-height: 1.5;
+      & > p {
+        @include notoN;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        color: $font-black;
+        word-break: break-word;
+        & > pre {
+          white-space: pre-wrap;
+          word-break: break-all;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+    &-footer {
+      position: relative;
+      padding-top: 24px;
+      &__info {
+        font-size: 0;
+        & > p {
+          @include volteN;
+          display: inline-block;
+          margin-right: 16px;
+          font-size: 12px;
+          letter-spacing: -0.1px;
+          color: #666666;
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+      &__action {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        & > p {
+          display: inline-block;
+          @include notoN;
+          margin-right: 24px;
+          font-size: 12px;
+          line-height: 1.5;
+          letter-spacing: -0.1px;
+          color: $font-gray;
+        }
+        & > ._recommand {
+          @include notoM;
+          padding: 0 16px;
+          height: 32px;
+          font-size: 12px;
+          line-height: 1.5;
+          letter-spacing: -0.1px;
+          border-radius: 4px;
+          border: 1px solid #dddddd;
+          color: $font-black;
+        }
+        & > ._active {
+          color: $main-color;
+        }
+      }
+    }
+  }
+  &__pagination {
+    padding-top: 20px;
+  }
+  &__nodata {
+    width: 100%;
+    text-align: center;
+    &-fig {
+      width: 151px;
+      padding-top: 80px;
+      margin: 0 auto;
+      text-align: center;
+      & > img {
+        width: 83.2px;
+      }
+    }
+    &-fcp {
+      @include notoN;
+      padding-top: 20px;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: -0.1px;
+      color: $font-gray;
+    }
+    &-btn {
+      @include notoM;
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 24px;
+      width: 161px;
+      height: 40px;
+      font-size: 14px;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+      color: $font-black;
+      vertical-align: middle;
+      &:after {
+        display: inline-block;
+        margin-left: 4px;
+        width: 16px;
+        height: 15px;
+        background-image: url('~@/assets/images/pc/icons/ic-review.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        vertical-align: middle;
+        content:'';
+      }
+    }
+  }
+}

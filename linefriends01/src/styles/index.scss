@@ -1,0 +1,23 @@
+@import "./reset";
+@import "./font";
+@import "./config";
+
+#wrap {
+  &.mobile {
+    @import './mobile/index';
+  }
+
+  &.pc {
+    @import './pc/index';
+    @import './old_contents.scss';
+  }
+}
+
+#inicisIframe {
+  z-index: 1000 !important;
+}
+
+.PopupBodyStyle {
+  height: 100%;
+  overflow: hidden;
+}

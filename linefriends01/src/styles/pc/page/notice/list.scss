@@ -1,0 +1,118 @@
+.notice {
+  min-height: 530px;
+  .mypage_inner {
+    width: 1180px;
+    margin: 0 auto;
+  }
+  .filter {
+    margin-top: 40px;
+    position: relative;
+    & > h2 {
+      @include notoB;
+      font-size: 24px;
+      color: #3c3c3c;
+      height: 36px;
+      line-height: 36px;
+    }
+  }
+  .table_wrap {
+    margin-top: 20px;
+  }
+  .table_data {
+    width: 100%;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 14px;
+    border-top: 1px solid #5a5a5a;
+    border-bottom: 1px solid #dcdcdc;
+    thead > tr {
+      th {
+        height: 59px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #dcdcdc;
+        color: #5a5a5a;
+        font-size: 14px;
+        vertical-align: middle;
+        &:first-child {
+          padding-left: 40px;
+        }
+      }
+    }
+    tbody > tr {
+      td {
+        padding: 0 20px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #e6e6e6;
+        height: 80px;
+        vertical-align: middle;
+      }
+    }
+  }
+  &-detail {
+    padding: 60px 0 100px;
+    color: #5a5a5a;
+    font-size: 16px;
+    .lst_tab_tit {
+      @include notoB;
+      position: relative;
+      font-size: 32px;
+      line-height: 32px;
+      color: #2b2b2b;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #5a5a5a;
+    }
+    .btn_list {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      line-height: 28px;
+      padding: 0 10px;
+      font-size: 12px;
+      display: block;
+      border: 1px solid #ddd;
+      color: #3c3c3c;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .head {
+      position: relative;
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+    .title {
+      @include notoM;
+      color: #3c3c3c;
+      font-size: 18px;
+      white-space: nowrap;
+      line-height: 22px;
+    }
+    .info {
+      position: absolute;
+      right: 20px;
+      top: 19px;
+      font-size: 13px;
+      color: #969696;
+    }
+    .member {
+      position: relative;
+      @include notoM;
+      padding: 15px 0;
+      font-size: 13px;
+    }
+    .tui-editor-contents {
+      font-size: 13px;
+      margin: 0;
+      padding: 0; 
+      > p {
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+    }
+    .foot_info {
+      margin-top: 20px;
+      text-align: right;
+      padding-right: 20px;
+    }
+  }
+}

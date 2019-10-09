@@ -1,0 +1,50 @@
+.mypage-menu {
+    &__wrap {
+      font-size: 0;
+    }
+    &__item {
+      display: inline-block;
+      padding: 16px 44px;
+      color: #999999;
+      font-size: 16px;
+      font-family: "Noto Sans KR", sans-self;
+      font-weight: normal;
+      text-align: center;
+      border-bottom: 1px solid #ededed;
+      cursor: pointer;
+      &.active {
+        border-bottom: 2px solid #333333;
+        color: #333333;
+        font-weight: bold;
+      }
+      &.executives {
+        padding: 16px 56.2px;
+      }
+      .router-link-exact-active
+      .router-link-active {
+        border-bottom: 1px solid #333333;
+        color: #333333;
+      }
+    }
+    .mypage-review {
+      &__wrap {
+        text-align: center;
+        font-size: 0;
+      }
+      &__item {
+        display: inline-block;
+        padding: 26px 0 17px 0;
+        margin: 0 14px;
+        font-size: 16px;
+        font-family: "Noto Sans KR", sans-self;
+        color: #999999;
+        &.active {
+          color: #333333;
+        }
+        .router-link-exact-active {
+          color: #333333;
+          font-weight: bold;
+        }
+      }
+    }
+  }

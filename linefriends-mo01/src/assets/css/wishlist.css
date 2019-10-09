@@ -1,0 +1,77 @@
+.wrapper-sp .wishlist .wishlist-wrap {
+  padding: 0 2rem;
+}
+
+.wrapper-sp .wishlist .wishlist-select-del-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.4rem 0;
+  height: 2.8rem;
+  line-height: 2.8px;
+}
+
+.wrapper-sp .wishlist .wishlist-select-del-block .bx_input {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.wrapper-sp .wishlist .wishlist-select-del-block .list_tools {
+  font-size: 0;
+}
+
+.wrapper-sp .wishlist .wishlist-select-del-block .list_tools .btn.size_s {
+  line-height: 2.6rem;
+}
+
+.wrapper-sp .wishlist .wishlist-select-product-block {
+  margin-bottom: 4rem;
+}
+
+.wrapper-sp .wishlist .wishlist-item-checkbox {
+  position: absolute;
+  right: 0.6rem;
+  top: 2rem;
+  z-index: 100;
+  font-size: 0;
+}
+
+.wrapper-sp .wishlist .wishlist-m-l_1_2 {
+  margin-left: 1.2rem;
+}
+
+.wrapper-sp .wishlist .wishist-none-result-data {
+  text-align: center;
+}
+
+.wrapper-sp .wishlist .none-result-data-img {
+  width: 8rem;
+  margin-top: 20.4rem;
+  margin-bottom: 3.3rem;
+}
+
+.wrapper-sp .wishlist .wishlist-none-data-txt {
+  font-size: 1.6rem;
+  color: rgb(51, 51, 51);
+  line-height: 2rem;
+  margin-bottom: 20.3rem;
+}
+
+.wrapper-sp .wishlist .wishlist-wrap .no_data {
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.wrapper-sp .wishlist .wishlist-wrap .no_data .no_data_text {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #666;
+}
+
+.wrapper-sp .wishlist .wishlist-wrap .no_data.wishlist-wrap_new_padding {
+  text-align: center;
+  padding: 6rem 0 24rem 0;
+}
+.wrapper-sp .wishlist .wishlist-wrap  .wishlist-select-text label{
+  padding-left:3.6rem;
+}

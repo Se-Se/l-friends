@@ -1,0 +1,60 @@
+$main-color: #00d664;
+$gray-color: #97a2b2;
+$font-black: #333333;
+$font-gray: #666666;
+$white-color: #ffffff;
+$warning-color :#FF5A5F;
+$best-color: #DF67FF;
+$new-color: #5E88FF;
+$bg-color: #3D485E;
+$tertiary-color: #4BA4D9;
+
+@mixin notoR {
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: 400;
+}
+
+@mixin notoN {
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: normal;
+}
+
+@mixin notoM {
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: 500;
+}
+
+@mixin notoSB {
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: 600;
+}
+
+@mixin notoB {
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: bold;
+}
+
+@mixin volteR {
+  font-family : Volte, "Noto Sans KR", sans-serif;
+  font-weight: 400;
+}
+
+@mixin volteN {
+  font-family : Volte, "Noto Sans KR", sans-serif;
+  font-weight: normal;
+}
+
+@mixin volteM {
+  font-family : Volte, "Noto Sans KR", sans-serif;
+  font-weight: 500;
+}
+
+@mixin volteSB {
+  font-family : Volte, "Noto Sans KR", sans-serif;
+  font-weight: 600;
+}
+
+@mixin volteB {
+  font-family : Volte, "Noto Sans KR", sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+.wrapper-sp .main .main-menu {
+  padding: 3rem 2rem 4.5rem;
+  border-bottom: solid 0.8rem #fafafa;
+}
+
+.wrapper-sp .main .main-menu .user-info dt {
+  float: left;
+  font-size: 2.4rem;
+  color: rgb(51, 51, 51);
+}
+
+.wrapper-sp .main .main-menu .user-info dt strong {
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.wrapper-sp .main .main-menu .user-info dt span {
+  display: block;
+  font-size: 1.4rem;
+  color: rgb(153, 153, 153);
+  padding-top: 0.4rem;
+}
+
+.wrapper-sp .main .main-menu .user-info dd {
+  float: right;
+  margin-top: 0.6rem;
+}
+
+.wrapper-sp .main .main-order_num {
+  border-bottom: solid 0.8rem #fafafa;
+}
+
+.wrapper-sp .main .main-order_num .order-number li {
+  float: left;
+  width: 50%;
+  height: 6rem;
+  line-height: 6rem;
+  border-top: solid 1px rgb(237, 237, 237);
+}
+
+.wrapper-sp .main .main-order_num .order-number li:first-child,
+.wrapper-sp .main .main-order_num .order-number li:nth-child(2) {
+  border-top: none;
+}
+
+.wrapper-sp .main .main-order_num .order-number li:nth-child(2n) {
+  width: calc(50% - 1px);
+  border-left: solid 1px rgb(237, 237, 237);
+}
+
+.wrapper-sp .main .main-order_num .order-number li dl {
+  padding: 0 2rem;
+}
+
+.wrapper-sp .main .main-order_num .order-number li dt {
+  float: left;
+  font-size: 1.4rem;
+  color: rgb(51, 51, 51);
+}
+
+.wrapper-sp .main .main-order_num .order-number li dt a {
+  display: block;
+  color: rgb(51, 51, 51);
+  padding-left: 4rem;
+}
+
+.wrapper-sp .main .main-order_num .order-number li dt a.delivery {
+  background: url("../img/icon/icon_car_small.png") no-repeat left 1.2rem;
+}
+
+.wrapper-sp .main .main-order_num .order-number li dt a.coupon {
+  background: url("../img/icon/icon_coupon_small.png") no-repeat left 1.2rem;
+}
+
+.wrapper-sp .main .main-order_num .order-number li dt a.review {
+  background: url("../img/icon/icon_review_small.png") no-repeat left 1.2rem;
+}
+
+.wrapper-sp .main .main-order_num .order-number li dt a.wish {
+  background: url("../img/icon/img_wish_small.png") no-repeat left 1.2rem;
+}
+
+.wrapper-sp .main .main-order_num .order-number li dd {
+  float: right;
+  font-size: 1.8rem;
+  color: rgb(0, 214, 100);
+  font-weight: 600;
+}
+
+.wrapper-sp .main .main-list {
+  border-bottom: solid 0.8rem #fafafa;
+}
+
+.wrapper-sp .main .main-list:last-child {
+  border-bottom: none;
+  padding-bottom: 1rem;
+}
+
+.wrapper-sp .main .main-list dl {
+  font-size: 1.6rem;
+  line-height: 5.9rem;
+  color: rgb(51, 51, 51);
+  border-top: solid 1px rgb(237, 237, 237);
+  padding: 0 2rem;
+}
+
+.wrapper-sp .main .main-list dl:first-child {
+  border-top: none;
+}
+
+.wrapper-sp .main .main-list dt {
+  float: left;
+}
+
+.wrapper-sp .main .main-list dd {
+  float: right;
+}
+
+.wrapper-sp .main .main-list dd i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 5.9rem;
+  background: url("../img/icon/m-ic-common-btn-arrow.png") no-repeat right center;
+  background-size: 8px;
+  font-size: 0;
+  color: transparent;
+}
+
+.wrapper-sp .main .main-list dd span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.8rem;
+}

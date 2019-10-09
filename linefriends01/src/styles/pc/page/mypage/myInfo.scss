@@ -1,0 +1,20 @@
+.my-info {
+  &__footer {
+    padding-top: 20px;
+    font-size: 0;
+    text-align: right;
+    &-title {
+      @include notoN;
+      display: inline-block;
+      padding-right: 12px;
+      font-size: 14px;
+      letter-spacing: -0.1px;
+      color: $font-gray;
+      vertical-align: middle;
+    }
+  }
+  &__btn {
+    padding-top: 40px;
+    text-align: center;
+  }
+}

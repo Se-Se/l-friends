@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'), 
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.ttf) format('trueype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'), 
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.ttf) format('trueype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'), 
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.ttf) format('trueype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 600;
+    src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'), 
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype'),
+    url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.ttf) format('trueype');
+}
+
+@font-face {
+    font-family: Volte;
+    font-weight: bold;
+    src: url('/static/fonts/Volte-Bold.woff') format('woff'),
+    url('/static/fonts/Volte-Bold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: Volte;
+    font-weight: light;
+    src: url('/static/fonts/Volte-Light.woff') format('woff'),
+    url('/static/fonts/Volte-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: Volte;
+    font-weight: normal;
+    src: url('/static/fonts/Volte-Regular.woff') format('woff'),
+    url('/static/fonts/Volte-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: Volte;
+    font-weight: 600;
+    src: url('/static/fonts/Volte-Semibold.woff') format('woff'),
+    url('/static/fonts/Volte-Semibold.ttf') format('truetype')
+}

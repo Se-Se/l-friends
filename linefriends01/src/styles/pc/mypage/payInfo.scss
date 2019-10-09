@@ -1,0 +1,131 @@
+.pay-info {
+  padding-top: 55px;
+  &__header {
+    padding-bottom: 16px;
+    &--title {
+      font-family: 'Noto Sans KR';
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: -0.1px;
+      color: #333333;
+    }
+  }
+  &__table {
+    width: 100%;
+    border-top: 2px solid #333333;
+    & > tbody > tr {
+      & > td {
+        height: 220px;
+        vertical-align: top;
+      }
+    }
+  }
+  &__wrap {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 34%;
+      right: -15px;
+      display: block;
+      width: 30px;
+      height: 30px;
+      transform: translateY(-50%);
+      z-index: 99;
+      background: url(~@/assets/images/payco/ico_minus.png) no-repeat 0 0;
+    }
+    &.last {
+      &:after {
+        display: none;
+      }
+    }
+    &.equal {
+      &:after {
+        background: url(~@/assets/images/payco/ico_equal.png) no-repeat 0 0;
+      }
+    }
+  }
+  &__item {
+    width: 100%;
+    height: 71px;
+    position: relative;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    &.__last {
+      border-right: 0;
+    }
+    &--title,
+    &--price {
+      position: absolute;
+      font-family: 'Noto Sans KR';
+      font-size: 14px;
+      line-height: 1;
+      color: #333333;
+      top: 30px;
+    }
+    &--title {
+      font-weight: normal;
+      letter-spacing: -0.1px;
+      left: 19px;
+    }
+    &--price {
+      font-weight: bold;
+      right: 19px;
+      & > span, strong {
+        font-family: Volte, 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .total {
+        font-size: 28px;
+      }
+    }
+  }
+  &__bottom {
+    height: 138px;
+    padding: 17px 18px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    &--item {
+      display: table;
+      width: 100%;
+      margin-bottom: 13px;
+      font-family: 'Noto Sans KR';
+      font-size: 14px;
+      font-weight: normal;
+      color: #999999;
+      clear: both;
+      content:'';
+      &.pay-total {
+        color: #333333;
+        text-align: right;
+      }
+    }
+    &--title {
+      float: left;
+    }
+    &--price {
+      float: right;
+    }
+  }
+  &__last {
+    border-right: 0;
+  }
+  &__total {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff414e;
+    right: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+    & > strong {
+      font-family: Volte, 'Noto Sans KR', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+}
+._refund {
+  height: 200px;
+}

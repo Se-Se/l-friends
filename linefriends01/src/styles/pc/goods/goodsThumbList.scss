@@ -1,0 +1,19 @@
+.goods-thumblist {
+  max-width: 1920px;
+  max-height: 390px;
+  height: auto;
+  margin: 0;
+  font-size: 0;
+  margin-top: 16px;
+  overflow: hidden;
+  .goods-item {
+    display: inline-block;
+    width: 190px;
+    vertical-align: top;
+    margin-right: 8px;
+    padding-bottom: 8px;
+    &:nth-child(6n) {
+      margin-right:0;
+    }
+  }
+}

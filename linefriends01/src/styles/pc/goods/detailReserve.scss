@@ -1,0 +1,51 @@
+.detail-reserve {
+  width: 100%;
+  height: auto;
+  margin-top: 32px;
+  padding: 18px 24px;
+  border: 1px solid #eeeeee;
+  border-radius: 4px;
+  background-color: #fafafa;
+  &__title {
+    @include notoB;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    color: $font-black;
+  }
+  &__list {
+    padding-top: 8px;
+    line-height: 1.67;
+    & > dl {
+      display: table;
+      width: 100%;
+    }
+    & > dl > dt {
+      @include notoN;
+      float: left;
+      width: 80px;
+      font-size: 12px;
+      letter-spacing: -0.1px;
+      color: $font-gray;
+    }
+    & > dl > dd {
+      @include notoN;
+      float: left;
+      margin-left: 20px;
+      width: 210px;
+      font-size: 12px;
+      letter-spacing: -0.1px;
+      color: $font-gray;
+    }
+  }
+  ._fixed {
+    & > dl > dd {
+      margin-left: 40px;
+    }
+  }
+  &__date {
+    @include volteSB;
+    font-size: 12px;
+    color: $main-color;
+  }
+}

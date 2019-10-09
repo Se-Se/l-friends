@@ -1,0 +1,105 @@
+.my-info-table {
+  width: 100%;
+  text-align: left;
+  border-top: 2px solid $font-black;
+  ._tableBottom {
+    position: absolute;
+    bottom: 16px;
+  }
+  & > tbody > tr {
+    height: 60px;
+    border-bottom: 1px solid #ededed;
+    & > th,td {
+      padding: 0 32px;
+      vertical-align: middle;
+    }
+    & > th {
+      @include notoM;
+      font-size: 14px;
+      text-align: left;
+      padding: 0 0 0 32px;
+      letter-spacing: -0.1px;
+      color: $font-black;
+      background-color: #f9f9f9;
+    }
+    & > td {
+      @include notoN;
+    }
+  }
+  &__input {
+    position: relative;
+    padding: 16px 0;
+    font-size: 0;
+    &._active {
+      display: none;
+    }
+    &-item {
+      display: inline-block;
+      margin-right: 7px;
+      vertical-align: middle;
+      &:last-child {
+        margin-right: 0;
+      }
+      ._interval {
+        padding: 10px 0 0 140px;
+      }
+    }
+    &-wrapper {
+      padding-bottom: 10px;
+      &:last-child {
+        padding-bottom: 0px;
+      }
+    }
+    ._changebottom {
+      display: table;
+      &-label {
+        display: table-cell;
+      }
+      &-button {
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 7px;
+      }
+    }
+    &-label {
+      display: inline-block;
+      width: 139px;
+      padding: 16px 0;
+      color: #333333;
+      font-size: 14px;
+      line-height: normal;
+      letter-spacing: -0.1;
+    }
+    &-box {
+      display: inline-block;
+      position: relative;
+      &__item {
+        @include notoM;
+        display: inline-block;
+        font-size: 12px;
+        color: $warning-color;
+      }
+      ._error {
+        @include notoM;
+        display: inline-block;
+        padding-left: 7px;
+        font-size: 12px;
+        color: $warning-color;
+      }
+    }
+    &-button {
+      display: inline-block;
+      margin-right: 7px;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+  &__sns {
+    width: 335px;
+    padding: 25px 0;
+  }
+  &__benefit {
+    padding: 18px 0;
+  }
+}

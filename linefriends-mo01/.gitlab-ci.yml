@@ -1,0 +1,16 @@
+before_script:
+  - rm -rf  /www/runner/linefriends-mo
+  - mkdir /www/runner/linefriends-mo
+  - cp -r ./ /www/runner/linefriends-mo 
+  - cd /www/runner/linefriends-mo
+  - npm install
+
+alpha:
+  script:
+    - npm run build:alpha
+    - rm -rf /www/linefriends-mo 
+    - mv /www/runner/linefriends-mo /www/linefriends-mo 
+  only:
+    - master 
+  tags:
+    - jp-alpha-mo-deploy

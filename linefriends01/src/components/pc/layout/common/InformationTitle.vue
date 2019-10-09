@@ -1,0 +1,42 @@
+<template>
+  <div class="information-title">
+    <p>{{ info }}</p>
+  </div>
+</template>
+<script>
+
+export default {
+  name: 'information-title',
+  props: {
+    info: {
+      type: String,
+      required: true
+    }
+  }
+}
+</script>
+<style lang="scss" scoped>
+.information-title {
+  position: relative;
+  margin-top: 20px;
+  & > p {
+    padding-left: 30px;
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.43;
+    letter-spacing: -0.1px;
+    color: #666666;
+  }
+  &:before {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-image: url(~@/assets/images/pc/icons/ic-info19x19.svg);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+  }
+}
+</style>

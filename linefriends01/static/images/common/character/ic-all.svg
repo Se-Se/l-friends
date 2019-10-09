@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="155" viewBox="0 0 156 155">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#97A2B2" d="M77.544 154.186c42.827 0 77.544-34.515 77.544-77.093S120.37 0 77.544 0C34.718 0 0 34.515 0 77.093s34.718 77.093 77.544 77.093z"/>
+        <text fill="#FFF" font-family="Volte-Semibold, Volte" font-size="42" font-weight="500" letter-spacing="-.413">
+            <tspan x="39" y="89">ALL</tspan>
+        </text>
+    </g>
+</svg>

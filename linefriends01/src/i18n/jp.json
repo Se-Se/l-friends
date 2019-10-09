@@ -1,0 +1,92 @@
+{
+  "currency": "원",
+  "layout": {
+    "menu": "메뉴",
+    "search": "검색",
+    "scrollTop": "상단으로 가기"
+  },
+  "article": {
+    "new": {
+      "title": "새로 나왔어요",
+      "subtitle": "NEW ARRIVALS"
+    },
+    "hot": {
+      "title": "주목받고 있어요",
+      "subtitle": "HOT"
+    },
+    "best": {
+      "title": "많이 구매하고 있어요",
+      "subtitle": "BEST"
+    },
+    "history": {
+      "title": "최근 본 상품",
+      "subtitle": "FOR YOU"
+    },
+    "chimmy": {
+      "title": "열정 강아지, CHIMMY",
+      "subtitle": "CHIMMY의 대표 아이템"
+    },
+    "instagram": {
+      "title": "#라인프렌즈",
+      "subtitle": "INSTAGRAM"
+    }
+  },
+  "button": {
+    "goods": "상품 더보기",
+    "continue": "회원가입 계속"
+  },
+  "menu": {
+    "all": "全体",
+    "sale": "세일",
+    "character": "캐릭터",
+    "promotion": "프로모션",
+    "terms": "이용약관",
+    "privacyPolicy": "개인정보처리방침",
+    "intro": "회사소개",
+    "contact": "제휴문의",
+    "notice": "공지사항"
+  },
+  "auth": {
+    "login": "로그인",
+    "logout": "로그아웃",
+    "join": "회원가입"
+  },
+  "user": {
+    "wellcome": "님 환영합니다.",
+    "menu": {
+      "mypage": "마이페이지",
+      "delivery": "주문/배송",
+      "contact": "고객센터",
+      "shops": "매장안내"
+    }
+  },
+  "mall": {
+    "companyName": "상호명",
+    "businessRegistrationNo": "사업자등록번호",
+    "onlineMarketingBusinessDeclarationNo": "통신판매업신고번호",
+    "ceo": "대표",
+    "address": "주소",
+    "hosting": "호스팅제공자",
+    "email": "이메일",
+    "contact": "고객센터"
+  },
+  "character": {
+    "all": "전체",
+    "intro": "캐릭터 소개"
+  },
+  "goods": {
+    "coupon": "쿠폰",
+    "reserve": "예약상품"
+  },
+  "device": {
+    "pcVersion": "PC 버전",
+    "mobileVersion": "모바일 버전"
+  },
+  "mypage":{
+    "productinquiry":{
+      "validation":{
+        "emptyContent1": "문의내용을 입력해주세요."
+      }
+    }
+  }
+}

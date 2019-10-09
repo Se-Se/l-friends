@@ -1,0 +1,42 @@
+alpha:
+  environment:
+    name: Alpha
+    url: https://alpha.linefriends.co.kr
+  script:
+    - rm -rf /www/line_runner/alpha
+    - mkdir /www/line_runner/alpha
+    - cp -r ./ /www/line_runner/alpha
+    - cd /www/line_runner/alpha
+    - yarn install
+    - yarn run build:alpha
+    - rm -rf /www/line
+    - mv /www/line_runner/alpha /www/line
+  only:
+    - release
+  tags:
+    - alpha-deploy
+
+prod:
+  environment:
+    name: Real
+    url: https://store.linefriends.co.kr
+  when: manual
+  script:
+    - rm -rf /www/line_runner/real
+    - mkdir /www/line_runner/real
+    - cp -r ./ /www/line_runner/real
+    - cd /www/line_runner/real
+    - yarn install
+    - yarn run build:prod
+    - rm -rf /www/line/real
+    - mv /www/line_runner/real /www/line/real
+    - ssh -i /home/gitlab-runner/real-line.pem centos@133.186.208.195 rm -rf /www/line/dist_bak/static
+    - ssh -i /home/gitlab-runner/real-line.pem centos@133.186.208.195 mv /www/line/dist/* /www/line/dist_bak
+    - scp -i /home/gitlab-runner/real-line.pem -r /www/line/real/dist/ centos@133.186.208.195:/www/line/
+    - ssh -i /home/gitlab-runner/real-line.pem centos@133.186.208.196 rm -rf /www/line/dist_bak/static
+    - ssh -i /home/gitlab-runner/real-line.pem centos@133.186.208.196 mv /www/line/dist/* /www/line/dist_bak
+    - scp -i /home/gitlab-runner/real-line.pem -r /www/line/real/dist/ centos@133.186.208.196:/www/line/
+  only:
+    - master
+  tags:
+    - real-deploy

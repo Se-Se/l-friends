@@ -1,0 +1,16 @@
+.member-footer {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background-color: #f6f6f6;
+  bottom: 0;
+  &__description {
+    @include notoN;
+    padding: 15px 0 11px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: #999999;
+  }
+}

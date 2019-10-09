@@ -1,0 +1,21 @@
+.project {
+  &-detail {
+    &__coupon {
+      &-item {
+        padding-top: 2rem;
+      }
+    }
+    &__goods {
+      padding-bottom: 4rem;
+      &-list {
+        padding-top: 2rem;
+        &:not(:last-child) {
+          margin-top: 6rem;
+        }
+      }
+      &-title {
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}

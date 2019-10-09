@@ -1,0 +1,55 @@
+.character-box {
+  display: inline-block;
+  width: 29.5rem;
+  margin-top: 8rem;
+  &__wrapper {
+    width: 30.4rem;
+  }
+  &__header {
+    &-fig {
+      margin: 0 auto;
+    }
+  }
+  &__info {
+    padding-top: 2.89rem;
+    &-wrapper {
+      text-align: center;
+    }
+    &-title {
+      margin: 0 auto;
+    }
+    &-status {
+      padding: 0.68rem 0 2.03rem;
+      @include notoB;
+      color: #333333;
+      font-size: 1.6rem;
+      line-height: normal;
+      letter-spacing: -0.01rem;
+    }
+    &-guide {
+      @include notoN;
+      color: #333333;
+      font-size: 1.4rem;
+      line-height: 1.5;
+      letter-spacing: -0.01rem;
+    }
+    &-more {
+      padding-top: 24px;
+      a {
+        @include notoM;
+        color: #333333;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        letter-spacing: -0.01rem;
+        vertical-align: middle;
+        em {
+          display: inline-block;
+          width: 0.6rem; height: 1rem;
+          margin-left: 0.6rem;
+          background-image: url("~@/assets/images/pc/icons/ic-right-arrow.svg");
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

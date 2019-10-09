@@ -1,0 +1,52 @@
+.bread-crumbs {
+  width: 100%;
+  padding: 18px 0 44px;
+  font-size: 0;
+  &__home {
+    @include notoN;
+    display: inline-block;
+    position: relative;
+    margin-right: 29px;
+    font-size: 12px;
+    color: #999999;
+    vertical-align: middle;
+    &:after {
+      position: absolute;
+      font-family: 'Noto Sans KR';
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.75;
+      letter-spacing: -0.1px;
+      color: #dddddd;
+      left: 24px;
+      top: -4px;
+      content: '/';
+    }
+  }
+  &__title {
+    @include notoN;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    line-height: 1;
+    color: #333333;
+    vertical-align: middle;
+  }
+  &__item {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    color: #999999;
+    &:after {
+      display: inline-block;
+      width: 7px;
+      height: 11px;
+      margin: 0 8px;
+      vertical-align: baseline;
+      content:'/';
+    }
+  }
+  &__title {
+    color: #333333;
+  }
+}

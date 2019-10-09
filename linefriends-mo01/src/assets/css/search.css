@@ -1,0 +1,105 @@
+﻿@charset "utf-8";
+
+/* search_top */
+.wrapper-sp #container.search {
+  position: relative;
+  min-height: calc(100vh - 12.7rem);
+  background-color: rgb(250, 250, 250);
+  overflow: hidden;
+}
+.wrapper-sp .search .search-wrap{
+  color:#333333;
+}
+.wrapper-sp .search .search_top {
+  position: relative;
+}
+
+.wrapper-sp .search .search-wrap {
+  position: relative;
+  padding: 2rem 2rem 0;
+  height: calc(100vh - 7.6rem);
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+.wrapper-sp .search .search-wrap .search-record dt,
+.wrapper-sp .search .search-wrap .search-con_title dt {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.wrapper-sp .search .search-wrap .search-record .mb-40{
+  margin-bottom:4rem;
+}
+.wrapper-sp .search .search-wrap .search-record .mt-60{
+  margin-top:6rem;
+}
+
+.wrapper-sp .search .search-wrap .search-record dd {
+  float: left;
+  font-size: 1.4rem;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+.wrapper-sp .search .search-wrap .search-record.none dd {
+  float: none;
+  text-align: center;
+  color: #666666;
+  margin-bottom:10rem;
+}
+.wrapper-sp .search .search-wrap .search-record_list li {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.wrapper-sp .search .search-wrap .search-record_list li::after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+}
+
+.wrapper-sp .search .search-wrap .search-record_list li a {
+  display: block;
+  float: left;
+  width: 75%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color:#333333;
+}
+
+.wrapper-sp .search .search-wrap .search-record_list li button {
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  background: url("../img/icon/dark_close_search.png") no-repeat 0 0;
+  background-size: 2rem;
+  font-size: 0;
+  color: transparent;
+}
+
+.wrapper-sp .search .search-wrap .search-con_title {
+  margin-top: 6rem;
+}
+
+.wrapper-sp .search .search-wrap .search-con_title dt {
+  float: left;
+}
+
+.wrapper-sp .search .search-wrap .search-con_title dd {
+  float: right;
+  font-size: 1.2rem;
+  color:#666666;
+}
+.wrapper-sp .search .search-wrap .btn.btn_radius{
+  border: solid 0.1rem #eeeeee;
+  border-radius: 1.6rem;
+  font-size:1.4rem;
+  font-weight:normal;
+  height:3.2rem;
+  line-height:3rem;
+  letter-spacing: -0.01rem;
+  color:#333333;
+}
+

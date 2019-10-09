@@ -1,0 +1,129 @@
+h1 {
+  @include notoB;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: -0.1px;
+  text-align: left;
+  color: #333333;
+} 
+.table_info {
+  width: 100%;
+  border-top: 2px solid #333333;
+  & > tbody > tr {
+    border-bottom: 1px solid #ededed;
+    & > th {
+      width: 100px;
+      background-color: #fafafa;
+      @include notoN;
+      font-size: 14px;
+      color: #333333;
+      letter-spacing: -0.1px;
+      vertical-align: middle;
+    }
+    & > td {
+      text-align: justify;
+      padding: 20px 10px;
+      font-family: "Noto Sans KR";
+      vertical-align: middle;
+      &.review {
+        padding: 20px 10px;
+        font-family: "Noto Sans KR";
+        vertical-align: middle;
+      }
+    }
+  }
+}
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 17px 21px;
+  background: #ffffff;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  -ms-overflow-style: none;
+  &::placeholder {
+    @include notoN;
+    color: #999999;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.1px;
+  }
+  &:-ms-input-placeholder { 
+    @include notoN;
+    color: #999999;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.1px; 
+  }
+}
+.txt_ex_2 {
+  width: 100%;
+  padding: 17px 16px;
+  margin-top: 20px;
+  background-color: #fafafa;
+  & > p {
+    @include notoN;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    color: #666666;
+  }
+}
+.btn {
+  width: 176px;
+  height: 52px;
+  @include notoN;
+  font-size: 16px;
+  letter-spacing: -0.1px;
+  border-radius: 4px;
+  &_list {
+    margin-top: 28px;
+    font-size: 0;
+    text-align: center;
+  }
+  &.cancel {
+    margin-right: 8px;
+    background-color: #f6f6f6;
+    color: #333333;
+  }
+  &.add {
+    background-color: #00d664;
+    color: #ffffff;
+  }
+}
+.layer-popup .review_info .review_score {
+  display: inline-block;
+  position: relative;
+  width: 104px;
+  height: 19px;
+  vertical-align: middle;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('~@/assets/images/pc/icons/ic-star.svg') no-repeat;
+    content: "";
+  }
+  .graph {
+    position: relative;
+    height: 100%;
+    background-position: -124px -114px;
+    .blind {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1px;
+      height: 1px;
+      font-size: 1px;
+      line-height: 100px;
+      white-space: nowrap;
+    }
+    &.sp {
+      display: block;
+      height: 19px;
+      background: url('~@/assets/images/pc/icons/ic-star-active.svg') no-repeat;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.friends-box {
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 500px;
+  margin-top: 60px;
+  margin-right: 80px;
+  &:nth-child(3n){
+    margin-right: 0;
+  }
+  &__wrapper {
+    position: absolute; bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 320px;
+  }
+  &__header {
+    &-fig {
+      margin: 0 auto;
+    }
+  }
+  &__info {
+    padding-top: 53.5px;
+    &-wrapper {
+      text-align: center;
+    }
+    &-title {
+      margin: 0 auto;
+    }
+    &-status {
+      padding: 9.8px 0 20px;
+      @include notoB;
+      color: #333333;
+      font-size: 20px;
+      line-height: normal;
+      letter-spacing: -0.1px;
+    }
+    &-guide {
+      @include notoN;
+      color: #333333;
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: -0.1px;
+    }
+    &-more {
+      padding-top: 24px;
+      a {
+        @include notoM;
+        color: #333333;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        vertical-align: middle;
+        em {
+          display: inline-block;
+          width: 6px; height: 10px;
+          margin-left: 6px;
+          background-image: url("~@/assets/images/pc/icons/ic-right-arrow.svg");
+          background-size: cover;
+        }
+      }
+    }
+  }
+}

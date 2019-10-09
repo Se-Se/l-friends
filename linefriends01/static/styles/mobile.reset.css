@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+  font-size: 2.6666666667vw; /* 10/(375/100) */
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.2rem; /* 해상도 375px 기준 : 12px */
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header {
+  border: none;
+}
+
+#container {
+  min-height: 56rem;
+  padding: 0;
+}
+
+input, select {
+  outline: none !important;
+}
+
+.number {
+  font-family: Volte;
+}
+
+.number.semibold {
+  font-weight: 600;
+}
+
+.number.bold {
+  font-weight: bold;
+}

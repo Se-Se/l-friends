@@ -1,0 +1,254 @@
+.wrapper-sp .cs-faq .cs-faq-tab-search-block {
+  padding: 0 0 2rem 0;
+  border-bottom: 0.1rem solid rgb(238, 238, 238);
+  width: 100%;
+  font-size: 0;
+  overflow-x: hidden;
+}
+
+.wrapper-sp .cs-faq.cs-faq-font_family{
+  font-family: NotoSansCJKjp;
+}
+.wrapper-sp .cs-faq .cs-faq-tab-slide{
+  padding:2rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-left:2rem;
+}
+.wrapper-sp .cs-faq .cs-faq-tab-slide::-webkit-scrollbar{
+	display: none;
+}
+
+.wrapper-sp .cs-faq .cs-faq-border_bottom {
+  border-bottom: 0.1rem solid rgb(238, 238, 238)
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-search-block .cs-faq-tab-list {
+  font-size: 0;
+  text-align: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  display: flex;
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-search-block .cs-faq-tab-item {
+  padding-right: 1rem;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: rgb(153, 153, 153);
+  border-right: 0.1rem solid rgb(237, 237, 237);
+  letter-spacing: -0.008rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-item.cs-faq-p_m_r_0 {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-item.cs-faq-tab_active {
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+}
+
+.wrapper-sp .cs-faq .cs-faq-width_22_1 {
+  width: calc(100% - 11.4rem);
+}
+
+.wrapper-sp .cs-faq .cs-faq-m-r_0_7 {
+  margin-right:.7rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-width_10_7 {
+  width:10.7rem;
+  height:4rem;
+  display: inline-block;
+  font-size: 1.4rem;
+  line-height: 4rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-search-block {
+  margin-bottom: 2rem;
+  font-size: 0;
+  padding:0 2rem;
+}
+
+.wrapper-sp .cs-faq .cs-fag-search-result-title {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-top: 3.6rem;
+  padding-left: 2rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-search-none-result {
+  height: 34.9rem;
+  text-align: center;
+  padding-top: 14.7rem;
+  box-sizing: border-box;
+
+}
+
+.wrapper-sp .cs-faq .cs-faq-search-none-txt {
+  /* font-family: 'NotoSansCJKkr-Medium'; */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.wrapper-sp .cs-faq .cs-fag-style-green {
+  color: rgb(0, 214, 100)
+}
+
+.wrapper-sp .cs-faq .cs-faq-question-block {
+  padding:0 2rem;
+  width:calc(100% - 0);
+}
+
+
+.wrapper-sp .cs-faq .cs-fag-p-t_1_3 {
+  padding-bottom: 1.3rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-txt-style {
+  font-size: 1.4rem;
+  color: rgb(102, 102, 102);
+  line-height: 2.1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.wrapper-sp .cs-faq .active {
+  background: rgb(250, 250, 250)
+}
+
+.wrapper-sp .cs-faq .notice_box .btn_next {
+  transform: rotate(0deg);
+}
+
+.wrapper-sp .cs-faq .notice_box.active .btn_next {
+  transform: rotate(-180deg);
+}
+
+.wrapper-sp .cs-faq .notice_box.active>.cs-faq-open-content {
+  display: block;
+}
+
+.wrapper-sp .cs-faq .cs-faq-open-content {
+  display: none;
+  margin: 0 2rem;
+  padding: 3.6rem 0 4rem 0;
+  border-top: 0.1rem solid rgb(238, 238, 238);
+}
+
+.wrapper-sp .cs-faq .cs-faq-avator-name {
+  height: 2.4rem;
+  line-height: 2.4rem;
+  display: flex;
+  margin-bottom: 0.6rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-open-content .cs-faq-avator {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: block;
+}
+
+.wrapper-sp .cs-faq .cs-faq-open-content .cs-faq-name {
+  margin-left: 0.8rem;
+  font-size: 1.4rem;
+  display: block;
+  color: rgb(51, 51, 51);
+}
+
+.wrapper-sp .cs-faq .cs-faq-content-detail {
+  margin: 0 3.2rem 4rem 3.2rem;
+  line-height: 2.1rem;
+  color: rgb(51, 51, 51);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.wrapper-sp .cs-faq .cs-faq-content-detail div{
+  overflow: hidden;
+}
+
+.wrapper-sp .cs-faq .cs-faq-content-image {
+  text-align: center;
+  font-size: 0;
+}
+
+.wrapper-sp .cs-faq .cs-faq-content-image img {
+  max-width: 100%;
+}
+
+.wrapper-sp .cs-faq .cs-box-padding-top_2_8 {
+  padding-top: 2.8rem;
+}
+
+.wrapper-sp .cs-faq .cs-box-padding-top_3_8 {
+  padding-top: 3.8rem;
+}
+
+.wrapper-sp .cs-faq .notice_list {
+  margin-right: 4.5rem;
+}
+
+.wrapper-sp .cs-faq .pagination {
+  padding: 2rem 0 8rem 0;
+}
+
+.wrapper-sp .cs-faq .cs-faq-search-none-result.cs-faq-padding_top {
+  padding-top: 5.9rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-width_10_7_52{
+  height: 5.2rem;
+  width:10.7rem;
+  display: inline-block;
+  font-size: 1.6rem;
+  line-height: 4rem;
+  vertical-align: bottom;
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-slide.cs-faq-tab-slide-margin_bottom{
+  padding-bottom: 3rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-search-block.cs-faq-tab-slide-margin_bottom{
+  padding-bottom: 1.5rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-tab-search-block .cs-faq-tab-item.cs-faq-tab-item1 {
+  border-right-width: 0px;
+}
+
+.wrapper-sp .cs-faq .cs-faq-wrap .cs-faq-detail .notice_box .cs-faq-open-content .cs-faq-font_weight_500{
+  font-weight: 500;
+}
+
+.wrapper-sp .cs-faq .cs-faq-border_bottom.cs-faq-mew_height {
+  height: 5.2rem;
+}
+
+.wrapper-sp .cs-faq .cs-faq-search-none-txt.cs-faq-search-none-txt_new {
+  font-weight: 500;
+  color: #666666;
+}
+
+.wrapper-sp .cs-faq.cs-faq-font_family .cs-faq-wrap .pagination {
+  padding: 2rem 0 4rem 0;
+}
+
+.wrapper-sp .cs-faq .search_result {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #333;
+  padding: 0 2rem;
+}
+
+.wrapper-sp .cs-faq .search_result .green {
+  color: #00d664;
+}

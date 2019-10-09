@@ -1,0 +1,84 @@
+.app-button {
+  @include notoN;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 0.4rem;
+  background: #fff;
+
+  // font-weight: bold;
+  font-size: 1.6rem;
+  letter-spacing: 0.03rem;
+  color: #333;
+
+  &.success {
+    border: 0;
+    background: #00d664;
+    color: #fff;
+  }
+
+  &.secondary {
+    border: 0;
+    background: #97a2b2;
+    color: #fff;
+  }
+
+  &.normal {
+    height: 5.2rem;
+    padding: 0.01rem 0 0;
+  }
+
+  &.small {
+    height: 3.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+  }
+
+  &.middle-small {
+    height: 4rem; 
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &.middle-semi {
+    height: 4.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &.middle-large {
+    height: 4rem;
+    padding: 0 1.4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &.review-width {
+    width: 13rem;
+    height: 3.2rem; 
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &.disable {
+    background: #97a2b2;
+    opacity: 0.5;
+    color: rgba(255, 255, 255, .4);
+  }
+
+  &.bold {
+    font-weight: bold;
+  }
+  &.middle{
+    font-weight: 500;
+  }
+  &.faq{
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+}

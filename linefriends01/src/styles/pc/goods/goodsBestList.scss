@@ -1,0 +1,40 @@
+.goods-best-list {
+  max-width: 1920px;
+  max-height: 770px;
+  height: auto;
+  margin: 0;
+  padding-bottom:60px;
+  font-size: 0;
+  margin-top: 16px;
+  overflow: hidden;
+  &.wish {
+    margin-top: 20px;
+    padding-bottom: 0;
+    max-height: none;
+  }
+  .goods-item {
+    display: inline-block;
+    width: 220px;
+    height: 352px;
+    vertical-align: top;
+    margin: 0 20px 20px 0;
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
+    &__wish {
+      display: inline-block;
+      width: 220px;
+      height: 352px;
+      vertical-align: top;
+      margin: 0 100px 20px 0;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+      &-chk {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+    }
+  }
+}

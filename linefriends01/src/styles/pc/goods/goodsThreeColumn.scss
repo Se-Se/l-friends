@@ -1,0 +1,41 @@
+.goods-three-column__list {
+  font-size: 0;
+  padding: 16px 0 60px;
+  .goods-item {
+    display: inline-block;
+    width: 380px;
+    margin-right: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    &:last-child {
+      margin-right: 0;
+    }
+    &__info {
+      padding: 18px 20px 32px;
+      background-color: #fff;
+    }
+    &__title {
+      @include notoM;
+      max-width: 380px;
+      font-size: 16px;
+      letter-spacing: -0.1px;
+      color: #333333;
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &__description {
+      @include notoN;
+      max-width: 380px;
+      font-size: 14px;
+      letter-spacing: -0.1px;
+      color: #666666;
+      padding-top: 5px;
+      line-height: 1.2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

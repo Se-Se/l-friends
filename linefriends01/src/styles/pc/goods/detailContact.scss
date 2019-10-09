@@ -1,0 +1,163 @@
+.detail-contact {
+  ._contact {
+    position: absolute;
+    padding-top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  ._click {
+    background-color: #fafafa;
+  }
+  &__content {
+    margin: 0 20px;
+  }
+  &__topic,
+  &__footer {
+    padding: 0 20px;
+  }
+  &__topic {
+    font-size: 0;
+    &-icon,
+    &-title,
+    &-status {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &-icon {
+      padding-right: 6px;
+    }
+    &-title {
+      @include notoM;
+      max-width: 900px;
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: -0.1px;
+      color: $font-black;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &-status {
+      @include notoM;
+      margin-left: 8px;
+      width: 53px;
+      height: 18px;
+      font-size: 10px;
+      letter-spacing: -0.1px;
+      text-align: center;
+      line-height: 1.5;
+      border: 1px solid #dddddd;
+      border-radius: 9px;
+      color: $font-gray;
+      &._success {
+        border: 1px solid $main-color;
+        color: $white-color;
+        background-color: $main-color;
+      }
+    }
+  }
+  &__footer {
+    &-actions {
+      position: absolute;
+      right: 20px;
+      bottom: 0;
+    }
+  }
+  &__answer {
+    position: relative;
+    margin-top: 18px;
+    padding: 20px 52px;
+    border-top: 1px solid #eeeeee;
+    &-header {
+      padding-bottom: 6px;
+      & > h2 {
+        @include notoM;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        color: $font-black;
+        &:before {
+          position: absolute;
+          width: 24px;
+          height: 24px;
+          background-image: url('~@/assets/images/pc/icons/ic-answer-brown.svg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          left: 20px;
+          top: 18px;
+          content: '';
+        }
+      }
+    }
+    &-content {
+      & > p {
+        @include notoN;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: -0.1px;
+        color: $font-black;
+        word-break: break-word;
+      }
+    }
+    &-date {
+      padding-top: 24px;
+      & > p {
+        @include volteN;
+        font-size: 12px;
+        letter-spacing: -0.1px;
+        color: $font-gray;
+      }
+    }
+  }
+  &__select {
+    padding-bottom: 20px;
+  }
+  &__textarea {
+    & > textarea {
+      @include notoN;
+      width: 600px;
+      height: 320px;
+      padding: 16px 13px;
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: -0.1px;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+    }
+  }
+  &__radio {
+    padding: 12px 0 20px;
+  }
+  &__txt {
+    @include notoM;
+    padding-top: 12px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    border-top: 1px solid #eeeeee;
+    color: $font-gray;
+    & > p > a {
+      text-decoration: underline;
+      color: #4ba4d9;
+    }
+  }
+  &__btn {
+    padding: 32px 0 5px;
+    text-align: center;
+  }
+  &__footer {
+    &--btn {
+      width: 176px;
+      height: 52px;
+      font-family: 'Noto Sans KR';
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: -0.1px;
+      border-radius: 4px;
+      &.add {
+        background-color: #00d664;
+        color: #ffffff;
+      }
+    }
+  }
+}

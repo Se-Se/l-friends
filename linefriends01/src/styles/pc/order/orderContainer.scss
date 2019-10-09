@@ -1,0 +1,147 @@
+.complete{
+  width: 375px;
+  margin: 0 auto;
+  &-header {
+    margin-bottom: 22px;
+    text-align: center;
+    &__title {
+      color: #333333;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: 'Noto Sans KR';
+      line-height: 1.36;
+      letter-spacing: -0.1px;
+    }
+    &__numb {
+      margin-top: 8px;
+      color: #4ba4d9;
+      font-size: 14px;
+      font-family: 'Noto Sans KR';
+      line-height: 1.43;
+      letter-spacing: -0.1px;
+      a{
+        display: inline-block;
+        text-decoration: underline;
+      }
+    }
+  }
+  &-content {
+    &__image {
+      width: 100%;
+    }
+    .user-block {
+      padding: 0 20px;
+      &__row {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 15px 17px 16px;
+        border-bottom: 1px solid #ededed;
+        color: #333333;
+
+        &:first-child {
+          padding-top: 13px;
+        }
+      }
+      &__label {
+        flex: 0 0 auto;
+        font-size: 14px;
+        font-family: 'Noto Sans KR';
+        line-height: 1.43;
+        letter-spacing: -0.1px;
+        text-align: left;
+        vertical-align: top; 
+      }
+      &__info {
+        flex: 1 1 auto;
+        max-width: 200px;
+        font-size: 14px;
+        font-family: 'Noto Sans KR';
+        font-weight: normal;
+        line-height: 1.43;
+        letter-spacing: -0.1px;
+        text-align: right;
+      }
+    }
+    .order-block {
+      padding: 15px 36px 0 36px;
+      &__child {
+        color: #999999;
+
+        .order-block__row {
+          margin-top: 10px;
+        }
+      }
+      .title {
+        &:not(:first-child) {
+          margin-top: 18px;
+        }
+      }
+      &__row {
+        display: flex;
+        justify-content: space-between;
+      }
+      &__label {
+        flex: 0 0 auto;
+        font-size: 14px;
+        font-family: 'Noto Sans KR';
+        font-weight: normal;
+        line-height: 1.43;
+        letter-spacing: -0.1px;
+        text-align: left;
+      }
+      &__price {
+        flex: 1 1 auto;
+        max-width: 200px;
+        font-family: Volte, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.43;
+        text-align: right;
+        em {
+          font-family: 'Noto Sans KR';
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+      .result {
+        padding-top: 24px;
+        height: auto;
+
+        .order-block__label {
+          margin-top: 3px;
+        }
+
+        .order-block__price {
+          color: #ff414e;
+          font-size: 28px;
+          line-height: 0.71;
+          em {
+            font-size: 26px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .information {
+      margin-top: 35px;
+    }
+    &__button {
+      margin: 37px 20px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__mypage {
+      width: calc(50% - 3.5px);
+    }
+    &__home {
+      width: calc(50% - 3.5px);
+    }
+  }
+  .delivery-info{
+    word-break: keep-all;
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+}

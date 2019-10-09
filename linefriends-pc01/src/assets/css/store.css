@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+.wrapper-pc #container .store-content {
+  font-family: NotoSansCJKjp;
+}
+
+.wrapper-pc #container.store h1 {
+  line-height: 1.33;
+  letter-spacing: -0.1px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 26px;
+}
+
+.wrapper-pc #container.store .store-number {
+  margin: 70px 0 16px;
+}
+
+.wrapper-pc #container.store .store-number dt {
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  color: #00d664;
+}
+
+
+.wrapper-pc #container.store .filter {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper-pc #container.store .filter:last-child {
+  width: 780px;
+  margin: -25px 0 0 135px;
+}
+
+.wrapper-pc #container.store .filter h2 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  width: 261px;
+}
+
+.wrapper-pc #container.store .box {
+  font-family: NotoSansCJKjp;
+}
+
+.wrapper-pc #container.store .box li {
+  position: relative;
+  border-bottom: 1px solid #ededed;
+  width: 100%;
+  padding: 25px 0 25px 40px;
+  box-sizing: border-box;
+}
+
+.wrapper-pc #container.store .box li:last-child {
+  border-bottom: none;
+}
+
+.wrapper-pc #container.store .box li .store_info {
+  color: #666666;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  display: inline-block;
+}
+
+.wrapper-pc #container.store .box li .store_info::before {
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  content: ' ';
+  background-size: 100%;
+  position: absolute;
+  left: -25px;
+  top: 3px;
+  pointer-events: none;
+  transform: translate(25px, 18px);
+}
+
+.wrapper-pc #container.store .box li .place::before {
+  background-image: url("../img/icon/area.png");
+}
+
+.wrapper-pc #container.store .box li .call::before {
+  background-image: url("../img/icon/phone.png");
+}
+
+.wrapper-pc #container.store .box li .time::before {
+  background-image: url("../img/icon/clock.png");
+}
+
+.wrapper-pc #container.store .box li a {
+  width: 60px;
+  color: #4ba4d9;
+  text-decoration-line: underline;
+}
+
+.wrapper-pc #container.store .box_area {
+  padding-bottom: 75px;
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .store .top_bnr {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  min-width: 1180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper-pc .store .top_bnr .slick-slide {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wrapper-pc .store .top_bnr .slick-slide img {
+  width: 100%;
+  max-height: 740px;
+}
+
+.wrapper-pc .store .top_bnr .slick-dots {
+  text-align: center;
+  position: absolute;
+  bottom: 24px;
+  z-index: 1000;
+  height: 8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.wrapper-pc .store .top_bnr .slick-dots li {
+  display: inline-block;
+  font-size: 0;
+  transform: translate(6px);
+}
+
+.wrapper-pc .store .top_bnr .slick-dots button {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  font-size: 0;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.wrapper-pc .store .top_bnr .slick-dots .slick-active button {
+  background-color: #fff;
+}
+
+.wrapper-pc .store .top_bnr .slick-prev,
+.wrapper-pc .store .top_bnr .slick-next {
+  font-size: 0;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1000;
+}
+
+.wrapper-pc .store .top_bnr .slick-prev {
+  left: 40px;
+  background: url('../img/icon/banner_pre.png') no-repeat center;
+}
+
+.wrapper-pc .store .top_bnr .slick-next {
+  right: 40px;
+  background: url('../img/icon/banner_next.png') no-repeat center;
+}
+
+.wrapper-pc #container.store .filter .txt-add {
+  display: block;
+  width: auto;
+  font-size: 14px;
+  float: right;
+  color: #333333;
+  margin-right: 11px;
+}
+
+.wrapper-pc #container.store .filter .txt-add::after {
+  position: absolute;
+  background: url("../img/icon/ic-map-more.png") no-repeat;
+  right: 0;
+  content: "";
+  width: 7px;
+  height: 11px;
+  background-size: 100%;
+  transform: translateY(50%)
+}

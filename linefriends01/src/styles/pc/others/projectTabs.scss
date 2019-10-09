@@ -1,0 +1,40 @@
+.project-detail {
+  &__tabs {
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    left: 0;
+    z-index: 10;
+    &.__active {
+      position: fixed;
+      top: 0;
+      background-color: #ffffff;
+    } 
+    &-list {
+      border-bottom: 1px solid #eeeeee;
+      text-align: center;
+    }
+    &-item {
+      display: inline-block;
+      padding: 16px 0;
+      margin: 0 20px;
+      color: #999999;
+      font-size: 16px;
+      font-family: 'Noto Sans KR';
+      font-weight: normal;
+      line-height: normal;
+      letter-spacing: -0.1px;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      &.active {
+        border-bottom: 2px solid #333333;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<template>
+  <div class="popup-layer" style="background: #fff;overflow: scroll;">
+    <div class="main-popup">
+      <div class="popup-header">
+        <h1>サービス利用約款</h1>
+      </div>
+      <div class="popup-text">
+        <p class="p1">LINE FRIENDS STORE利用規約（リンク先のプライバシーポリシー、ガイド等を含め、以下「本規約」といいます。）は、LINE Friends
+          Japan株式会社（以下「当社」といいます。）がインターネットを通じて（スマートフォン用アプリケーションを含む。以下同じ。）「LINE FRIENDS
+          STORE」の名称で提供・運営する一切のプロダクトおよびサービス（以下「本サービス」といいます。）の利用に関する条件を、本サービスを利用するお客様（以下「お客様」といいます。）と当社との間で定めるものです。お客様は、本サービスを利用するにあたり、本規約を順守しなければなりません。
+        </p>
+        <p class="p1"><br></p>
+        <p class="p1"><b>1 本サービスについて</b></p>
+        <p class="p1">1.1 本サービスは、当社がお客様に対して、当社が提供する商品をインターネットを通じて購入できるサービス、その他当社がお客様に提供するサービスです。</p>
+        <p class="p1">1.2 お客様は、本規約に有効かつ取消不能な同意をしないかぎり、本サービスを利用することができません。お客様は、本サービスを実際に利用することによって、本規約に有効かつ取消不能な同意をしたものとみなされます。</p>
+        <p class="p1">1.3 お客様が未成年者である場合は、親権者など法定代理人の同意（本規約への同意を含みます。）を得たうえで本サービスを利用してください。</p>
+        <p class="p1"><br></p>
+        <p class="p1"><b>2 利用上の注意事項</b></p>
+        <p class="p1">2.1 お客様は、本規約に有効かつ取り消し不能な同意をしない限り、本サービスを利用することができません。お客様は、本サービスを利用することによって、本規約に有効かつ取り消し不能な同意をしたものとみなされます。</p>
+        <p class="p1">2.2 当社は、お客様が本サービスを利用する際に、お客様のLINEアカウント（LINE株式会社が運営するサービス「LINE」（以下「LINE」といいます。）のアカウントをいいます。以下、同じです。）による認証を求める場合があります。お客様のLINEの利用に関しては、当社が別途定める
+          <a href="#" style="text-decoration: underline;color: #4ba4d9;">LINE利用規約</a>が適用されます。</p>
+        <p class="p1">2.3 お客様は、本サービスの内容や機能に応じて、必要な情報を入力または登録する必要があります。</p>
+        <p class="p1">2.4 お客様は、入力または登録する情報に誤りがないよう十分注意し、常に正しい情報を入力または登録しなければなりません。当社は、お客様が入力または登録した情報に誤りがあったことによってお客様に生じた損害や不利益について、一切の責任を負いません。</p>
+        <p class="p1">2.5.1 入力または登録されたメールアドレス、電話番号、住所に誤りがあり連絡がとれない場合</p>
+        <p class="p1">2.5.2 債務超過、無資力、その他、支払能力がない場合</p>
+        <p class="p1">2.5.3 破産手続開始、民事再生手続開始、会社更生手続開始、特別清算開始、その他の倒産手続開始の申立てが行われた場合、解散を決議した場合、または営業休止状態である場合</p>
+        <p class="p1"><br></p>
+        <p class="p1"><b>3 商品の購入</b></p>
+        <p class="p1">3.1 お客様は、当社が定める購入手続にしたがって、当社が販売する商品を購入することができます。お客様と当社との売買契約は、2.8の定めに従い、お客様からの購入の申し込みがなされ、これに対して当社が当社所定の方法にて承諾することにより、成立します。</p>
+        <p class="p1">3.2 お客様は、売買契約が成立した後は、購入の申し込みを取り消し、または解除することはできません。</p>
+      </div>
+      <div class="popup-footer">
+        <button class="btn btn_green" @click="closeTermService()">確認</button>
+      </div>
+      <button class="btn_close" @click="closeTermService()">X</button>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  methods: {
+    closeTermService () {
+      this.$emit('closeTermService')
+    }
+  }
+}
+</script>
+
+<style type = "text/css" >
+p.p1 {
+  margin: 0px 0px 0px 0px;
+  text-align: justify;
+  font: 12px ".Apple SD Gothic NeoI";
+}
+p.p2 {
+  margin: 0px 0px 0px 0px;
+  text-align: justify;
+  font: 12px "Helvetica Neue";
+  min-height: 14px;
+}
+p.p3 {
+  margin: 0px 0px 0px 0px;
+  text-align: justify;
+  font: 12px "Helvetica Neue";
+}
+span.s1 {
+  font: 12px "Helvetica Neue";
+}
+span.s2 {
+  font: 12px "Lucida Grande";
+}
+span.s3 {
+  font: 12px ".Apple SD Gothic NeoI";
+}
+</style>

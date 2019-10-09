@@ -1,0 +1,116 @@
+.wrapper-sp .staff_point {
+  color: rgb(51, 51, 51)
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_main_info {
+  padding: 3.3rem 2rem 3.6rem 2rem;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_main_info dl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_main_info dl dt,
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_main_info dl dd {
+  display: inline-block;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_main_info dl dt {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_main_info dl dd {
+  font-size: 1.8rem;
+  color: rgb(0, 214, 100);
+  font-weight: bold;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .btn_date_area {
+  padding: 2rem;
+  font-size: 0;
+  border-top: 0.1rem solid rgb(237, 237, 237);
+  border-bottom: 0.1rem solid rgb(237, 237, 237);
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .btn_date_area .btn_date {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.wrapper-sp .staff_point .staff_point-wrap .btn_date_area li {
+  display: inline-block;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .btn_date_area h1 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .btn_date_area .btn_date ul li {
+  margin-left: 0.7rem;
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper-sp .staff_point .staff_point-wrap .btn_date_area .btn_date ul li {
+    margin-left: 0rem;
+  }
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .btn_date_area button {
+  max-width: 5.8rem;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items {
+  padding: 3.2rem 2rem;
+  line-height: 2.1rem;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items dl {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.9rem;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items dl:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items dt,
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items dd {
+  display: inline-block;
+  color: rgb(51, 51, 51);
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items dd {
+  text-align: right;
+}
+
+.wrapper-sp .staff_point .staff_point-wrap .staff_point_items{
+  border-bottom: 0.1rem solid rgb(237, 237, 237);
+  text-align: center;
+}
+
+.wrapper-sp .staff_point .nodata .staff_point-wrap .staff_point_items {
+  padding: 0;
+}
+
+.wrapper-sp .staff_point .nodata .staff_point-wrap .staff_point_items img.no_data{
+  width: 20%;
+  padding-top: 16.2rem;
+  padding-bottom: 3.3rem;
+}
+
+.wrapper-sp .staff_point .nodata .staff_point-wrap .staff_point_items p{
+  padding-bottom: 20.3rem;
+}

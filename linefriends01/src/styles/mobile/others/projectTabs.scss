@@ -1,0 +1,43 @@
+.project-detail {
+  &__tabs {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1005;
+    overflow: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &-btn {
+      outline: 0;
+    }
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      width: max-content;
+      height: 5.2rem;
+      min-width: 100%;
+      padding: 0 2rem;
+      border-bottom: 1px solid #eeeeee;
+      text-align: center;
+    }
+    &-item {
+      @include notoM;
+      height: 5.2rem;
+      margin-right: 2.47rem;
+      color: #999999;
+      font-size: 1.6rem;
+      line-height: 5.2rem;
+      letter-spacing: -0.01rem;
+      &:last-child {
+        padding-right: 0;
+      }
+      &.active {
+        border-bottom: 2px solid #333333;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+  }
+}

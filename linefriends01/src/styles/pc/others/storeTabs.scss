@@ -1,0 +1,30 @@
+.store-tab {
+  width: 100%;
+  text-align: center;
+  &__list {
+    border-bottom: 1px solid #eeeeee;
+    font-size: 0;
+  }
+  &__item {
+    display: inline-block;
+    margin-right: 28px;
+    &:last-child{
+      margin-right: 0px;
+    }
+    &-action {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 16px;
+      color: #999999;
+      font-size: 16px;
+      font-family: 'Noto Sans KR';
+      line-height: normal;
+      letter-spacing: -0.1px;
+       &._active {
+        color: #333333;
+        font-weight: bold;
+        border-bottom: 2px solid #333333;
+      }
+    }
+  }
+}

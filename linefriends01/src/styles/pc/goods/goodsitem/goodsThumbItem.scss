@@ -1,0 +1,35 @@
+.goods-item__thumbitem {
+  position: relative;
+  .goods-item__fig {
+    height: 190px;
+    cursor: pointer;
+    &-img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+      &:hover {
+        transition: 300ms;
+        opacity: 0;
+      }
+    }
+  }
+  .over {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    transition: 300ms;
+    opacity: 1;
+    animation: overView 1s;
+    @keyframes overView {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}

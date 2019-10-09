@@ -1,0 +1,39 @@
+.character-guide {
+  padding: 1.6rem 0 6rem;
+  h2 {
+    padding-bottom: 1.23rem;
+    @include notoB;
+    color: #333333;
+    font-size: 2.4rem;
+    line-height: normal;
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+  p {
+    @include notoN;
+    color:#333333;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+  &__link {
+    @include notoM;
+    padding-top: 2rem;
+    width: 100%;
+    height: auto;
+    font-size: 1.4rem;
+    text-align: center;
+    letter-spacing: -0.01rem;
+    color: $font-black;
+    &:after {
+      display: inline-block;
+      width: 0.6rem;
+      height: 1rem;
+      background-image: url(~@/assets/images/common/icons/ic-char-arrow.svg);
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      content: '';
+    }
+  }
+}

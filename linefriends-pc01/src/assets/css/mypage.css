@@ -1,0 +1,2299 @@
+@charset "utf-8";
+
+/* mypage common */
+.wrapper-pc .more_view a {
+  color: #4ba4d9 !important;
+  text-decoration: underline !important;
+  cursor: pointer !important;
+}
+
+.wrapper-pc .mypage h1 {
+  line-height: 1.33;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.wrapper-pc .wrapper-pc .mypage {
+  padding-top: 20px;
+}
+
+.wrapper-pc .mypage .review_info_min .review_score {
+  display: inline-block;
+  position: relative;
+  width: 110px;
+  height: 15px;
+  margin-left: -5px;
+  vertical-align: middle;
+}
+
+.wrapper-pc .mypage .review_info_min .review_score::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../img/icon/ico_star.png') 0 0 no-repeat;
+  content: '';
+}
+
+.wrapper-pc .mypage .review_info_min .review_score .graph {
+  display: block;
+  position: relative;
+  height: 100%;
+  background: url('../img/icon/ico_star_on.png') 0 0 no-repeat;
+}
+
+/* mypage main common */
+.wrapper-pc .mypage .main {
+  padding-bottom: 120px;
+}
+
+.wrapper-pc .mypage .main .section_area {
+  margin-top: 64px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .main h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.wrapper-pc .mypage .main h2 span {
+  font-size: 14px;
+  font-weight: normal;
+  color: #999;
+  margin-left: 4px;
+}
+
+.wrapper-pc .mypage .main .con_area {
+  border-top: 2px solid #333;
+  margin-top: 16px;
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .mypage .main .more a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  height: 21px;
+  padding-right: 10px;
+  background: url('../img/icon/ico_more.png') no-repeat center right;
+}
+
+/* welcome */
+.wrapper-pc .mypage .main .welcome {
+  width: 100%;
+  color: #fff;
+  background-color: #3d485e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 4px;
+}
+
+.wrapper-pc .mypage .main .welcome:after {
+  content: '';
+  display: block;
+  width: 192px;
+  height: 90px;
+  background: url('../img/mypage/bg_icon_top.png') no-repeat center;
+  position: absolute;
+  top: -80px;
+  right: 100px;
+  z-index: 1;
+}
+
+.wrapper-pc .mypage .main .welcome .name {
+  box-sizing: border-box;
+  width: 800px;
+  background-color: #00d664;
+  padding: 40px 40px 40px 50px;
+  position: relative;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.wrapper-pc .mypage .main .welcome .name dt {
+  font-size: 14px;
+}
+
+.wrapper-pc .mypage .main .welcome .name dd {
+  font-size: 30px;
+  margin-top: 4px;
+  max-height: 84px;
+}
+
+.wrapper-pc .mypage .main .welcome .name dd p {
+  width: 538px;
+  font-weight: bold;
+  line-height: 1.3;
+  overflow: hidden;
+  display: inline-block;
+  padding: 3px 0;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .main .welcome .name dd p span {
+  font-weight: 200;
+}
+
+.wrapper-pc .mypage .main .welcome .name .workers {
+  background: #fff;
+  height: 20px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #00d664;
+  padding: 0 9px;
+  margin-right: 10px;
+}
+
+.wrapper-pc .mypage .main .welcome .btn_info {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translate(0, -50%);
+}
+
+.wrapper-pc .mypage .main .welcome .btn_radius {
+  height: 28px;
+  padding: 0 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.wrapper-pc .mypage .main .welcome .have {
+  box-sizing: border-box;
+  width: 380px;
+  color: #fff;
+  padding-left: 68px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .main .welcome .have dl {
+  float: left;
+}
+
+.wrapper-pc .mypage .main .welcome .have dl dt {
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 34px;
+}
+
+.wrapper-pc .mypage .main .welcome .have dl dd {
+  font-family: 'Volte';
+  font-size: 36px;
+  font-weight: bold;
+  color: #00d664;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.wrapper-pc .mypage .main .welcome .have dl dd span {
+  font-weight: 600;
+}
+
+.wrapper-pc .mypage .main .welcome .have .coupon {
+  margin-right: 68px;
+}
+
+.wrapper-pc .mypage .main .welcome .have .coupon dt {
+  background: url('../img/icon/icon-coupon.png') no-repeat 0 1px;
+}
+
+.wrapper-pc .mypage .main .welcome .have .collection dt {
+  background: url('../img/icon/icon-heart.png') no-repeat 0 1px;
+}
+
+.wrapper-pc .mypage .main .summary .con_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-pc .mypage .main .summary .step {
+  float: left;
+  padding: 0 50px 0 30px;
+}
+
+.wrapper-pc .mypage .main .summary .step li {
+  width: 144px;
+  height: 100px;
+  float: left;
+  text-align: center;
+  margin-right: 62px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .main .summary .step li:after {
+  content: '';
+  display: block;
+  width: 46px;
+  height: 6px;
+  background: url('../img/icon/icon_point.png') no-repeat center;
+  position: absolute;
+  top: 29px;
+  right: -54px;
+  z-index: 1;
+}
+
+.wrapper-pc .mypage .main .summary .step li:last-child {
+  margin-right: 0;
+}
+
+.wrapper-pc .mypage .main .summary .step li:last-child:after {
+  display: none;
+}
+
+.wrapper-pc .mypage .main .summary .step .icon {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+
+.wrapper-pc .mypage .main .summary .step li:nth-child(1) .icon {
+  background: url('../img/icon/icon-payment.png') no-repeat 0 0;
+}
+
+.wrapper-pc .mypage .main .summary .step li:nth-child(2) .icon {
+  background: url('../img/icon/icon-order.png') no-repeat 0 0;
+}
+
+.wrapper-pc .mypage .main .summary .step li:nth-child(3) .icon {
+  background: url('../img/icon/icon-delivery.png') no-repeat 0 0;
+}
+
+.wrapper-pc .mypage .main .summary .step li:nth-child(4) .icon {
+  background: url('../img/icon/icon-finish.png') no-repeat 0 0;
+}
+
+.wrapper-pc .mypage .main .summary .step .txt_con {
+  margin-top: 14px;
+}
+
+.wrapper-pc .mypage .main .summary .step .txt_con .item_name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.wrapper-pc .mypage .main .summary .step .txt_con .data {
+  font-family: 'Volte';
+  font-size: 20px;
+  font-weight: bold;
+  color: #00d664;
+}
+
+.wrapper-pc .mypage .main .summary .step .txt_con .data span {
+  font-weight: 400;
+}
+
+.wrapper-pc .mypage .main .summary .other {
+  float: right;
+  padding: 44px 50px 44px 0;
+}
+
+.wrapper-pc .mypage .main .summary .other dl {
+  width: 280px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #333;
+  margin-top: 10px;
+  line-height: 56px;
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .main .summary .other dl dt {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  width: 80px;
+  padding-left: 40px;
+}
+
+.wrapper-pc .mypage .main .summary .other dl dd {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Volte';
+  width: 120px;
+  text-align: right;
+}
+
+.wrapper-pc .mypage .main .evaluate li {
+  padding: 24px 18px 31px;
+  border-bottom: 1px solid #ececec;
+}
+
+.wrapper-pc .mypage .main .evaluate .txt_ex {
+  margin: 17px 0;
+}
+
+.wrapper-pc .mypage .main .evaluate .txt_ex li {
+  padding: 0;
+  border: none;
+}
+
+.wrapper-pc .mypage .main .evaluate .txt_ex li.comments_content_area {
+  max-height: 60px;
+  overflow: hidden;
+}
+
+.wrapper-pc .mypage .main .evaluate .txt_ex li.comments_content_area.more {
+  display: inline;
+}
+
+.wrapper-pc .mypage .evaluate .txt_ex li.comments_content_area pre {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper-pc .mypage .main .evaluate .date {
+  float: left;
+  font-family: Volte;
+  font-size: 12px;
+  color: #666;
+}
+
+.wrapper-pc .mypage .main .evaluate .recommend {
+  float: right;
+  font-size: 12px;
+  font-weight: 500;
+  color: #00d664;
+}
+
+.wrapper-pc .mypage .main .evaluate .recommend i {
+  font-style: normal;
+  margin-left: 4px;
+}
+
+.wrapper-pc .mypage .main .part {
+  width: 550px;
+  float: left;
+  position: relative;
+}
+
+.wrapper-pc .mypage .main .part:first-child {
+  margin-right: 80px;
+}
+
+.wrapper-pc .mypage .main .part .con_area ul li {
+  padding: 26px 0 24px;
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .mypage .main .part dl dt {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .main .part dl dd {
+  margin-top: 4px;
+}
+
+.wrapper-pc .mypage .main .part .name span {
+  margin: 2px 0 0 8px;
+}
+
+.wrapper-pc .mypage .main .no_info {
+  text-align: center;
+  font-size: 16px;
+  padding: 90px 0;
+}
+
+/* mypage qa_area common */
+.wrapper-pc .mypage .qa_area {
+  margin-top: 64px;
+  position: relative;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .qa_area .table_data tr th {
+  border-bottom: 1px solid #ededed;
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .have_none .qa_area_have {
+  display: none;
+}
+
+.wrapper-pc .mypage .qa_area .table_data th.qa_area_text_left {
+  text-align: left;
+  font-weight: 400;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion {
+  background-color: #f9f9f9;
+  padding: 30px 20px 0px 40px;
+  text-align: left;
+  font-size: 14px;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion_content {
+  background-color: #f9f9f9;
+  text-align: left;
+  font-size: 14px;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion_content.have_border {
+  border-bottom: 1px solid #ededed;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion_content li {
+  line-height: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion_content>p {
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion_content p.more_view a {
+  font-size: 14px;
+  color: #969696;
+  vertical-align: middle;
+  text-decoration: underline;
+  font-weight: normal;
+  line-height: 35px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data td {
+  height: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .qa_area .table_data tr th.qa-th-font_500 {
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .table_data thead th {
+  color: #333333;
+}
+
+.wrapper-pc .mypage .qa_area .table_data tr th.qa-th-font_bold {
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .qa_area .table_data tr th.qa-th-font_color_999 {
+  color: #999999;
+  font-weight: normal;
+}
+
+.wrapper-pc .mypage .qa_area .table_data tr th.qa-th-font_color_ababab {
+  color: #ababab;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion_content>p>span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #97a2b2;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 12px;
+  font-family: 'Volte';
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .green_font {
+  color: #00d664;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion p.green_font span {
+  background-color: #00d664;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion ul {
+  padding: 12px 0px 30px 36px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion ul.review_pic {
+  padding: 0 0 30px 36px;
+  margin-top: -10px;
+  display: none;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion ul.review_pic.open {
+  display: block;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion ul.l-15 {
+  line-height: 1.5
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion .qa_1_data {
+  font-family: 'Volte';
+  font-size: 12px;
+  color: #666666;
+  padding: 17px 0px 0px 0px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .amendment_deletion {
+  color: #333333;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .amendment_deletion button {
+  color: #333333;
+  width: 54px;
+  height: 32px;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  margin-right: 6px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .amendment_deletion button:last-child {
+  margin-right: 0px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion ul.qa_1_have_button {
+  padding: 12px 0px 24px 36px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion .comments_content_area {
+  max-height: 63px;
+  overflow: hidden;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion .comments_content_area pre {
+  margin: 0;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion .comments_content_area.more {
+  display: inline;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_area_expansion .comments_content_area img {
+  max-width: 100%;
+}
+
+.wrapper-pc .mypage .qa_area_page_margin {
+  margin: 40px 0px 120px 0px;
+}
+
+.wrapper-pc .mypage .qa_area .mypage-consult_information {
+  font-size: 12px;
+  text-align: center;
+  color: #333333;
+  line-height: 40px;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  position: absolute;
+  right: 0px;
+  top: -52px;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_1_img_none {
+  margin: 84px 0px 32px 0px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data .qa_1_text_none {
+  margin-bottom: 86px;
+  font-size: 16px;
+}
+
+.wrapper-pc .mypage .qa_area .table_data.qa_1_none {
+  margin-bottom: 220px;
+  border-bottom: 1px solid #ededed;
+}
+
+/* mypage menu_wrap common */
+.wrapper-pc .mypage .menu_wrap {
+  text-align: center;
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .menu_wrap .nav_menu {
+  display: flex;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  height: 55px;
+}
+
+.wrapper-pc .mypage .menu_wrap .nav_menu li {
+  vertical-align: middle;
+  padding: 16px 42px;
+  font-size: 16px;
+  line-height: 1.25;
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .mypage .menu_wrap .nav_menu li a {
+  box-sizing: border-box;
+  display: block;
+  color: #999999;
+}
+
+.wrapper-pc .mypage .menu_wrap .nav_menu li.active {
+  border-bottom: 2px solid #333333;
+}
+
+.wrapper-pc .mypage .menu_wrap .nav_menu li.active a {
+  color: #333333;
+  font-weight: bold;
+}
+
+/* mypage review common */
+.wrapper-pc .mypage .review .review-content {
+  margin: 64px 0 124px;
+}
+
+.wrapper-pc .mypage .review .review-content.mb-247 {
+  margin-bottom: 247px;
+}
+
+.wrapper-pc .mypage .review .table_info .table_data {
+  border-top: 2px solid #333333;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: none;
+}
+
+.wrapper-pc .mypage .review .table_info .table_data td {
+  border-bottom: 1px solid #ededed;
+  height: 134px;
+  box-sizing: border-box;
+  padding: 20px 10px;
+}
+
+.wrapper-pc .mypage .review .item_info .bx_thumb {
+  width: 94px;
+  height: 94px;
+}
+
+.wrapper-pc .mypage .review .item_info .bx_info {
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.wrapper-pc .mypage .review .item_info .bx_info .option {
+  font-size: 14px;
+}
+
+.wrapper-pc .mypage .review .pagination {
+  margin-top: 40px;
+}
+
+.wrapper-pc .mypage .review .my_review {
+  border-top: 1px solid #ededed;
+  position: relative;
+  padding: 24px 0 4px 10px;
+  margin-top: 20px;
+}
+
+.wrapper-pc .mypage .review .my_review .bx_review {
+  margin-top: 16px;
+}
+
+.wrapper-pc .mypage .review .my_review .bx_review p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .review .my_review .member_data {
+  margin-top: 27px;
+  font-size: 12px;
+  color: #666666;
+  float: left;
+}
+
+.wrapper-pc .mypage .review .my_review .member_data .mail {
+  margin-right: 14px;
+}
+
+.wrapper-pc .mypage .review .my_review .member_data .date {
+  font-family: 'Volte';
+}
+
+.wrapper-pc .mypage .review .my_review .btn-list {
+  float: right;
+  font-size: 0;
+  margin-top: 20px;
+}
+
+.wrapper-pc .mypage .review .my_review .btn-list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 54px;
+  margin-left: 6px;
+}
+
+.wrapper-pc .mypage .review_pic {
+  margin-top: 20px;
+}
+
+.wrapper-pc .mypage .review_pic li {
+  position: relative;
+  float: left;
+  width: 94px;
+  height: 94px;
+  border: 1px solid #ededed;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.wrapper-pc .mypage .review .table_info .btn-list .btn {
+  padding: 0;
+}
+
+.wrapper-pc .mypage .review .table_info .write_none {
+  margin: 86px auto;
+}
+
+.wrapper-pc .mypage .review .table_info .write_none dd {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  padding-top: 32px;
+}
+
+.wrapper-pc .mypage .review .table_info .write_none p {
+  width: 260px;
+  height: 100px;
+}
+
+.wrapper-pc .mypage .review .table_info .write_none dt img {
+  display: block;
+  margin: 0 auto;
+}
+
+.wrapper-pc .mypage .review .table_info .bx_info .name.w-600 {
+  width: 600px;
+  overflow: hidden;
+}
+
+/* mypage coupon common */
+.wrapper-pc .mypage .coupon {
+  padding-top: 0px;
+}
+
+.wrapper-pc .mypage .coupon .sec_nav_con li a {
+  color: #999999;
+  height: 56px;
+}
+
+.wrapper-pc .mypage .coupon .area ul {
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .coupon .area ul li {
+  display: inline-block;
+}
+
+.wrapper-pc .mypage .coupon .sec_nav_con li {
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .mypage .coupon .sec_nav_con li.on {
+  font-weight: bold;
+  border-bottom: 2px solid #333333;
+}
+
+.wrapper-pc .mypage .coupon .sec_nav_con li.on a {
+  color: #333333;
+}
+
+.wrapper-pc .mypage .coupon .nav2_1,
+.wrapper-pc .mypage .coupon .nav2_2 {
+  padding: 16px 42px;
+}
+
+.wrapper-pc .mypage .coupon .search_coupon_area {
+  height: 80px;
+  background-color: #f9f9f9;
+  margin: 64px 0 20px;
+}
+
+.wrapper-pc .mypage .coupon .search_coupon_con {
+  width: 444px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.wrapper-pc .mypage .coupon .coupon_login_btn button {
+  width: 76px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -0.08px;
+  padding: 0;
+}
+
+.wrapper-pc .mypage .coupon .coupon_login_btn {
+  margin-left: 8px;
+}
+
+.wrapper-pc .mypage .coupon .w-360 {
+  width: 360px;
+}
+
+.wrapper-pc .mypage .coupon .coupon_detail_area {
+  border-top: 2px solid #333333;
+}
+
+.wrapper-pc .mypage .coupon .coupon_none_area {
+  border-bottom: 1px solid #ededed;
+  text-align: center;
+  margin-bottom: 147px;
+}
+
+.wrapper-pc .mypage .coupon .coupon_none_area.mb-247 {
+  margin-bottom: 247px;
+}
+
+.wrapper-pc .mypage .coupon .coupon_none_area .img-none-sally {
+  margin: 86px 0 32px;
+}
+
+.wrapper-pc .mypage .coupon .coupon_none_area .none_explain {
+  margin-bottom: 85px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+}
+
+/* common_table_area start */
+.wrapper-pc .mypage .coupon .common_table_area th,
+.wrapper-pc .mypage .coupon .common_table_area td {
+  text-align: center;
+  letter-spacing: -0.09px;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area th {
+  height: 52px;
+  font-weight: normal;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area td {
+  padding: 20px 0 19px;
+  line-height: 1.43;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area .coupon_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 384px;
+  padding: 20px 20px 19px 18px;
+  text-align: left;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area .coupon_type {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  padding: 20px 18px 19px 20px;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area tr,
+.wrapper-pc .mypage .coupon .common_table_area thead {
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area table {
+  border-collapse: collapse;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area table .wm {
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area table .red_txt {
+  color: #ff5a5f;
+}
+
+.wrapper-pc .mypage .coupon .common_table_area table .money_number {
+  font-family: 'Volte';
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+}
+
+/* common_table_area finish */
+
+.wrapper-pc .mypage .coupon .available_table_area .pagination {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+/* useup_table_area start */
+.wrapper-pc .mypage .coupon .useup_table_area .pagination {
+  margin-top: 50px;
+  margin-bottom: 130px;
+}
+
+.wrapper-pc .mypage .coupon .useup_table_area {
+  margin-top: 64px;
+}
+
+.wrapper-pc .mypage .coupon .useup_table_area table td {
+  color: #ababab;
+}
+
+.wrapper-pc .mypage .coupon .useup_table_area table .coupon_name {
+  color: #333333;
+}
+
+.wrapper-pc .mypage .coupon .useup_table_area table .useup_sit {
+  color: #00d664;
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .coupon .useup_table_area table .expired_sit {
+  color: #333333;
+  font-weight: bold;
+}
+
+/* mypage profile-edit common */
+.wrapper-pc .mypage .profile-edit {
+  padding-top: 2px;
+  padding-bottom: 141px;
+}
+
+.wrapper-pc .mypage .profile-edit .w-176 {
+  width: 176px;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_btn_combo {
+  margin: auto;
+  width: 362px;
+  font-size: 0;
+  margin-top: 40px;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_btn_combo li {
+  display: inline-block;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_btn_combo li button {
+  font-size: 16px;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_info_area {
+  padding-top: 64px;
+  padding-bottom: 30px;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_info_area .retire_info_con {
+  padding: 20px 24px;
+  border-radius: 4px;
+  border: solid 1px #ededed;
+  background-color: #f9f9f9;
+}
+
+.wrapper-pc .mypage .profile-edit h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_info_con h3 {
+  padding-bottom: 8px;
+}
+
+.wrapper-pc .mypage .profile-edit .pb-30 {
+  padding-bottom: 30px;
+}
+
+.wrapper-pc .mypage .profile-edit .mr-8 {
+  margin-right: 8px;
+}
+
+.wrapper-pc .mypage .profile-edit .bx_write textarea {
+  padding: 16px 12px;
+  height: 180px;
+  line-height: normal;
+}
+
+.wrapper-pc .mypage .profile-edit .retire_info_con p {
+  line-height: 1.5;
+  color: #666666;
+  letter-spacing: -0.13px;
+}
+
+.wrapper-pc .mypage .profile-edit .important_info {
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .profile-edit .link_blue {
+  font-weight: 500;
+  color: #4ba4d9;
+  text-decoration: underline;
+}
+
+.wrapper-pc .mypage .color_grey {
+  color: #999999;
+}
+
+.wrapper-pc .mypage .profile-edit .bx_write {
+  margin-top: 18px;
+}
+
+.wrapper-pc .mypage .profile-edit .label_combo {
+  text-align: right;
+}
+
+.wrapper-pc .mypage .profile-edit .label_combo .bx_input {
+  margin-top: 20px;
+}
+
+
+/* profile-edit-content */
+
+.wrapper-pc .mypage .profile-edit-content .font-size_0 {
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .profile-edit-content {
+  margin-bottom: 120px;
+
+}
+
+.wrapper-pc .mypage .profile-edit-content table {
+  width: 100%;
+}
+
+.wrapper-pc .mypage .profile-edit-content td input {
+  width: 220px;
+}
+
+.wrapper-pc .mypage .table_data th,
+.wrapper-pc .mypage .table_data td {
+  border-bottom: 1px solid #ededed;
+  text-align: left;
+  line-height: 32px;
+  padding: 16px 0;
+}
+
+.wrapper-pc .mypage .profile-edit-content .table_data {
+  margin-top: 64px;
+  border-bottom: none;
+}
+
+.wrapper-pc .mypage .table_data {
+  border-bottom: none;
+}
+
+.wrapper-pc .mypage .table_data td {
+  height: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+.wrapper-pc .mypage .table_data.have_padding td {
+  padding: 16px 0 16px 32px;
+}
+
+.wrapper-pc .mypage .table_data.have_padding th {
+  background-color: #f9f9f9;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .table_data th {
+  width: 200px;
+  height: 0;
+  background: #ffffff;
+  padding-left: 20px;
+}
+
+
+.wrapper-pc .mypage .table_data td .input-notice {
+  margin-left: 8px;
+  color: #ff414e;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list {
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list li {
+  display: inline-block;
+  width: 80px;
+  vertical-align: middle;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list li .bx_select {
+  font-size: 14px;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list li.width_94 {
+  width: 94px;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list li.data_txt {
+  width: 40px;
+  font-size: 0;
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list li.data_txt span {
+  display: block;
+  font-size: 14px;
+  width: 12px;
+}
+
+.wrapper-pc .mypage .table_data td .telephone {
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .table_data td .telephone span {
+  display: inline-block;
+  width: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-layout .text-add .btn {
+  display: inline-block;
+  width: 60px;
+  padding: 0;
+  margin-left: 10px;
+  color: #333;
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-layout .text-add .linked {
+  color: #999;
+  font-size: 12px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-layout {
+  position: relative;
+  width: 335px;
+  padding: 9px 28px;
+  margin: 25px 0;
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-layout.bg-f9 {
+  background-color: #f9f9f9;
+}
+
+.wrapper-pc .mypage .profile-edit-content .table_data .sns-layout .sns-m-r_18 {
+  margin-right: 18px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .member-check {
+  margin-top: 20px;
+  text-align: right;
+  line-height: 32px;
+  color: #666;
+}
+
+.wrapper-pc .mypage .profile-edit-content .member-check .btn {
+  width: 76px;
+  margin-left: 10px;
+  display: inline-block;
+  font-size: 12px;
+
+}
+
+.wrapper-pc .mypage .btn-m-t_80 {
+  margin-top: 80px;
+}
+
+.wrapper-pc .mypage .btn-m-t_46 {
+  margin-top: 46px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .bx_select .txt_select {
+  padding-left: 12px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-modify-ps input {
+  width: 300px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-modify-ps input.ps_bg {
+  background: #f9f9f9;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-reset-ps-block {
+  margin-bottom: 20px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .mofify-ps-name {
+  font-size: 12px;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-modify-ps .modify-ps-btns {
+  text-align: left;
+  font-size: 0;
+  margin-bottom: 4px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-modify-ps .modify-ps-btns li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-modify-ps .modify-ps-btns .btn_green {
+  width: 172px;
+}
+
+.wrapper-pc .sns-login li {
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-login li::after {
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  background-image: url(../img/icon/ioc_arr_right.png);
+  background-repeat: no-repeat;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  content: "";
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-login li.relieve::after {
+  background-image: none;
+}
+
+.wrapper-pc .mypage .profile-edit-content .sns-layout .text-add {
+  float: right;
+  margin: 12px 0 0 0;
+  color: #666;
+  font-weight: 500;
+  line-height: 2.4;
+}
+
+.wrapper-pc .mypage .profile-edit-content .profile-check-box .bx_input {
+  font-size: 14px;
+  user-select: none;
+}
+
+.wrapper-pc .mypage .profile-edit-content .person-notes {
+  padding-left: 30px;
+  line-height: 20px;
+  background: url(../img/icon/ico_note.png) no-repeat left center;
+  margin-top: 22px;
+  color: #666;
+}
+
+.wrapper-pc .mypage .profile-edit-content .person-info_btn {
+  font-size: 0;
+  text-align: center;
+  margin-top: 86px;
+  text-align: center;
+}
+
+.wrapper-pc .mypage .profile-edit-content .person-info_btn li.width_360 {
+  width: 360px
+}
+
+.wrapper-pc .mypage .profile-edit-content .person-info_btn li {
+  display: inline-block;
+  width: 176px;
+  margin: 0 4px;
+}
+
+.wrapper-pc .mypage .profile-edit-content .modify-btn {
+  width: 107px;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list .lst_select_content li {
+  width: 100%;
+}
+
+.wrapper-pc .mypage .table_data .data_select_list .lst_select_content li a {
+  padding: 0 12px;
+}
+
+.wrapper-pc .mypage .table_data .profile-edit-content .bx_select .lst_select_content li a {
+  padding: 0 12px;
+}
+
+/* wishlist-content */
+.wrapper-pc .mypage .wishlist-content .wishlist-data-area {
+  border-top: 2px solid #333;
+  padding-top: 20px;
+  font-size: 0;
+  margin-top: 64px;
+}
+
+.wrapper-pc .mypage .wishlist-content .check-all .bx_input {
+  font-size: 14px;
+  user-select: none;
+}
+
+.wrapper-pc .mypage .wishlist-content .del-check-btn button {
+  width: 132px;
+  height: 28px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .wishlist-content .wishlist-product-list {
+  margin: 24px 0 20px 0;
+}
+
+.wrapper-pc .mypage .wishlist-content .wishlist-m-b_120 {
+  margin-bottom: 120px
+}
+
+.wrapper-pc .mypage .wishlist-content .wishlist-no-data {
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 260px;
+  padding: 86px 0;
+  text-align: center;
+}
+
+.wrapper-pc .mypage .wishlist-content .wishlist-no-data .txt {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.wrapper-pc .mypage .main .filter {
+  position: relative;
+  margin-top: 64px;
+  font-size: 0;
+  padding-bottom: 12px;
+}
+
+.wrapper-pc .mypage .main .filter .date_filter {
+  font-size: 0;
+  margin-right: 20px;
+  display: inline-block;
+
+}
+
+.wrapper-pc .mypage .main .filter .date_filter .input_calendar {
+  position: relative;
+}
+
+.wrapper-pc .mypage .main .filter .date_filter input {
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+  padding: 0 28px 0 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: normal;
+  color: #ababab;
+
+}
+
+.wrapper-pc .mypage .main .filter .date_filter .input_calendar:after {
+  content: '';
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url('../img/icon/ico_calendar.gif') no-repeat left center;
+}
+
+.wrapper-pc .mypage .main .filter .bx_date {
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .main .filter .line {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 7px;
+  height: 18px;
+  width: 6px;
+  border-bottom: 1px solid #333;
+  opacity: 0.4;
+  font-size: 0;
+}
+
+.wrapper-pc .mypage .main .filter .month {
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 8px;
+}
+
+.wrapper-pc .mypage .main .filter .month li {
+  display: inline-block;
+  text-align: center;
+  line-height: 34px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.wrapper-pc .mypage .main .filter .month li a {
+  display: block;
+  width: 70px;
+  height: 36px;
+  color: #333;
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .main .filter .month li.active a {
+  border: solid 1px #dddddd;
+  background-color: #ffffff;
+}
+
+.wrapper-pc .mypage .main .filter .inquire_btn {
+  display: inline-block;
+  height: 36px;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.wrapper-pc .mypage .main .filter .inquire_btn .btn {
+  line-height: 36px;
+  font-size: 12px;
+  font-weight: 500;
+  height: 36px;
+  color: #ffffff;
+  padding: 0 14px;
+}
+
+.wrapper-pc .mypage .main .filter .reset_btn {
+  vertical-align: top;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+}
+
+.wrapper-pc .mypage .main .filter .reset_btn a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ababab;
+  background: url('../img/icon/ico_reset.png') no-repeat left center;
+  padding-left: 22px;
+}
+
+.wrapper-pc .mypage .main .filter .history_link {
+  position: absolute;
+  top: 0;
+  right: 18px;
+  line-height: 36px;
+  font-size: 12px;
+}
+
+.wrapper-pc .mypage .main .filter .history_link a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4ba4d9;
+  text-decoration: underline;
+}
+
+.wrapper-pc .mypage .main .myorder_table.table_data {
+  border-bottom: none;
+  margin-bottom: 44px;
+}
+
+.wrapper-pc .mypage .main .myorder_table th {
+  padding: 16px 0;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.wrapper-pc .mypage .color_ab {
+  color: #ababab;
+}
+
+.wrapper-pc .mypage .main .myorder_table td {
+  border-bottom: 1px solid #ededed;
+  padding: 20px 0 19px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .order_date {
+  font-size: 14px;
+  text-align: center;
+  line-height: normal;
+  color: #999999;
+}
+
+.wrapper-pc .mypage .main .myorder_table .ser_no {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  margin: 4px 0 6px;
+  line-height: normal;
+}
+
+.wrapper-pc .mypage .main .myorder_table .detail_link {
+  text-align: center;
+  line-height: normal;
+}
+
+.wrapper-pc .mypage .main .myorder_table .detail_link a {
+  font-size: 14px;
+  color: #4ba4d9;
+  text-decoration: underline;
+}
+
+.wrapper-pc .mypage .main .myorder_table .product_info {
+  font-size: 0;
+  display: block;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper-pc .mypage .main .myorder_table .product_img {
+  display: inline-block;
+  width: 94px;
+  height: 94px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .product_img img {
+  width: 94px;
+  height: 94px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .detail_txt {
+  display: inline-block;
+  width: 210px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+.wrapper-pc .mypage .main .myorder_table .detail_txt.detail {
+  width: 410px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .detail_txt .sub_info {
+  font-size: 14px;
+  color: #999999;
+  max-height: 38px;
+  overflow: hidden;
+  line-height: 19px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .detail_txt .sup_info {
+  line-height: 20px;
+  margin-bottom: 6px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .mix_box {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .main .myorder_table .mix_box .num {
+  font-size: 16px;
+  font-family: 'Volte';
+  font-weight: 600;
+}
+
+.wrapper-pc .mypage .main .myorder_table .state {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #00d664;
+}
+
+.wrapper-pc .mypage .main .myorder_table .btn_area {
+  text-align: center;
+}
+
+.wrapper-pc .mypage .main .myorder_table .btn_area .last_btn_area button {
+  margin: auto;
+}
+
+.wrapper-pc .mypage .main .myorder_table .btn {
+  width: 100px;
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto 6px;
+}
+
+.wrapper-pc .mypage .main .myorder_table .cancel_num {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.wrapper-pc .mypage .main .myorder_table .cancel_check {
+  text-align: center;
+}
+
+.wrapper-pc .mypage .main .exchange_area {
+  margin-top: 84px;
+  padding: 20px 24px;
+  border-radius: 4px;
+  border: solid 1px #ededed;
+  background-color: #f9f9f9;
+}
+
+.wrapper-pc .mypage .main .exchange_area h3 {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .main .exchange_area dl {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.wrapper-pc .mypage .main .exchange_area dl dt {
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .main .more_link {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+  background: url('../img/icon/ico_more.jpg') no-repeat left center;
+  background-size: 14px 14px;
+  padding-left: 24px;
+}
+
+.wrapper-pc .mypage .main .more_link a {
+  margin-left: 20px;
+  color: #4ba4d9;
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.wrapper-pc .mypage .main .nodata {
+  text-align: center;
+  padding: 80px 0;
+  border-bottom: 1px solid #ededed;
+}
+
+.wrapper-pc .mypage .main .nodata .text {
+  font-size: 16px;
+  color: #333333;
+  margin: 32px 0 20px;
+}
+
+.wrapper-pc .mypage .main .nodata .all_btn {
+  width: 120px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper-pc .mypage .main .nodata .all_btn .btn {
+  padding: 0;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .main .filter .date_filter .calendar_popup input {
+  height: 24px;
+  line-height: 22px;
+}
+
+.wrapper-pc .mypage .main .detail_ttl {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin: 64px 0 16px;
+}
+
+.wrapper-pc .mypage .main .order_ser {
+  margin-top: 64px;
+  padding: 18px 30px;
+  border-radius: 4px;
+  border: solid 1px #ededed;
+  background-color: #f9f9f9;
+}
+
+.wrapper-pc .mypage .main .order_ser p {
+  font-size: 14px;
+  color: #999999;
+}
+
+.wrapper-pc .mypage .main .order_ser p.order_ser_no {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table:first-child {
+  margin-top: 64px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table:last-child {
+  margin: 0;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table {
+  font-family: NotoSansCJKjp;
+  margin-bottom: 64px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table h1 {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table {
+  border-top: solid 2px #333333;
+  width: 100%;
+  height: 194px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table th,
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table td {
+  border-bottom: solid 1px #ededed;
+  font-size: 14px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table th {
+  width: 160px;
+  padding: 22px 32px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table td {
+  padding-left: 32px;
+
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th,
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td {
+  border-right: solid 1px #ededed;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info :last-child {
+  border-right: 0;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th,
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td {
+  padding: 0;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td {
+  vertical-align: top;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th dl,
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td dl,
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table>dl {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table>dl a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th dl {
+  padding: 28px 18px;
+  display: inline-block;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment {
+  width: 100%;
+  display: table;
+  padding: 0 0 30px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment.have-ico {
+  padding-bottom: 0;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment.have-ico::before {
+  position: absolute;
+  top: 7px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-left: solid 1px #bbb;
+  border-bottom: solid 1px #bbb;
+  content: '';
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th {
+  text-align: center;
+  padding: 50px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th dd {
+  margin-top: 16px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td dl {
+  margin: 30px 18px;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  color: #999999;
+  font-size: 14px;
+  color: #666;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th dl dt {
+  /* please do not delete this font-weight,it's useful */
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td dl .doubt {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 14px;
+  color: #ededed;
+  border: solid 1px #ededed;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  vertical-align: bottom;
+  margin-left: 4px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td dl .doubt span {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 2;
+  color: #999999;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-60%, -51%);
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th dl dd {
+  font-family: Volte;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.11;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th .payment.have-ico dd.color_grey {
+  font-family: NotoSansCJKjp;
+  line-height: normal;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th .payment.have-ico dd.price {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  margin-top: 0;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info th .payment.have-ico dd.price .num {
+  font-size: 16px;
+  font-family: 'Volte';
+  font-weight: 600;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .color-red {
+  color: #ff414e;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'NotoSansCJKJP', sans-serif;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment dt {
+  text-align: left;
+  display: table-cell;
+  min-width: 143px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment dd {
+  margin-left: 63px;
+  text-align: right;
+  display: table-cell;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment .color_grey {
+  font-size: 14px;
+  font-weight: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .payment dt.color_grey {
+  min-width: 104px;
+  padding-left: 16px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .num_nine {
+  font-size: 28px;
+  font-family: 'Volte';
+  font-weight: 600;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td dl dd {
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .size-16 {
+  font-size: 16px;
+  font-family: 'Volte';
+  font-weight: 600;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .uom-16 {
+  font-size: 16px;
+  font-family: 'NotoSansCJKJP', sans-serif;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td:last-child dl dt,
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info td:last-child dl dd {
+  font-weight: normal;
+  letter-spacing: -0.1px;
+  color: #333333;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table h1 {
+  text-align: left;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table .cancel_reasons .bx_select {
+  width: 290px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table .reasons-notes {
+  display: inline-block;
+  padding-left: 30px;
+  line-height: 20px;
+  background: url(../img/icon/ico_note.png) no-repeat left center;
+  color: #666;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table .cancel_area textarea {
+  height: 90px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table .cancel_att .btn {
+  width: 222px;
+  margin-bottom: 20px;
+}
+
+.wrapper-pc .mypage .order_detail_hint {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: solid 1px #ededed;
+  padding: 30px 40px 30px 38px;
+}
+
+.wrapper-pc .mypage .order_detail_hint span {
+  position: relative;
+}
+
+.wrapper-pc .mypage .order_detail_hint span.order-new_fc {
+  color: #666666;
+}
+
+.wrapper-pc .mypage .order_detail_hint span::after {
+  content: ' ';
+  width: 4px;
+  height: 4px;
+  background-color: #666666;
+  position: absolute;
+  border-radius: 50%;
+  top: 9px;
+  left: -10px;
+}
+
+.wrapper-pc .mypage .order_detail_hint.top {
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+
+.wrapper-pc .mypage .order_detail_hint.top span {
+  display: block;
+}
+
+.wrapper-pc .mypage .order_detail_hint.top span+span {
+  margin-top: 20px;
+}
+
+.wrapper-pc .mypage .order-content .order_detail_table .change_shipping_addr {
+  padding-left: 2px;
+}
+
+.wrapper-pc .mypage .order_detail_btn_area.single {
+  margin-top: 80px;
+}
+
+.wrapper-pc .mypage .order_detail_btn_area button {
+  margin: 0 auto;
+  width: 360px;
+}
+
+/*tip*/
+.wrapper-pc .mypage .tip,
+.wrapper-pc .popup-layer .tip {
+  position: relative;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin-left: 2px;
+  vertical-align: -3px;
+  display: inline-block;
+  background: url('../img/icon/ico_tip.png') no-repeat 0 0;
+}
+
+.wrapper-pc .mypage .tip:hover,
+.wrapper-pc .popup-layer .tip:hover {
+  background: url('../img/icon/ico_tip_on.png') no-repeat 0 0;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip:hover>.tip_popup,
+.wrapper-pc .popup-layer .tip:hover>.tip_popup {
+  display: block;
+  animation: showMenu 0.5s;
+  -moz-animation: showMenu 0.5s;
+  -webkit-animation: showMenu 0.5s;
+  -o-animation: showMenu 0.5s;
+  animation-fill-mode: forwards;
+
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup,
+.wrapper-pc .popup-layer .tip_popup {
+  display: none;
+  border: solid 1px #ededed;
+  background-color: #fff;
+  color: #666;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  padding: 20px 22px 30px;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 32px;
+  z-index: 99;
+  font-weight: normal;
+  height: 226px;
+  width: 218px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup dl,
+.wrapper-pc .popup-layer .tip_popup dl {
+  width: 100%;
+  display: table;
+  line-height: 19px;
+  padding: 0 0 10px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup dl:last-child,
+.wrapper-pc .popup-layer .tip_popup dl:last-child {
+  padding-bottom: 0;
+  margin-top: 6px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup.size_1 dl:last-child,
+.wrapper-pc .popup-layer .tip_popup.size_1 dl:last-child {
+  margin-top: 0px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup .color_grey,
+.wrapper-pc .popup-layer .tip_popup .color_grey {
+  padding-bottom: 4px;
+  position: relative;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup .color_grey dt,
+.wrapper-pc .popup-layer .tip_popup .color_grey dt {
+  padding-left: 14px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup dl dt,
+.wrapper-pc .popup-layer .tip_popup dl dt {
+  display: table-cell;
+  font-size: 14px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup dl dd,
+.wrapper-pc .popup-layer .tip_popup dl dd {
+  display: table-cell;
+  text-align: right;
+  padding-left: 5px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup dl dd .num,
+.wrapper-pc .popup-layer .tip_popup dl dd .num {
+  font-weight: 500;
+  font-family: 'Volte';
+  font-size: 16px;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup.size_1,
+.wrapper-pc .popup-layer .tip_popup.size_1 {
+  white-space: nowrap;
+  height: auto;
+  width: 260px;
+  padding: 20px 22px;
+  margin-left: 18px;
+}
+
+.wrapper-pc .mypage .uom-14 {
+  font-size: 14px;
+  font-family: 'NotoSansCJKJP', sans-serif;
+  font-weight: normal;
+}
+
+.wrapper-pc .mypage .uom-16 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .tip_popup .color_grey::before {
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-left: solid 1px #bbb;
+  border-bottom: solid 1px #bbb;
+  content: '';
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .ico_plus::before {
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  background: url('../img/icon/ico_plus_l.svg') center center no-repeat;
+  content: '';
+  background-size: cover;
+}
+
+.wrapper-pc .mypage .order_detail_table_area .order_detail_table table.economic_info .ico_result::after {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  background: url('../img/icon/ico_result.svg') center center no-repeat;
+  content: '';
+  background-size: cover;
+}
+
+.wrapper-pc .mypage .cancel_btn_area {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.wrapper-pc .mypage .cancel_btn_area .btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 176px;
+  margin: 0 3px;
+}
+
+.wrapper-pc .mypage .more_view {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0;
+  padding-bottom: 11px;
+}
+
+.wrapper-pc .mypage .more_view a {
+  display: inline-block;
+  font-size: 14px;
+  color: #4ba4d9;
+  font-weight: 500;
+  vertical-align: middle;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.wrapper-pc .mypage .review .my_review .bx_review .comments_content_area {
+  list-style: none;
+  max-height: 65px;
+  overflow: hidden;
+}
+
+.wrapper-pc .mypage .review .my_review .bx_review .comments_content_area.more {
+  display: inline;
+}
+
+.wrapper-pc .mypage .review .my_review .bx_review pre {
+  display: block;
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+  word-break: break-all;
+  white-space: pre-wrap;
+  margin: 0;
+}

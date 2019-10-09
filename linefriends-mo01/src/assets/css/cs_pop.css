@@ -1,0 +1,158 @@
+.wrapper-sp .cs-popup {
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+
+.wrapper-sp .cs-popup .cs-popup-close a {
+  display: block;
+  width: 3.2rem;
+  height: 3.2rem;
+  background: url('../img/icon/ico_close.png');
+  background-size: cover;
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+  font-size: 0;
+  text-indent: -9999rem;
+}
+
+.wrapper-sp .cs-popup .cs-popup-ttl {
+  height: 5.6rem;
+  line-height: 5.6rem;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper-sp .cs-popup .cs-popup-contents {
+  padding: 0 2rem;
+}
+
+.wrapper-sp .cs-popup .cs-popup-contents .coupon-ttl {
+  font-size: 1.6rem;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  margin-top: 5.3rem;
+}
+
+.wrapper-sp .cs-popup .search_key {
+  position: relative;
+  padding: 3rem 0 0;
+}
+
+.wrapper-sp .cs-popup .input-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.wrapper-sp .cs-popup .input-area dt {
+  width: calc(100% - 11.4rem);
+  position: relative;
+}
+
+.wrapper-sp .cs-popup .input-area .btn_clear {
+  display: block;
+  font-size: 0;
+  width: 2rem;
+  height: 2rem;
+  background: url('../img/icon/ico_close_search.png') center center no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+}
+
+.wrapper-sp .cs-popup .input-area dd {
+  width: 10.7rem;
+}
+
+.wrapper-sp .cs-popup .input-area dd .btn {
+  width: 10.7rem;
+}
+
+.wrapper-sp .cs-popup .detail-select-no-data {
+  text-align: center;
+  font-size: 0;
+  margin-top: 4rem;
+}
+
+.wrapper-sp .cs-popup .detail-select-no-data img {
+  width: 24rem;
+  margin-bottom: 2rem;
+}
+
+.wrapper-sp .cs-popup .detail-select-no-data p {
+  padding-bottom: 2.4rem;
+}
+
+.wrapper-sp .cs-popup .detail-select-no-data-txt {
+  font-size: 1.4rem;
+  color: #666666;
+  text-align: center;
+}
+
+.wrapper-sp .cs-popup .period_sel {
+  margin-top: 3rem;
+}
+
+.wrapper-sp .cs-popup .order_num_list {
+  margin-top: 3rem;
+}
+
+.wrapper-sp .cs-popup  .order_num_list li {
+  border-bottom: 0.1rem solid #ededed;
+  padding: 0 2rem 2.56rem;
+  margin-bottom: 2.86rem;
+}
+
+.wrapper-sp .cs-popup .order_num_list .bx_input.size_l .txt {
+  padding-left: 4.4rem;
+  line-height: 2.4rem;
+  font-size: 1.4rem;
+  display: block;
+  font-weight: bold;
+}
+
+.wrapper-sp .cs-popup .order_num_list .bx_input.size_l .txt span {
+  line-height: 1.43;
+  color: #999;
+  font-weight: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.wrapper-sp .cs-popup .detail {
+  margin-bottom: 3rem;
+}
+
+.wrapper-sp .cs-popup .product_active {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.wrapper-sp .cs-popup .product_active li {
+  display: inline-block;
+  width: calc(50% - 0.7rem);
+  margin-top: 0.7rem;
+  margin-right: 0.7rem;
+}
+
+.wrapper-sp .cs-popup .product_active li:nth-child(1),
+.wrapper-sp .cs-popup .product_active li:nth-child(2) {
+  margin-top: 0;
+}
+
+.wrapper-sp .cs-popup .product_active li:nth-child(2n) {
+  margin-right: 0;
+}

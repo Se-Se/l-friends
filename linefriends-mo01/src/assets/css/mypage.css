@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+.wrapper-sp .mypage .main {}
+
+.wrapper-sp .mypage .main .welcome {
+  color: #ffffff;
+  background-color: #00d664;
+  padding: 2rem;
+  position: relative;
+}
+
+.wrapper-sp .mypage .main .welcome .name {
+  padding-top: 16px;
+  position: relative;
+  z-index: 10;
+}
+
+.wrapper-sp .mypage .main .welcome .name dl {}
+
+.wrapper-sp .mypage .main .welcome .name dl dt {
+  font-size: 1.4rem;
+  height: 2rem;
+  line-height: 2rem;
+}
+
+.wrapper-sp .mypage .main .welcome .name dl dt .workers {
+  height: 2rem;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00d664;
+  padding: 0 0.6rem;
+  margin-right: 0.6rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wrapper-sp .mypage .main .welcome .name dl dd {
+  font-size: 2.4rem;
+  margin-top: 0.2rem;
+  font-weight: bold;
+}
+
+.wrapper-sp .mypage .main .welcome .name dl dd p {
+  width: 60%;
+  max-height: 10.2rem;
+  line-height: 1.42;
+  overflow: hidden;
+  display: inline-block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.wrapper-sp .mypage .main .welcome .name dl dd .name_con {}
+
+.wrapper-sp .mypage .main .welcome .name dl dd span {
+  font-weight: 200;
+  margin-left: 0.4rem;
+}
+
+.wrapper-sp .mypage .main .welcome .btn_info {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 20;
+}
+
+.wrapper-sp .mypage .main .welcome .btn_info button {
+  font-size: 0;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: url('../img/icon/icon-edit.png') no-repeat center;
+  background-size: cover;
+}
+
+.wrapper-sp .mypage .main .welcome .have {
+  height: 6rem;
+  background: #3d485e;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+.wrapper-sp .mypage .main .welcome .have:after {
+  content: '';
+  display: block;
+  width: 11.8rem;
+  height: 6rem;
+  background: url('../img/mypage/bg-mypage.png') no-repeat center;
+  background-size: cover;
+  position: absolute;
+  top: -5.1rem;
+  right: 1rem;
+  z-index: 1;
+}
+
+.wrapper-sp .mypage .main .welcome .have dl {
+  width: 50%;
+  text-align: center;
+}
+
+.wrapper-sp .mypage .main .welcome .have dl dt {
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.wrapper-sp .mypage .main .welcome .have dl dd {
+  font-family: 'Volte';
+  font-size: 2rem;
+  font-weight: 600;
+  color: #00d664;
+  display: inline-block;
+  margin-left: 0.8rem;
+  line-height: 1.3em;
+}
+
+.wrapper-sp .mypage .main .welcome .have dl dd span {
+  font-weight: 400;
+}
+
+/* .wrapper-sp .mypage .main .welcome .have dl dt:after {
+  content: '';
+  display: block;
+  width: 2.8rem;
+  height: 2.8rem;
+  position: absolute;
+  top: 0.1rem;
+  z-index: 1;
+} */
+.wrapper-sp .mypage .main .welcome .have .icon {
+  width: 2.8rem;
+  height: 2.8rem;
+  display: inline-block;
+  vertical-align: -0.8rem
+}
+
+.wrapper-sp .mypage .main .welcome .have .coupon .icon {
+  background: url('../img/icon/icon-coupon.png') no-repeat 0 0;
+  background-size: cover;
+}
+
+.wrapper-sp .mypage .main .welcome .have .collection .icon {
+  background: url('../img/icon/icon-heart.png') no-repeat 0 0;
+  background-size: cover;
+}
+
+@media screen and (max-width: 340px) {
+  .wrapper-sp .mypage .main .welcome .name dl dd {
+    font-size: 2rem;
+  }
+
+  .wrapper-sp .mypage .main .welcome .have dl dt {
+    font-size: 1.3rem;
+  }
+
+  .wrapper-sp .mypage .main .welcome .have dl dd {
+    margin-left: 0.2rem;
+    font-size: 1.6rem;
+  }
+
+  .wrapper-sp .mypage .main .welcome .have .icon {
+    width: 2.3rem;
+    height: 2.3rem;
+    vertical-align: -0.7rem
+  }
+}
+
+.wrapper-sp .mypage .main .menu_list {
+  padding: 0.8rem 0 6rem;
+  background: #fafafa;
+}
+
+.wrapper-sp .mypage .main .menu_list ul+ul {
+  margin-top: 0.8rem;
+}
+
+.wrapper-sp .mypage .main .menu_list li {
+  padding: 0 2rem;
+  border-bottom: 1px solid #ededed;
+  background: #fff;
+}
+
+.wrapper-sp .mypage .main .menu_list li a {
+  height: 6rem;
+  display: block;
+  line-height: 6rem;
+  font-size: 0;
+  color: #333;
+  background: url('../img/icon/m-ic-common-btn-arrow.png') no-repeat right center;
+  background-size: 0.8rem 1.2rem;
+}
+
+.wrapper-sp .mypage .main .menu_list .name {
+  float: left;
+  font-size: 1.6rem;
+}
+
+.wrapper-sp .mypage .main .menu_list .data {
+  float: right;
+  font-size: 1.8rem;
+  font-family: 'Volte';
+  font-weight: 600;
+  padding-right: 2.2rem;
+}

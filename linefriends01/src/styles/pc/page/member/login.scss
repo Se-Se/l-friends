@@ -1,0 +1,45 @@
+.member-interval {
+  padding-top: 30px;
+}
+.member-sns {
+  padding-top: 40px;
+}
+.member-join {
+  padding-top: 20px;
+  text-align: center;
+  &__title,
+  &__action {
+    display: inline-block;
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    vertical-align: middle;
+  }
+  &__title {
+    font-weight: 400;
+    color: #999999;
+  }
+  &__action {
+    font-weight: normal;
+    color: #4ba4d9;
+  }
+}
+.member-chk {
+  padding-top: 2px;
+}
+.member-link {
+  @include notoN;
+  position: absolute;
+  font-size: 12px;
+  color: #4ba4d9;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.login-input {
+  padding-bottom: 10px;
+  &:nth-child(2) {
+    padding-bottom: 0;
+  }
+}

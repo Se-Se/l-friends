@@ -1,0 +1,131 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.goods-option {
+  margin-top: 16px;
+  text-align: right;
+  &__active {
+    @include notoN;
+    display: inline-block;
+    position: relative;
+    padding-left: 12px;
+    width: 148px;
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    overflow: hidden;
+    &:after {
+      position: absolute;
+      width: 10px;
+      height: 6px;
+      background-image: url('~@/assets/images/pc/icons/ic-select-arrow8x4.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 50%;
+      right: 12px;
+      transform: translateY(-50%);
+      content: '';
+    }
+  }
+  &__wrap {
+    position: absolute;
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+    left: 0;
+    overflow: hidden;
+    margin-top: 12px;
+    z-index: 110;
+    &-dim {
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(51, 51, 51, 0.5);
+      cursor: pointer;
+    }
+  }
+  &__content {
+    position: absolute;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    padding: 32px 0 40px;
+    background-color: #fafafa;
+    overflow: hidden;
+    top: 0;
+  }
+  &-char {
+    display: inline-block;
+    height: 375px;
+    margin-right: 43px;
+    padding-right: 45px;
+    border-right: 1px solid #eeeeee;
+    vertical-align: top;
+    &:last-child {
+      border-right: 0;
+      padding-right: 0;
+      margin-right: 0;
+    }
+    &__title {
+      padding-bottom:20px;
+      @include notoM;
+      font-size: 14px;
+      letter-spacing: -0.1px;
+      color: #999999;
+    }
+    &__list {
+      padding-bottom: 32px;
+    }
+    &__img {
+      width: 68px;
+      height: 68px;
+    }
+    &__item {
+      display: inline-block;
+      width: 68px;
+      height: auto;
+      margin-right: 28px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &--icon {
+        @include volteSB;
+        display: inline-block;
+        width: 68px;
+        height: 68px;
+        font-size: 16px;
+        text-align: center;
+        background-color: #97a2b2;
+        color: #fff;
+        border-radius: 100%;
+        line-height: 4.3;
+      }
+      &--title {
+        @include notoN;
+        padding-top: 4px;
+        font-size: 12px;
+        letter-spacing: -0.1px;
+        line-height: 1.5;
+        text-align: center;
+        color: $font-gray;
+      }
+    }
+    &__fcp {
+      text-align: center;
+      & > p {
+        @include notoN;
+        padding-top: 4px;
+        font-size: 12px;
+        letter-spacing: -0.1px;
+        line-height: 1.5;
+        text-align: center;
+        color: $font-gray;
+      }
+    }
+  }
+}

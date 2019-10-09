@@ -1,0 +1,127 @@
+// .main-slide {
+//   min-width: 1280px;
+//   height: auto;
+//   overflow: hidden;
+//   position: relative;
+//   &__swiper {
+//     height: 100%;
+//   }
+//   &__fig {
+//     width: 100%;
+//     & > img {
+//       width: 100%;
+//       height: auto;
+//       max-width: 100%;
+//       max-height: 100%;
+//     }
+//   }
+//   &__item {
+//     display: inline-block;
+//     height: 100%;
+//     position: relative;
+//   }
+//   &__wrapper {
+//     height: auto;
+//   }
+//   &__info {
+//     position: absolute;
+//     bottom: 52px;
+//     &--title {
+//       font-family: "Noto Sans KR";
+//       font-weight: bold;
+//       font-size: 32px;
+//       letter-spacing: -0.1px;
+//       line-height: 1.25;
+//     }
+//     &--description {
+//       padding-top: 4px;
+//       font-family: "Noto Sans KR", sans-self;
+//       font-weight:normal;
+//       font-size: 16px;
+//       letter-spacing: -0.1px;
+//       line-height: 1.5;
+//       opacity: 0.7;
+//     }
+//     &--action {
+//       display: inline-block;
+//       padding-top: 20px;
+//       font-family: "Noto Sans KR", sans-self;
+//       font-weight:500;
+//       font-size: 14px;
+//       letter-spacing: -0.1px;
+//       text-decoration: underline;
+//       line-height: 1.5;
+//       opacity: 0.7;
+//     }
+//   }
+//   & .__black {
+//     color: #ffffff;
+//   }
+//   &__pagination {
+//     position: absolute;
+//     bottom: 24px;
+//     left: 50%;
+//     transform: translateX(-50%);
+//   }
+//   &__btn {
+//     width: 100%;
+//     position: absolute;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     transition: 300ms;
+//     opacity: 0;
+//     &--active {
+//       opacity: 1;
+//       transition: 300ms;
+//     }
+//     &--next,
+//     &--prev {
+//       width: 48px;
+//       height: 48px;
+//       position: absolute;
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       cursor: pointer;
+//     }
+//     &--next {
+//       background-image: url('/images/pc/icons/ic-next.svg');
+//       right: 40px;
+//     }
+//     &--prev {
+//       background-image: url('/images/pc/icons/ic-prev.svg');
+//       left: 40px;
+//     }
+//   }
+// }
+
+// .main-slide__pagination {
+//   & > span {
+//     background-color: #ffffff;
+//     opacity: 0.5;
+//   }
+//   & > .swiper-pagination-bullet-active {
+//     background-color: #ffffff;
+//     opacity: 1;
+//   }
+// }
+// .main-slide__info--active {
+//   .main-slide__info {
+//     width: 1180px;
+//     left: 50%;
+//     bottom: 52px;
+//     opacity: 1;
+//     transform: translateX(-50%);
+//     animation: slideAction 1.5s;
+//     position: absolute;
+//     @keyframes slideAction {
+//       0% {
+//         bottom: 10px;
+//         opacity: 0;
+//       }
+//       100% {
+//         bottom: 52px;
+//         opacity: 1;
+//       }
+//     }
+//   }
+// }

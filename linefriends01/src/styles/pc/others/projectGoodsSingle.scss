@@ -1,0 +1,125 @@
+.project-goods__single {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  .project-item__fig {
+    width: 360px;
+    & > img {
+      width: 100%;
+    }
+  }
+  .project-item--info {
+    position: relative;
+    padding-top: 8px;
+    width: 360px;
+    &__subname {
+      width: 180px;
+      margin: 0 auto;
+      font-family: "Noto Sans KR", sans-self;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.1px;
+      color: #999999;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-box-pack: center;
+    }
+    &__name {
+      display: -webkit-box;
+      width: 220px;
+      max-height: 36px;
+      margin: 0 auto;
+      font-family: "Noto Sans KR", sans-self;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.29;
+      letter-spacing: -0.1px;
+      color: #333333;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      -webkit-box-pack: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      word-break: keep-all;
+    }
+    &__price-wrap {
+      padding-top: 8px;
+    }
+    &__sale {
+      display: inline-block;
+      font-family: Volte, "Noto Sans KR", sans-self;
+      font-weight: 600;
+      font-size: 20px;
+      letter-spacing: -0.1px;
+      color: #ff414e;
+      padding-right: 6px;
+      vertical-align: top;
+    }
+    &__origin {
+      display: inline-block;
+      font-family: "Noto Sans KR", sans-self;
+      font-weight: normal;
+      font-size: 12px;
+      color: #333333;
+      vertical-align: top;
+      font-size: 0;
+      &--price {
+        display: inline-block;
+        font-family: Volte, "Noto Sans KR", sans-self;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: -0.1px;
+        vertical-align: top;
+      }
+      &--symbol {
+        display: inline-block;
+        font-family: Volte, "Noto Sans KR", sans-self;
+        font-weight: normal;
+        vertical-align: top;
+        margin-top: 5px;
+        font-size: 12px;
+      }
+    }
+    &__saleprice {
+      font-family: Volte, "Noto Sans KR", sans-self;
+      font-size: 14px;
+      font-weight: normal;
+      letter-spacing: -0.1px;
+      color: #333333;
+      text-decoration: line-through;
+      opacity: 0.3;
+    }
+    &__tags {
+      padding-top: 8px;
+      &__item {
+        display: inline-block;
+        padding: 3px 6px;
+        margin-right: 2px;
+        border-radius: 15px;
+        border: 1px solid transparent;
+        font-family: "Noto Sans KR", sans-self;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1;
+        vertical-align: top;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &.coupon {
+          border: 1px solid #4ba4d9;
+          background-color: #4ba4d9;
+          color: #fff;
+        }
+
+        &.reserve {
+          border: 1px solid #4ba4d9;
+          color: #4ba4d9;
+        }
+      }
+    }
+  }
+}

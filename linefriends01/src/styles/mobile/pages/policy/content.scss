@@ -1,0 +1,11 @@
+.policy {
+  padding: 2rem;
+  &-content {
+    & > p {
+      line-height: 1.5;
+    }
+    & > p > b {
+      font-weight: bold;
+    }
+  }
+}

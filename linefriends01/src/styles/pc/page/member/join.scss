@@ -1,0 +1,35 @@
+.join {
+  &-interval {
+    padding-top: 32px;
+  }
+  &-input {
+    padding-bottom: 1rem;
+    // min-height: 8.5rem;
+  }
+  &-error {
+    padding-top: 8px;
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    color: $warning-color;
+  }
+  &-btn {
+    display: inline-block;
+    width: 100%;
+    height: 52px;
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: $main-color;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    border-radius: 3px;
+    color: $white-color;
+    &__interval {
+      margin-top: 32px;
+    }
+  }
+}

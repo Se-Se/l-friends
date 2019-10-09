@@ -1,0 +1,105 @@
+.sns-login__wrapper {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 28px;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+.sns-login {
+  &__item {
+    position: relative;
+    cursor: pointer;
+    width:100%;
+    height: 60px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #eeeeee;
+    &:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    &:after {
+      position: absolute;
+      width: 18px;
+      height: 15px;
+      background-image: url(~@/assets/images/pc/icons/ic-down-arrow.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      right: 0;
+      top: 45%;
+      transform: translateY(-50%);
+      content: '';
+    }
+    &-connect {
+      position: absolute;
+      right: 17.5px;
+      top: -1px;
+      cursor: pointer;
+    }
+  }
+  &__action {
+    @include notoM;
+    display: inline-block;
+    padding-left: 42px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 4.3;
+    letter-spacing: -0.1px;
+    color: #666666;
+    & > ._connect {
+      line-height: 3.71;
+    }
+    & > p {
+      padding: 0;
+    }
+    &:before {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      content: '';
+    }
+    &.naver {
+      &:before {
+        background-image: url(~@/assets/images/mobile/ic-naver.svg);
+      }
+    }
+    &.line {
+      &:before {
+        background-image: url(~@/assets/images/mobile/ic-line.svg);
+      }
+    }
+    &.facebook {
+      &:before {
+        background-image: url(~@/assets/images/mobile/ic-facebook.svg);
+      }
+    }
+  }
+}
+.sns-connect {
+  position: absolute;
+  width: 100%;
+  height: 52px;
+  right: 0;
+  top: 2.5px;
+  & > p {
+    @include notoM;
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    color: #999999;
+    right: 65px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  & > button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+}

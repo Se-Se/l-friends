@@ -1,0 +1,17 @@
+.review-btn {
+  display: inline-block;
+  @include notoB;
+  width: 57px;
+  height: 28px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 2.2;
+  letter-spacing: -0.1px;
+  color: #999999;
+  background-color: #fafafa;
+  border-radius: 15.5px; 
+  &.on {
+    background-color: #00d664;
+    color: $white-color;
+  }
+}

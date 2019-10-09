@@ -1,0 +1,684 @@
+@charset "utf-8";
+
+.faq-input {
+  @include notoM;
+  font-size: 14px;
+  background-color: #fff;
+  height: 42px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #dddddd;
+  padding: 0 10px;
+  vertical-align: top;
+  &::placeholder {
+    opacity: 0.4;
+  }
+}
+
+.faq-btn {
+  @include notoM;
+  height: 42px;
+  background-color: #00d664;
+  color: #ffffff;
+  border-radius: 0 3px 3px 0;
+}
+
+.faq-gray {
+  background-color: #97a2b2;
+}
+
+.wrap.etc {
+  min-width: auto;
+}
+
+/* etc_warning */
+
+.etc .pagination {
+  margin-top: 30px;
+}
+
+.etc_warning {
+  color: #5a5a5a;
+  font-size: 14px;
+  padding: 0;
+}
+
+.etc_warning .etc_inner {
+  text-align: center;
+  position: relative;
+}
+
+.etc_warning h1 {
+  font-size: 30px;
+  color: #3c3c3c;
+  font-family: NotoSansCJKkr-Medium;
+}
+
+.etc_warning .txt_1 {
+  font-size: 16px;
+  color: #969696;
+}
+
+.etc_warning .ico_ti {
+  width: 58px;
+  height: 58px;
+  display: inline-block;
+  color: transparent;
+  font-size: 0;
+  background-position: -133px -164px;
+  margin-bottom: 25px;
+}
+
+.etc_warning .con_1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 58px;
+}
+
+.etc_warning .btn_area {
+  font-size: 0;
+  margin-top: 50px;
+}
+
+.etc_warning .btn_area li {
+  text-align: center;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.etc_warning .btn_area li button {
+  width: 180px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.etc_warning .info_service {
+  width: 686px;
+  background: #fafafa;
+  padding: 50px 60px;
+  text-align: left;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+.etc_warning .info_service .ck_system {
+  font-size: 16px;
+}
+
+.etc_warning .info_service .ck_system dl dt {
+  color: #3c3c3c;
+  margin: 0 20px 18px 0;
+  display: inline-block;
+  font-family: NotoSansCJKkr-Medium;
+}
+
+.etc_warning .info_service .ck_system dl dd {
+  color: #969696;
+  display: inline-block;
+}
+
+.etc_warning .info_service .ck_system dl:last-child dt {
+  margin-bottom: 0;
+}
+
+.etc_warning .info_service .cs_center {
+  font-size: 14px;
+  margin-top: 36px;
+}
+
+.etc_warning .info_service .cs_center dl dt {
+  color: #969696;
+  font-weight: 500;
+  margin: 0 17px 11px 0;
+  display: inline-block;
+}
+
+.etc_warning .info_service .cs_center dl dd {
+  color: #969696;
+  display: inline-block;
+}
+
+.etc_warning .info_service .cs_center dl:last-child dt {
+  margin-bottom: 0;
+}
+
+.etc_warning .loading {
+  width: 60px;
+  height: 60px;
+  font-size: 0;
+  color: transparent;
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  border-top-color: #dcdcdc;
+  border-left-color: #dcdcdc;
+  border-bottom-color: #dcdcdc;
+  animation: ring 1s ease-in-out infinite;
+  transform: rotate(-45deg);
+}
+
+@keyframes ring {
+  from {
+    transform: rotate(-45deg);
+  }
+
+  to {
+    transform: rotate(315deg);
+  }
+}
+
+.data_bar,
+.keywords {
+  color: #fa2828;
+}
+
+/* etc */
+.etc {
+  padding: 60px 0 100px;
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+.etc .etc_inner {
+  width: 1180px;
+  margin: auto;
+}
+
+.etc h1 {
+  font-size: 36px;
+  color: #3c3c3c;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.etc .menu_wrap {
+  margin-top: 38px;
+  font-size: 0;
+  color: #5a5a5a;
+}
+
+.etc .menu_wrap a {
+  color: #5a5a5a;
+}
+
+.etc .menu_wrap li {
+  display: inline-block;
+}
+
+.etc .menu_wrap .nav_menu li {
+  margin-right: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  height: 10px;
+  line-height: 5px;
+  border-right: 1px solid #d8d8d8;
+  vertical-align: middle;
+}
+
+.etc .menu_wrap .nav_menu li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+.etc .menu_wrap .nav_menu li.active a {
+  color: #333333;
+  font-weight: bold;
+}
+
+.etc .menu_wrap .btn_iar {
+  float: right;
+  margin-top: -26px;
+}
+
+.etc .menu_wrap .btn_iar button {
+  @include notoM;
+  width: 136px;
+  height: 42px;
+}
+
+.etc .search {
+  margin-top: 28px;
+  padding: 20px 0;
+}
+
+.etc .search .con {
+  width: 380px;
+  margin: auto;
+  font-size: 0;
+}
+
+.etc .search .con input {
+  width: 300px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.etc .search .con .btn_search {
+  display: inline-block;
+}
+
+.etc .search .con .btn_search button {
+  @include notoM;
+  height: 42px;
+  width: 80px;
+}
+
+.etc .table_wrap {
+  margin-top: 20px;
+}
+
+.etc .table_data {
+  width: 100%;
+  border-top: 1px solid #5a5a5a;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.etc .table_data thead tr {
+  height: 55px;
+  border-bottom: 1px solid #ededed;
+}
+
+.etc .table_data tbody tr {
+  height: 69px;
+  border-bottom: 1px solid #ededed;
+}
+
+.etc .table_data tbody tr.open {
+  cursor: default;
+}
+
+.etc .table_data tbody tr.open td {
+  display: none;
+}
+
+.etc .table_data tbody tr.active+tr.open td {
+  display: table-cell;
+}
+
+.etc .table_data thead th {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333;
+  letter-spacing: -0.1px;
+  vertical-align: middle;
+}
+
+.etc .table_data tbody tr td {
+  vertical-align: middle;
+}
+
+.etc .table_data tbody td:first-child,
+.etc .table_data tbody td:last-child {
+  text-align: center;
+}
+
+.etc .table_data tbody td:first-child {
+  font-weight: bold;
+}
+
+.etc .table_data .active td {
+  background: #fafafa;
+}
+
+.etc .table_data .open td {
+  background: #fafafa;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.etc .table_data .btn_open {
+  width: 40px;
+  height: 30px;
+}
+
+.etc .table_data .btn_open span {
+  display: inline-block;
+  overflow: hidden;
+  width: 14px;
+  height: 8px;
+  background: url(~@/assets/images/payco/ico-more-faq.png) no-repeat 0 0;
+  vertical-align: 4px;
+  font-size: 0;
+}
+
+.etc .table_data .active .btn_open span {
+  transform: rotate(-180deg);
+}
+
+.etc .table_data .explain {
+  text-align: left;
+  font-size: 14px;
+  color: #3c3c3c;
+  padding: 30px 0;
+  line-height: 1.92;
+  & > p {
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  i {
+    font-style: italic;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+.etc .table_data .explain img {
+  max-width: 100%;
+}
+
+.etc .table_data .none {
+  padding: 100px 0;
+  color: #3c3c3c;
+  font-weight: normal;
+}
+
+.etc .search_result {
+  margin-top: 20px;
+}
+
+.popup_wrap.etc .popup_common .per_info li input,
+.popup_wrap.etc .popup_common input[type=number],
+.popup_wrap.etc .popup_common input[type=password],
+.popup_wrap.etc .popup_common input[type=text] {
+  font-size: 14px;
+}
+
+.popup_wrap.etc .popup_common .per_info li span,
+.popup_wrap.etc .popup_common .agree input[type="checkbox"]+label {
+  font-family: NotoSansCJKkr-Medium;
+}
+
+.popup_wrap.etc .popup_common .file_list {
+  vertical-align: middle;
+}
+
+.etc .etc_terms {
+  width: 1180px;
+  margin: auto;
+}
+
+.etc .etc_terms h1 {
+  font-size: 32px;
+  color:#101010;
+  font-family: NotoSansCJKkr-Bold;
+  text-align: center;
+}
+
+.etc .etc_terms .etc_con {
+  border-top: solid 1px #dcdcdc;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5a5a5a;
+  padding-top: 10px;
+  font-family: NotoSansCJKkr-Regular;
+}
+
+.etc .etc_terms .etc_con p {
+  padding-top: 5px;
+}
+
+.etc .etc_terms .etc_con h2 {
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.etc .etc_terms .etc_con ol {
+  padding-left: 15px;
+}
+.etc .etc_terms .etc_con ol li {
+  list-style: decimal;
+  padding-top: 5px;
+}
+.etc .etc_terms .etc_con ol li ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 11px;
+}
+.etc .etc_terms .etc_con ol li ul li::before {
+  position: absolute;
+  content: ".";
+  width: 2px;
+  height: 2px;
+  color: #5a5a5a;
+  top: 0;
+  left: 0;
+}
+
+.etc .etc_terms .btn_vision {
+  margin-top: 45px;
+}
+
+.etc .etc_terms .btn_vision a {
+  position: relative;
+  display: block;
+  width: 153px;
+  height: 44px;
+  border: solid 1px #bbbbbb;
+  background: #ffffff;
+  line-height: 44px;
+  font-size: 14px;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.etc .etc_terms .btn_vision a:before {
+  content: '';
+  display: inline-block;
+  background: #ffffff url(~@/assets/images/payco/ico_arr_right.png) no-repeat 0 0;
+  width: 6px;
+  height: 10px;
+  transform:rotate(180deg);
+  margin-right: 18px;
+}
+
+.etc .etc_policy {
+  border-top: solid 1px #dcdcdc;
+  margin-top: 30px;
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #5a5a5a;
+}
+
+.etc .etc_policy h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #3c3c3c;
+}
+
+.etc .etc_policy h2 span {
+  display: inline-block;
+  width: 35px;
+}
+
+.etc .etc_policy .mt_10 {
+  margin-top: 10px;
+}
+
+.etc .etc_policy .mt_15 {
+  margin-top: 15px;
+}
+
+.etc .etc_policy .mt_20 {
+  margin-top: 20px;
+}
+
+.etc .etc_policy .ali_c {
+  text-align: center;
+}
+
+.etc .etc_policy .policy_link {
+  border: #f5f5f5 6px solid;
+  height: 258px;
+  padding: 24px 34px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.etc .etc_policy .policy_link li {
+  width: 50%;
+  line-height: 27px;
+}
+
+.etc .etc_policy .policy_link li span {
+  display: inline-block;
+  width: 25px;
+}
+
+.etc .etc_policy .policy_link li a {
+  color: #5a5a5a;
+}
+
+.etc .etc_policy .policy_link li a:hover {
+  text-decoration: underline;
+}
+
+.etc .etc_policy .text_con {
+  padding-left: 34px;
+}
+
+.etc .etc_policy .text_con dl dt {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.etc .etc_policy .text_con dl dd {
+  margin-top: 10px;
+  padding-left: 24px;
+}
+
+.etc .etc_policy .text_con .txt_gray {
+  color: #969696
+}
+
+.etc .etc_policy .text_con .txt_s {
+  font-size: 12px;
+}
+
+.etc .etc_policy .text_con .text_table {
+  width: 100%;
+}
+
+.etc .etc_policy .text_con .text_table th {
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  border-left: #e6e6e6 1px solid;
+  font-weight: normal;
+}
+
+.etc .etc_policy .text_con .text_table th:first-child {
+  border-left: none;
+}
+
+.etc .etc_policy .text_con .text_table td {
+  padding: 10px 20px;
+  border-left: #e6e6e6 1px solid;
+  border-bottom: #e6e6e6 1px solid;
+  vertical-align: top;
+}
+
+.etc .etc_policy .text_con .text_table.vli_c td {
+  vertical-align: middle;
+}
+
+.etc .etc_policy .text_con .text_table td a {
+  color: #1485cc;
+  text-decoration: underline;
+}
+
+.etc .etc_policy .text_con .text_table td:first-child {
+  border-left: none;
+}
+
+.etc .etc_policy .text_con .text_table td .collect span {
+  display: inline-block;
+  width: 100px;
+}
+
+.etc .etc_policy .text_con .text_table td .collect em {
+  display: inline-block;
+  font-size: 12px;
+  color: #969696;
+  width: 40px;
+  height: 20px;
+  margin: 0 5px;
+  border: #bbb 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 18px;
+}
+
+.etc .etc_policy .text_con .text_table td .collect:first-child {
+  margin-bottom: 11px;
+}
+
+.etc .etc_policy .text_con ul.txt_gray li {
+  padding-left: 9px;
+  text-indent: -9px;
+}
+
+.etc .etc_policy .text_con .officer {
+  width: 610px;
+  padding: 30px 40px;
+  border: #e6e6e6 1px solid;
+  box-sizing: border-box;
+}
+
+.etc .etc_policy .text_con .officer>p {
+  font-family: NotoSansCJKkr-Bold;
+}
+
+.etc .etc_policy .text_con .officer ul {
+  margin-top: 10px;
+  font-size: 0;
+}
+
+.etc .etc_policy .text_con .officer ul li {
+  font-size: 14px;
+  width: 50%;
+  display: inline-block;
+}
+
+.etc .etc_policy .text_con .officer ul li:first-child {
+  margin-bottom: 5px;
+}
+
+.etc .etc_policy .text_con .officer ul li span {
+  display: inline-block;
+  width: 70px;
+  vertical-align: middle;
+}
+
+.etc {
+  &-tab {
+    width: 100%;
+    &__list {
+      border-bottom: 1px solid #dddddd;
+    }
+    &__item {
+      display: inline-block;
+      vertical-align: middle;
+      color: $font-black;
+    }
+  }
+  &-btn {
+    padding: 0;
+  }
+  ._active {
+    font-weight: bold;
+  }
+}

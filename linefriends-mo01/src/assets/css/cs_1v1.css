@@ -1,0 +1,204 @@
+.wrapper-sp .cs-1v1 .cs-1v1-attention {
+  background: #fafafa url('../img/icon/icon_notes.png') no-repeat 1.6rem 1.6rem;
+  margin-top: 2rem;
+  background-size: 1.8rem;
+  padding: 1.5rem 3rem 1.5rem 4.4rem;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 1.2rem;
+  border: .1rem solid #eee;
+  border-radius: .4rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-attention a {
+  color: #4ba4d9;
+  text-decoration: underline;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-detail-block {
+  padding: 0 2rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-inquiry-category-title {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-bottom: .6rem;
+  font-weight: 500;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-product-select {
+  font-size: 0;
+  margin-bottom: 1.1rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-select-ipt {
+  width: 66%;
+  vertical-align: top;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-select-btn {
+  margin-left: .7rem;
+  display: inline-block;
+  width: calc(34% - .7rem);
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-select-check {
+  margin-bottom: 3.1rem;
+}
+
+.wrapper-sp .cs-1v1 label.cs-1v1-product-select-txt {
+  display: inline-block;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  height: 1.8rem;
+  color: #666;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-mt_3 {
+  margin-bottom: 3rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-select {
+  margin-bottom: 1rem;
+}
+
+.wrapper-sp .cs-1v1 .bx_write {
+  height: 25.6rem;
+}
+
+.wrapper-sp .cs-1v1 .bx_write textarea {
+  height: 100%;
+  padding: 1.7rem;
+  box-sizing: border-box;
+}
+
+.wrapper-sp .cs-1v1 .text_area_placeholder {
+  height: 100%;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-notes {
+  height: 4rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #666;
+  padding-left: 2.4rem;
+  background: url('../img/icon/icon_notes.png') no-repeat top left;
+  background-size: 1.8rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-reply {
+  margin-top: 1.8rem;
+}
+
+.wrapper-sp .cs-1v1 label.cs-1v1-file-select-txt {
+  font-size: 1.4rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-up-email {
+  margin: 1rem 0 4rem 0;
+  padding-left: 3rem;
+  line-height: 2rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-btns {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-btns button {
+  width: 49%;
+  display: inline-block;
+}
+
+.wrapper-sp .cs-1v1 span.cs-1v1-point {
+  width: .4rem;
+  height: .4rem;
+  background: #00d664;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 0;
+  margin-left: .5rem;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-list {
+  margin-bottom: 1rem;
+  font-size: 0;
+  text-align: center;
+  width: 100%;
+
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-list li {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: auto;
+  padding: 0.35rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-list li .thumbnail {
+  padding-top: 100%;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-list li a {
+  border: solid 0.1rem #ededed;
+  display: block;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-list .pic-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.4rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: #333333;
+  text-align: center;
+}
+
+.wrapper-sp .cs-1v1 .cs-1v1-file-list li .pic-close span {
+  display: block;
+  width: 1.7rem;
+  height: 1.7rem;
+  background: url(../img/icon/pic-close.png) no-repeat center center;
+  font-size: 0;
+  color: transparent;
+}
+
+@media (device-height:640px) and (-webkit-min-device-pixel-ratio:2) {
+
+  /* galaxy */
+  .wrapper-sp .cs-1v1 .bx_write {
+    height: 28rem;
+  }
+
+  .wrapper-sp .cs-1v1 .text_area_placeholder {
+    height: 27rem;
+  }
+
+  .wrapper-sp .cs-1v1 .bx_write textarea {
+    height: 24rem;
+  }
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2) {
+
+  /* iphone5 */
+  .wrapper-sp .cs-1v1 .bx_write {
+    height: 30rem;
+  }
+
+  .wrapper-sp .cs-1v1 .text_area_placeholder {
+    height: 29rem;
+  }
+
+  .wrapper-sp .cs-1v1 .bx_write textarea {
+    height: 26rem;
+  }
+}

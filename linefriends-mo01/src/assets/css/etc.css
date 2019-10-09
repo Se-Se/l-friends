@@ -1,0 +1,141 @@
+.wrapper-sp .etc {
+  color: rgb(51, 51, 51);
+  text-align: center;
+}
+
+.wrapper-sp .etc .wrap_category h1 {
+  width: 100%;
+  height: 6.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-sp .etc .wrap_category h1 img {
+  width: 12.6rem;
+  height: 1.7rem;
+}
+
+.wrapper-sp .etc .etc-wrapper {
+  padding: 3rem 2.0rem 2rem 2.0rem;
+  text-align: center;
+  min-height: calc(100vh - 10.8rem);
+  box-sizing: border-box;
+}
+
+.wrapper-sp .etc .etc-wrapper dt img {
+  width: 24rem;
+  height: 14rem;
+}
+
+.wrapper-sp .etc .etc-wrapper h2 {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: bold;
+}
+
+.wrapper-sp .etc .etc-wrapper .check_info img {
+  width: 24rem;
+  height: 14rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.wrapper-sp .etc .etc-wrapper .check_info p {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.wrapper-sp .etc .etc-wrapper .check_info p:first-child {
+  margin-bottom: 2.1rem;
+}
+
+.wrapper-sp .etc .etc-wrapper .check_detail {
+  width: 100%;
+  background-color:#fafafa;
+  margin-top: 3rem;
+  border:0.1rem solid #eeeeee;
+}
+.wrapper-sp .etc .etc-wrapper .check_detail td {
+  word-break: break-all;
+  word-wrap: break-word;
+  padding-left: 6%;
+}
+
+.wrapper-sp .etc .etc-footer {
+  width: 100%;
+  height: 4.4rem;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(153, 153, 153);
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-family: 'NotoSansCJKJP', sans-serif;
+}
+
+/* not fund */
+.wrapper-sp .etc .etc-notfound .etc-wrapper {
+  padding: 3rem 2.0rem 2.0rem 2.0rem;
+  text-align: center;
+  font-size: 0;
+}
+
+.wrapper-sp .etc .etc-notfound .etc-wrapper .button_area {
+  margin-top: 17.4rem;
+}
+
+.wrapper-sp .etc .etc-date .etc-wrapper .button_area {
+  margin-top: 21.7rem;
+}
+
+.wrapper-sp .etc .etc-notfound .etc-wrapper .check_info dd p:nth-child(4) {
+  padding-bottom: 2rem;
+}
+
+.wrapper-sp .etc .etc-notfound .etc-wrapper .button_area li {
+  display: inline-block;
+  width: 48%;
+}
+
+.wrapper-sp .etc .etc-notfound .etc-wrapper .button_area li:first-child {
+  margin-right: 2%;
+}
+.wrapper-sp .etc .etc-wrapper .check_detail_con{
+  font-family: 'NotoSansCJKJP', sans-serif;
+  padding:1.1rem 0 2rem 2rem;
+  text-align:left;
+}
+.wrapper-sp .etc .etc-wrapper{
+  font-family: 'NotoSansCJKJP', sans-serif;
+}
+.wrapper-sp .etc .etc-wrapper .check_detail_tt{
+  font-size:1.2rem;
+  font-weight:bold;
+  line-height:1.5;
+  color:#333333;
+  padding-top:1rem;
+  padding-bottom:0.6rem;
+}
+.wrapper-sp .etc .etc-wrapper .check_detail_cc{
+  font-size:1.2rem;
+  font-weight:500;
+  line-height:1.5;
+  color:#666666;
+}
+.wrapper-sp .etc .etc-wrapper .fw-normal{
+  font-weight:normal;
+}
+.wrapper-sp .etc .etc-notfound .etc-wrapper .btn{
+  padding:0 0 0 0;
+}  
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2) {
+  .wrapper-sp .etc  .etc-notfound .etc-wrapper .turnback button{
+    font-size:1.3rem;
+  }
+  .wrapper-sp .etc .etc-notfound .etc-wrapper .btn{
+    padding:0 0 0 0;
+  }
+}

@@ -1,0 +1,10 @@
+<script>
+  function TestCallback(text) {
+    console.log(text)
+  }
+  function go(text,test) {
+    console.log(text)
+    test(text) // TestCallback
+  }
+  go("go console.log",TestCallback);
+</script>

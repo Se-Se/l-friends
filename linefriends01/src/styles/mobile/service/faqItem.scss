@@ -1,0 +1,130 @@
+.faq {
+  &-item {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.8rem 1.6rem 2.7rem 2rem;
+
+    &__wrapper {
+      transition: all .3s;
+
+      .faq-item,
+      &.active .faq-item {
+        border-bottom: 1px solid #eeeeee;
+      }
+      &.active {
+        background-color: #fafafa;
+      }
+    }
+  }
+  &-info{
+    display: inline-block;
+    width: 25.2rem;
+  }
+  &__icon {
+    display: inline-block;
+    position: absolute;
+    top: 4rem;
+    right: 1.6rem;
+    .arrow {
+      display: block;
+      width: 2rem; height: 2rem;
+      background-image: url('~@/assets/images/mobile/ic-small-down.svg');
+      background-size: cover;
+    }
+  }
+  &__icon.active {
+    transform: rotate(180deg);
+  }
+
+  &-detail {
+    background: #fafafa;
+
+    &__item {
+      padding: 3.6rem 2rem 4em 2rem;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    &__answer {
+      display: flex;
+      align-items: middle;
+      margin-bottom: 0.5rem;
+    }
+
+    &-info {
+      padding-left: 3.2rem;
+    }
+
+    &__icon {
+      margin-right: 0.8rem;
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    &__manager {
+      margin-bottom: 0.1rem;
+      margin-top: 0.2rem;
+      color: #333;
+      font-size: 1.4rem;
+      font-family: 'Noto Sans KR';
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: -0.01rem;
+    }
+  }
+  &__type {
+    margin-bottom: 0.4rem;
+    color: #333;
+    font-size: 1.4rem;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+  }
+
+  &__title {
+    display: -webkit-box;
+    color: #666;
+    font-size: 1.4rem;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    &-full {
+      color: #666;
+      font-size: 1.4rem;
+      font-family: 'Noto Sans KR';
+      font-weight: normal;
+      line-height: 1.5;
+      letter-spacing: -0.01rem;
+    }
+  }
+
+ &__question {
+    max-width: 27.1rem;
+    color: #333;
+    font-size: 1.4rem;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+    white-space: pre-wrap;
+    i {
+      font-style: italic;
+    }
+    a {
+      text-decoration: underline;
+    }
+  }
+
+  &__image {
+    width: 17.2rem;
+    padding-top: 4rem;
+    margin: 0 auto;
+  }
+}

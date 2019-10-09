@@ -1,0 +1,72 @@
+.service-faq {
+  &__header {
+    padding: 2rem 2rem 0 2rem;
+    border-bottom: 1px solid #eeeeee;
+  }
+  &__search {
+    display: flex;
+    &-box {
+      width: 26rem;
+    }
+    &-btn {
+      width: 8.8rem;
+      margin-left: 0.7rem;
+    }
+  }
+  &__inquiry {
+    padding-bottom: 2.2rem;
+    margin-top: 1.2rem;
+  }
+  &__result {
+    margin: 1.6rem 0 1.3rem;
+    color: #333333;
+    font-size: 1.4rem;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+    > em {
+      color: #00d664;
+      word-break: break-all;
+    }
+  }
+  &__list {
+    margin-bottom: 2rem;
+  }
+  &__pagination {
+    margin-top: 0;
+    margin-bottom: 8.1rem;
+  }
+  &__nodata {
+    margin-right: 2.4rem;
+    font-family: Volte, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333333;
+    letter-spacing: -0.01rem;
+    text-align: center;
+  }
+}
+.service-upper {
+  width: 100%;
+  display: flex;
+  padding: 0 2rem;
+  border-bottom: 1px solid #eeeeee;
+  &__item {
+    @include notoN;
+    height: 4.8rem;
+    margin-right: 2.466rem;
+    padding: 1.4rem 0 0;
+    font-size: 1.6rem;
+    color: #999999;
+    &:last-child {
+      margin-right: 0;
+    }
+    & > .router-link-exact-active {
+      @include notoB;
+      padding-bottom: 1.4rem;
+      border-bottom: 2px solid #333;
+      color: #333333;
+    }
+  }
+}

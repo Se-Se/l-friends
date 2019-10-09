@@ -1,0 +1,52 @@
+.half {
+  padding-top: 120px;
+  &__list {
+    font-size: 0;
+  }
+  &__item {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__fig {
+    width: 586px;
+    & > img {
+      width: 100%;
+    }
+  }
+  &__img {
+    width: 586px;
+    height: 390px;
+  }
+  &__info {
+    max-width: 586px;
+    text-align: center;
+    padding-top: 16px;
+    &--title {
+      @include notoM;
+      max-width: 586px;
+      font-size: 16px;
+      letter-spacing: -0.1px;
+      color:#333;
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &--description {
+      @include notoN;
+      max-width: 586px;
+      padding-top: 2px;
+      font-size: 14px;
+      letter-spacing: -0.1px;
+      color: #666;
+      line-height: 1.5;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.file {
+  &__content {
+    font-size: 0;
+  }
+  &-input {
+    display: none;
+    opacity: 0;
+  }
+  &-label {
+    display: inline-block;
+    width: 222px;
+    height: 40px;
+  }
+  &__action {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.1px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    color: #333333;
+    line-height: 2.7;
+    cursor: pointer;
+  }
+  &-thum {
+    margin-top: 20px;
+    &__fig {
+      display: inline-block;
+      margin-right: 7px;
+      width: 93px;
+      height: 93px;
+      &:nth-child(5n) {
+        margin-right: 0;
+      }
+      & > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

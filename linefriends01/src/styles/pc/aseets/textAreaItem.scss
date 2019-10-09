@@ -1,0 +1,26 @@
+.textarea-item {
+  position: relative;
+  &__default {
+    @include notoN;
+    width: 100%;
+    height: 320px;
+    padding: 16px 13px;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  &__length {
+    @include volteSB;
+    position: absolute;
+    font-size: 14px;
+    letter-spacing: -0.1px;
+    color: #999999;
+    bottom: 16px;
+    right: 16px;
+    &-current {
+      color: $font-black;
+    }
+  }
+}

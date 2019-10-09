@@ -1,0 +1,47 @@
+.goods-search {
+  min-height: 580px;
+  &__title {
+    width: 100%;
+    padding: 44px 0 20px 0;
+    margin-bottom: 16px;
+    color: #00d664;
+    font-size: 22px;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.27;
+    letter-spacing: -0.1px;
+    border-bottom: 1px solid #eeeeee;
+    &-no {
+      padding-top: 0;
+      font-size: 20px;
+      border-bottom: 0;
+      & > span {
+        max-width: 580px;
+        overflow: hidden;
+        display: inherit;
+        margin: 0 auto;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .result {
+        display: inline;
+        max-width: 580px;
+        overflow:hidden;
+        margin:0 auto;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    em {
+      color: #333333;
+      font-weight: 500;
+    }
+  }
+  &__pagination {
+    padding-bottom: 124px;
+  }
+  &__nodata-footer {
+    text-align: center;
+  }
+}

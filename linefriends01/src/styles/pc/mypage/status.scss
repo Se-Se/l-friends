@@ -1,0 +1,122 @@
+.status {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 57px 0 65px;
+  background-color: #fafafa;
+  &-content {
+    display: inline-block;
+    padding-bottom: 42px;
+    &:last-child {
+      padding-left: 362px;
+    }
+  }
+  &-executives {
+    display: table;
+    width: 238px;
+    height: 43px;
+    margin: 44px 0 0 40px;
+    border-top: 1px solid #ededed;
+    content: '';
+    clear: both;
+    &__title,
+    &__value {
+      @include notoN;
+      padding-top: 28px;
+      font-size: 16px;
+      color: #333333;
+      letter-spacing: -0.1px;
+    }
+    &__title {
+      float: left;
+    }
+    &__value {
+      float: right;
+      & > span {
+        @include volteB;
+        font-size: 18px;
+      }
+    }
+  }
+  &__name {
+    width: 500px;
+    margin: 75px 0 16px 38px;
+    font-family: 'Noto Sans KR';
+    font-size: 32px;
+    font-weight: normal;
+    & > strong {
+      font-weight: bold;
+    }
+    &.active {
+      margin-top: 102px;
+    }
+  }
+  &__welcome {
+    margin-left: 41px;
+    font-family: 'Noto Sasns KR';
+    font-size: 18px;
+    font-weight: normal;
+    color: #999999;
+    letter-spacing: -0.1px;
+  }
+  &__btn {
+    width: 72px;
+    height: 28px;
+    margin: 25px 0 0 40px;
+    border: 1px solid #999999;
+    border-radius: 14px;
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: -0.1px;
+    color: #666666;
+  }
+  &-delivery {
+    position: absolute;
+    font-size: 0;
+    top: 50%;
+    right: 75px;
+    transform: translateY(-50%);
+    &__item {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+    }
+    &__fig {
+      padding-bottom: 9px;
+      margin: 0 auto;
+      &.delivery {
+        width: 34px;
+      }
+      &.coupon {
+        width: 24px;
+      }
+      &.review {
+        width: 27px;
+      }
+      &.wish {
+        width: 26px;
+      }
+    }
+    &__title {
+      width: 111px;
+      font-family: 'Noto Sans KR';
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.25;
+    }
+    &__cnt {
+      padding-top: 16px;
+      font-family: Volte, 'Noto Sans KR', sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      color: #00d664;
+      line-height: 0.56;
+    }
+  }
+}
+.review__title,
+.review__cnt {
+  position: relative;
+  top: -2.5px;
+}

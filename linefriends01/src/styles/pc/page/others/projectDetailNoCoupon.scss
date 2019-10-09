@@ -1,0 +1,19 @@
+.project{
+  &-detail{
+    &__list {
+      padding: 60px;
+      &-wrapper {
+        padding-top: 60px;
+      }
+      &.center {
+        text-align: center;
+      }
+      &.last {
+        padding-top: 0;
+      }
+    }
+    &__footer {
+      margin-top: -60px;
+    }
+  }
+}

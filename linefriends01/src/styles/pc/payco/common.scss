@@ -1,0 +1,137 @@
+.coupon-table {
+  .max_line2 {
+    max-width: 266px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 40px;
+    text-align: left;
+    max-width: 266px;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.25;
+  }
+  .coupon-tr {
+    height: 55px !important;
+    & > td {
+      padding: 20px 0;
+    }
+  }
+  .row-line {
+    max-width: 266px;
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.5;
+  }
+
+  .red-font {
+    color: #ff5a5f;
+  }
+  
+  .txt_color_gray {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    line-height: 1.25;
+    color: $font-black;
+  }
+
+  .num {
+    line-height: 1.5;
+    & > p {
+      font-size: 14px;
+    }
+  }
+}
+
+.review-table {
+  &__cursor-pointer {
+    cursor: pointer;
+  }
+  &__title {
+    max-width: 400px;
+  }
+  &__ellipse {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    overflow: hidden;
+  }
+  &__fig {
+    display: table-cell;
+    margin-left: 20px;
+  }
+  .lst_review {
+    position: relative;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .review_info {
+    color: #969696;
+  }
+  .review_score {
+    display: inline-block;
+    position: relative;
+    width: 104px;
+    height: 16px;
+    vertical-align: middle;
+  }
+  .bx_review {
+    margin-top: 20px;
+    & > p {
+      @include notoM;
+      font-size: 14px;
+      line-height: 22px;
+      color: $font-black;
+      & > pre {
+        width: 1160px;
+        white-space: pre-wrap;
+        word-break: break-all;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  .member_data {
+    margin-top: 20px;
+    color: #969696;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    & > span {
+      font-size: 13px;
+    }
+    .name {
+      margin-right: 15px;
+      color: #969696;
+    }
+    .date {
+      display: inline-block;
+      vertical-align: top;
+      margin-right: 20px;
+    }
+  }
+  .rec_btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    .bx_btn {
+      display: inline-block;
+      height: 30px;
+      vertical-align: top;
+      box-sizing: border-box;
+      font-size: 0;
+      text-align: center;
+      & > span {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.member-title {
+  padding: 0 45px 32px;
+  & > h2 {
+    @include notoB;
+    font-size: 20px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    line-height: 1.4;
+  }
+}

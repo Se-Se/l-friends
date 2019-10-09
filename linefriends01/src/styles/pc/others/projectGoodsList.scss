@@ -1,0 +1,22 @@
+.project-goods{
+  &__item {
+    display: inline-block;
+    width: 360px;
+    height: 492px;
+    vertical-align: top;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    &.thumbs {
+      margin-right: 50px;
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

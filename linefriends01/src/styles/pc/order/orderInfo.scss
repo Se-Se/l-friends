@@ -1,0 +1,50 @@
+.information {
+  display: flex;
+
+  &-icon {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 0;
+    background-size: 100% 100%;
+    background-image: url(~@/assets/images/mobile/ic-information.svg);
+    &.normal {
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  &-message {
+    max-width: calc(100% - 31px);
+    font-family: 'Noto Sans KR';
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #666;
+  }
+}
+
+
+.order-layerpopup {
+  margin-top: -25px;
+  &__title {
+    @include notoB;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.36;
+    letter-spacing: -0.1px;
+    color: #333333;
+  }
+  .con {
+    padding-top: 30px;
+    .txt_list {
+      line-height: 1.5;
+      & > li {
+        padding-bottom: 15px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
+}

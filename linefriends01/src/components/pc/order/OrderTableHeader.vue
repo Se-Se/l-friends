@@ -1,0 +1,10 @@
+<template>
+  <thead>
+    <tr>
+      <th>상품정보</th>
+      <th>수량</th>
+      <th>할인적용금액</th>
+      <th>배송비</th>
+    </tr>
+  </thead>
+</template>

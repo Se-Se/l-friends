@@ -1,0 +1,41 @@
+.join-complate {
+  position: relative;
+  &__fig {
+    width: 480px;
+    margin: 0 auto;
+    & > img {
+      width: 100%;
+    }
+  }
+  &__content {
+    position: absolute;
+    text-align: center;
+    top: 48.7%;
+    left: 51%;
+    transform: translateX(-50%) translateY(-50%);
+    &-title {
+      @include notoN;
+      font-size: 16px;
+      line-height: 1.5;
+      color: $font-black;
+      & > span {
+        @include volteSB;
+        display: inline-block;
+        max-width: 240px;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: -0.1px;
+        color: $main-color;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  &__footer {
+    width: 360px;
+    padding-top: 24px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

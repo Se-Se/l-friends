@@ -1,0 +1,38 @@
+.detail-review{
+  text-align: center;
+  &__nodata{
+    display: inline-block;
+    &-fig{
+      width: 240px;
+      margin: 0 auto;
+    }
+    &__img {
+      width: 240px;
+      height: 140px;
+    }
+    &-img{
+      width: 83.2px;
+      margin: 0 auto;
+    }
+    &-fcp{
+      margin: 20px 0 24px 0;
+      color: #666666;
+      font-size: 14px;
+      line-height: normal;
+      letter-spacing: -0.1px;
+      text-align: center;
+    }
+    &-btn{
+      width: 154px; height: 40px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+      color: #333333;
+      font-size: 14px;
+      font-family: 'Noto Sans KR';
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: -0.1px;
+    }
+  }
+}

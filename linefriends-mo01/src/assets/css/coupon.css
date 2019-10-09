@@ -1,0 +1,173 @@
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block {
+  border-bottom: 0.1rem solid #ededed;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block ul {
+  font-size: 0;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-list {
+  padding: 0 2rem;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block ul li {
+  font-size: 1.6rem;
+  display: inline-block;
+  letter-spacing: -0.012rem;
+  text-align: center;
+  padding-top: 1.4rem;
+  padding-bottom: 1.2rem;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block ul li a {
+  color: #999999;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block .coupon-active {
+  border-bottom: 0.2rem solid #333;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block .coupon-active a {
+  color: #333;
+  font-weight: bold;
+}
+
+.wrapper-sp .coupon .coupon-wrap .coupon-tab-block ul li.mr-24 {
+  margin-right: 2.4rem;
+}
+
+.wrapper-sp .coupon .coupon-search-btn-block {
+  padding: 3rem 2rem 3.6rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.wrapper-sp .coupon .coupon-search-input {
+  width: 70%;
+  margin-right: .7rem;
+}
+
+.wrapper-sp .coupon .coupon-search-btn {
+  width: 30%;
+}
+
+.wrapper-sp .coupon .coupon-detail-info-block {
+  padding: 3rem 2rem 3rem;
+  box-sizing: border-box;
+  border-top: 0.1rem solid rgb(237, 237, 237);
+}
+
+.wrapper-sp .coupon .coupon-detail-info-block2 {
+  padding-bottom: 4rem;
+}
+
+.wrapper-sp .coupon .coupon-info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  line-height: 2.1rem;
+}
+
+.wrapper-sp .coupon .coupon-info-item .coupon-info-value {
+  color: #333;
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: -0.01rem;
+  max-width: 70%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.wrapper-sp .coupon .coupon-info-item .coupon-info-label {
+  max-width: 30%;
+}
+
+.wrapper-sp .coupon .coupon-info-item .coupon-info-value strong {
+  color: #333;
+}
+
+.wrapper-sp .coupon .coupon-info-item .coupon-style-txt_red {
+  color: #ff414e;
+}
+
+.wrapper-sp .coupon .coupon-info-item .num {
+  font-family: Volte;
+  font-size: 1.6rem;
+  letter-spacing: -0.012rem;
+}
+
+.wrapper-sp .coupon .coupon-m-b_0 {
+  margin-bottom: 0;
+}
+
+.wrapper-sp .coupon .coupon-none-result-data {
+  text-align: center;
+  font-size: 0;
+}
+
+.wrapper-sp .coupon .none-result-data-img {
+  width: 8rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.wrapper-sp .coupon .coupon-m-t_10_2 {
+  margin-top: 20.4rem;
+}
+
+.wrapper-sp .coupon .coupon-none-data-txt {
+  color: #666666;
+  line-height: 2.1rem;
+  margin-bottom: 10.4rem;
+  font-weight: 500;
+  letter-spacing: -0.01rem;
+  font-size: 1.4rem;
+}
+
+.wrapper-sp .coupon .coupon-m-b_20_3 {
+  margin-bottom: 20.3rem;
+}
+
+/* coupon-useup-block start  */
+.wrapper-sp .coupon .bt_none {
+  border-top: none;
+}
+
+.wrapper-sp .coupon .coupon-useup-list .coupon-info-value {
+  color: #ababab;
+}
+
+.wrapper-sp .coupon .coupon-useup-list .expired-sit {
+  font-weight: bold;
+  color: #333333;
+}
+
+.wrapper-sp .coupon .coupon-useup-list .useup-sit {
+  font-weight: bold;
+  color: #00d664;
+}
+
+.wrapper-sp .coupon .coupon-useup-list .coupon-name {
+  color: #333;
+}
+
+.wrapper-sp .coupon .coupon-useup-list .coupon-detail-info-block2 {
+  padding-bottom: 3.6rem;
+}
+
+.wrapper-sp .coupon .useup-coupon-none-result-data .none-result-data-img {
+  margin-top: 6rem;
+}
+
+.wrapper-sp .coupon .useup-coupon-none-result-data .coupon-none-data-txt {
+  margin-bottom: 18.6rem;
+}
+
+/* coupon-useup-block finish  */
+/* iphone-5 */
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2) {
+  .wrapper-sp .coupon input::placeholder {
+    font-size: 1.2rem;
+  }
+}

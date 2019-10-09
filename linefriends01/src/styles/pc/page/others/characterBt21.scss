@@ -1,0 +1,45 @@
+.character-list {
+  padding-top: 160px;
+  &__banner {
+    min-width: 1280px;
+  }
+  &__header {
+    padding-top: 42px;
+    text-align: center;
+    &-title {
+      @include notoB;
+      font-size: 32px;
+      line-height: 1.25;
+      letter-spacing: -0.1px;
+      color: $font-black;
+    }
+    &-description {
+      @include notoN;
+      padding: 16px 0 24px;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: -0.09px;
+      color: $font-black;
+    }
+    &-router {
+      @include notoN;
+      font-size: 14px;
+      line-height: 1.5;
+      letter-spacing: -0.11px;
+      color: #333333;
+      &:after {
+        display: inline-block;
+        width: 7px;
+        height: 10px;
+        margin-left: 3px;
+        background-image: url(~@/assets/images/common/icons/ic-char-arrow.svg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        content: '';
+      }
+    }
+  }
+  &__items {
+    padding-top: 60px;
+  }
+}

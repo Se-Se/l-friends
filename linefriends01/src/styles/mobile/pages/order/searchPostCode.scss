@@ -1,0 +1,116 @@
+.postcode-search {
+    padding: 6.6rem 2rem 0;
+  }
+  .input-row {
+    font-size: 0;
+  }
+  #postcode {
+    display: inline-block;
+    width: calc(100% - 8.6rem);
+    color: #333333;
+    font-size: 1.4rem;
+    font-family: 'Noto Sans KR';
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+    vertical-align: top;
+
+  }
+  .search-postcode {
+    display: inline-block;
+    width: 8rem;
+    margin-left: 0.6rem;
+    font-size: 1.6rem;
+    font-family: 'Noto Sans KR';
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+  }
+  .postcode-label {
+    margin-top: 0.8rem;
+    color: #999999;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans KR';
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01rem;
+  }
+  .search-list {
+    padding-top: 5.1rem;
+    &__result {
+      margin-bottom: 1.3rem;
+      color: #333333;
+      font-size: 1.2rem;
+      font-family: 'Noto Sans KR';
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: -0.01rem;
+      span {
+        color: #00d664;
+      }
+    }
+    &__address {
+      .search-address__wrap {
+        .search-address {
+          width: 100%; 
+          padding: 2rem 0;
+          border-top: 1px solid #ededed;
+          font-size: 0;
+          span {
+            display: inline-block;
+            color: #333333;
+            font-size: 1.4rem;
+            font-family: 'Noto Sans KR';
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: -0.01rem;
+            vertical-align: top;
+            em{
+              display: block;
+              padding-top: 0.3rem;
+              color: #999999;
+              font-size: 1.2rem;
+              font-weight: normal;
+              line-height: 1.75;
+              letter-spacing: -0.05rem;
+            }
+          }
+          &__numb {
+            padding-right: 2.83rem;
+            line-height: normal;
+          }
+          &__info {
+            width: 24.7rem;
+          }
+        }
+      }
+    }
+  }
+  .search-nodata{
+    margin-top: 5.1rem;
+    &__result{
+      margin-bottom: 1.3rem;
+      color: #333333;
+      font-size: 1.2rem;
+      font-family: 'Noto Sans KR';
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: -0.01rem;
+      span{
+        color: #00d664;
+      }
+    }
+    &__info{
+      display: block;
+      margin: 0 auto;
+      padding: 16.1rem 0 16rem 0;
+      border-top: 1px solid #ededed;
+      color: #333333;
+      font-size: 1.4rem;
+      font-family: 'Noto Sans KR';
+      font-weight: 500;
+      text-align: center;
+      line-height: 1.5;
+      letter-spacing: -0.01rem;
+    }
+  }

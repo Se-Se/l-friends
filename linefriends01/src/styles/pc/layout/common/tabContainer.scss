@@ -1,0 +1,40 @@
+.tab {
+  padding: 12px 0 16px;
+  font-size: 0;
+  letter-spacing: -0.1px;
+  color: #999;
+  &-btn {
+    display: inline-block;
+    position: relative;
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Noto Sans KR", sans-self;
+    margin-right: 25px;
+    outline: none;
+    line-height: 1.5;
+    &:after {
+      content: '';
+      position: absolute;
+      width: 1px;
+      height: 14px;
+      margin: 0 12px;
+      top: 58%;
+      right: -25px;
+      transform: translateY(-50%);
+      background-color: #dddddd;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    &:last-child:after {
+      display: none;
+    }
+    &--active {
+      font-weight: 500;
+      color: #333333;
+      text-decoration: underline;
+    }
+  }
+}

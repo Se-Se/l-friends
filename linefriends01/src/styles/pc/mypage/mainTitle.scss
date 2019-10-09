@@ -1,0 +1,9 @@
+.main-title {
+  width: 100%;
+  & > h2 {
+    font-family: 'Noto Sans KR';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
